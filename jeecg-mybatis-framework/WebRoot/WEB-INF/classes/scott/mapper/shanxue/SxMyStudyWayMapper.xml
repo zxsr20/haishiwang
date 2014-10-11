@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="scott.dao.shanxue.SxMyStudyWayDao" > 
+<!-- Result Map-->
+<resultMap id="BaseResultMap" type="scott.entity.shanxue.SxMyStudyWay" >
+	<result column="id" property="id"/>
+	<result column="userid" property="userid"/>
+	<result column="courseid" property="courseid"/>
+	<result column="programid" property="programid"/>
+	<result column="look_time" property="look_time"/>
+	<result column="play_time" property="play_time"/>
+	<result column="create_by" property="create_by"/>
+	<result column="create_date" property="create_date"/>
+	<result column="update_by" property="update_by"/>
+	<result column="update_date" property="update_date"/>
+	<result column="delflag" property="delflag"/>
+	<result column="del_date" property="del_date"/>
+</resultMap>
+
+<resultMap id="BaseResultMapNew" type="scott.entity.shanxue.SxMyStudyWayNew" >
+	<result column="id" property="id"/>
+	<result column="userid" property="userid"/>
+	<result column="courseid" property="courseid"/>
+	<result column="coursename" property="coursename"/>
+	<result column="picture" property="picture"/>
+	<result column="programid" property="programid"/>
+	<result column="programname" property="programname"/>
+	<result column="look_time" property="look_time"/>
+	<result column="play_time" property="play_time"/>
+	<result column="create_by" property="create_by"/>
+	<result column="create_date" property="create_date"/>
+	<result column="update_by" property="update_by"/>
+	<result column="update_date" property="update_date"/>
+	<result column="delflag" property="delflag"/>
+	<result column="del_date" property="del_date"/>
+</resultMap>
+       
+<!-- sx_my_study_way table all fields -->
+<sql id="Base_Column_List" >
+	 id,userid,courseid,programid,look_time,play_time,create_by,create_date,update_by,update_date,delflag,del_date
+</sql>
+   
+   
+<!-- 查询条件 -->
+<sql id="Example_Where_Clause">
+where 1=1
+<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and id =  #{id}
+	</if>
+	<if test="userid != null and userid != ''" >
+	    and userid =  #{userid}
+	</if>
+	<if test="courseid != null and courseid != ''" >
+	    and courseid =  #{courseid}
+	</if>
+	<if test="programid != null and programid != ''" >
+	    and programid =  #{programid}
+	</if>
+	<if test="look_time != null and look_time != ''" >
+	    and look_time =  #{look_time}
+	</if>
+	<if test="play_time != null and play_time != ''" >
+	    and play_time =  #{play_time}
+	</if>
+	<if test="create_by != null and create_by != ''" >
+	    and create_by =  #{create_by}
+	</if>
+	<if test="create_date != null and create_date != ''" >
+	    and create_date =  #{create_date}
+	</if>
+	<if test="update_by != null and update_by != ''" >
+	    and update_by =  #{update_by}
+	</if>
+	<if test="update_date != null and update_date != ''" >
+	    and update_date =  #{update_date}
+	</if>
+	<if test="delflag != null and delflag != ''" >
+	    and delflag =  #{delflag}
+	</if>
+	<if test="del_date != null and del_date != ''" >
+	    and del_date =  #{del_date}
+	</if>
+</trim>
+</sql>
+   
+
+<!-- 插入记录 -->
+<insert id="add" parameterType="Object" >
+<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+	SELECT LAST_INSERT_ID()
+  </selectKey>
+  insert into sx_my_study_way(id,userid,courseid,programid,look_time,play_time,create_by,create_date,update_by,update_date,delflag,del_date)
+ values(#{id},#{userid},#{courseid},#{programid},#{look_time},#{play_time},#{create_by},#{create_date},#{update_by},#{update_date},#{delflag},#{del_date})
+</insert>
+
+<!-- 根据id，修改记录-->  
+ <update id="update" parameterType="Object" >
+  update sx_my_study_way set userid=#{userid},courseid=#{courseid},programid=#{programid},look_time=#{look_time},play_time=#{play_time},create_by=#{create_by},create_date=#{create_date},update_by=#{update_by},update_date=#{update_date},delflag=#{delflag},del_date=#{del_date} where id=#{id}
+ </update>
+ 
+ <!-- 修改记录，只修改只不为空的字段 -->
+<update id="updateBySelective" parameterType="Object" >
+	update sx_my_study_way set 
+	<trim  suffixOverrides="," >
+	<if test="userid != null  ">
+		userid=#{userid},
+	</if>
+	<if test="courseid != null  ">
+		courseid=#{courseid},
+	</if>
+	<if test="programid != null  ">
+		programid=#{programid},
+	</if>
+	<if test="look_time != null  ">
+		look_time=#{look_time},
+	</if>
+	<if test="play_time != null  ">
+		play_time=#{play_time},
+	</if>
+	<if test="create_by != null  ">
+		create_by=#{create_by},
+	</if>
+	<if test="create_date != null  ">
+		create_date=#{create_date},
+	</if>
+	<if test="update_by != null  ">
+		update_by=#{update_by},
+	</if>
+	<if test="update_date != null  ">
+		update_date=#{update_date},
+	</if>
+	<if test="delflag != null  ">
+		delflag=#{delflag},
+	</if>
+	<if test="del_date != null  ">
+		del_date=#{del_date},
+	</if>
+	</trim> where id=#{id}
+</update>
+
+<!-- 删除记录 -->
+<delete id="delete" parameterType="Object">
+	delete 	 from sx_my_study_way where id = #{id}
+</delete>
+ 
+<!-- 根据id查询 我的学习历程 -->
+<select id="queryById"  resultMap="BaseResultMap" parameterType="Object">
+	select <include refid="Base_Column_List" /> 
+	 from sx_my_study_way where id = #{id}
+</select>
+
+<!-- 我的学习历程 列表总数-->
+<select id="queryByCount" resultType="java.lang.Integer"  parameterType="Object">
+	select count(1) from sx_my_study_way 
+	<include refid="Example_Where_Clause"/>
+</select>
+  	
+<!-- 查询我的学习历程列表 -->
+<select id="queryByList" resultMap="BaseResultMap"  parameterType="Object">
+	select 
+	<include refid="Base_Column_List"/>
+	from sx_my_study_way 
+	<include refid="Example_Where_Clause"/>
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+
+<!-- 我的学习历程 列表总数-->
+<select id="queryByCountNew" resultType="java.lang.Integer"  parameterType="Object">
+	select count(1)
+	from sx_my_study_way a,sx_course b,sx_program c 
+	where 1=1
+	<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and a.id =  #{id}
+	</if>
+	<if test="userid != null and userid != ''" >
+	    and a.userid =  #{userid}
+	</if>
+	<if test="courseid != null and courseid != ''" >
+	    and a.courseid =  #{courseid}
+	</if>
+	<if test="programid != null and programid != ''" >
+	    and a.programid =  #{programid}
+	</if>
+	<if test="coursename != null and coursename != ''" >
+	    and b.name =  #{coursename}
+	</if>
+	<if test="programname != null and programname != ''" >
+	    and c.name =  #{programname}
+	</if>
+	</trim>
+	and a.courseid = b.id and a.programid = c.id
+</select>
+
+<!-- 查询我的学习历程列表 -->
+<select id="queryByListNew" resultMap="BaseResultMapNew"  parameterType="Object">
+	select 
+	a.id,a.userid,a.courseid,a.programid,a.look_time,a.play_time,a.create_by,a.create_date,a.update_by,a.update_date,a.delflag,a.del_date,b.name as coursename,b.picture,c.name as programname
+	from sx_my_study_way a,sx_course b,sx_program c 
+	where 1=1
+	<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and a.id =  #{id}
+	</if>
+	<if test="userid != null and userid != ''" >
+	    and a.userid =  #{userid}
+	</if>
+	<if test="courseid != null and courseid != ''" >
+	    and a.courseid =  #{courseid}
+	</if>
+	<if test="programid != null and programid != ''" >
+	    and a.programid =  #{programid}
+	</if>
+	<if test="coursename != null and coursename != ''" >
+	    and b.name =  #{coursename}
+	</if>
+	<if test="programname != null and programname != ''" >
+	    and c.name =  #{programname}
+	</if>
+	</trim>
+	and a.courseid = b.id and a.programid = c.id
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+  	
+</mapper>   

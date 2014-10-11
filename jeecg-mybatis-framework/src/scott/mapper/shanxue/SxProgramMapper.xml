@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="scott.dao.shanxue.SxProgramDao" > 
+<!-- Result Map-->
+<resultMap id="BaseResultMap" type="scott.entity.shanxue.SxProgram" >
+	<result column="id" property="id"/>
+	<result column="name" property="name"/>
+	<result column="file_url" property="file_url"/>
+	<result column="file_type" property="file_type"/>
+	<result column="play_length" property="play_length"/>
+	<result column="course_id" property="course_id"/>
+	<result column="peak" property="peak"/>
+	<result column="tread" property="tread"/>
+	<result column="comment_time" property="comment_time"/>
+	<result column="userid" property="userid"/>
+	<result column="description" property="description"/>
+	<result column="cost" property="cost"/>
+	<result column="picture" property="picture"/>
+	<result column="create_by" property="create_by"/>
+	<result column="create_date" property="create_date"/>
+	<result column="update_by" property="update_by"/>
+	<result column="update_date" property="update_date"/>
+	<result column="delflag" property="delflag"/>
+	<result column="del_date" property="del_date"/>
+</resultMap>
+       
+<!-- sx_program table all fields -->
+<sql id="Base_Column_List" >
+	 id,name,file_url,file_type,play_length,course_id,peak,tread,comment_time,userid,description,cost,picture,create_by,create_date,update_by,update_date,delflag,del_date
+</sql>
+   
+   
+<!-- 查询条件 -->
+<sql id="Example_Where_Clause">
+where 1=1
+<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and id =  #{id}
+	</if>
+	<if test="name != null and name != ''" >
+	    and name =  #{name}
+	</if>
+	<if test="file_url != null and file_url != ''" >
+	    and file_url =  #{file_url}
+	</if>
+	<if test="file_type != null and file_type != ''" >
+	    and file_type =  #{file_type}
+	</if>
+	<if test="play_length != null and play_length != ''" >
+	    and play_length =  #{play_length}
+	</if>
+	<if test="course_id != null and course_id != ''" >
+	    and course_id =  #{course_id}
+	</if>
+	<if test="peak != null and peak != ''" >
+	    and peak =  #{peak}
+	</if>
+	<if test="tread != null and tread != ''" >
+	    and tread =  #{tread}
+	</if>
+	<if test="comment_time != null and comment_time != ''" >
+	    and comment_time =  #{comment_time}
+	</if>
+	<if test="userid != null and userid != ''" >
+	    and userid =  #{userid}
+	</if>
+	<if test="description != null and description != ''" >
+	    and description =  #{description}
+	</if>
+	<if test="cost != null and cost != ''" >
+	    and cost =  #{cost}
+	</if>
+	<if test="picture != null and picture != ''" >
+	    and picture =  #{picture}
+	</if>
+	<if test="create_by != null and create_by != ''" >
+	    and create_by =  #{create_by}
+	</if>
+	<if test="create_date != null and create_date != ''" >
+	    and create_date =  #{create_date}
+	</if>
+	<if test="update_by != null and update_by != ''" >
+	    and update_by =  #{update_by}
+	</if>
+	<if test="update_date != null and update_date != ''" >
+	    and update_date =  #{update_date}
+	</if>
+	<if test="delflag != null and delflag != ''" >
+	    and delflag =  #{delflag}
+	</if>
+	<if test="del_date != null and del_date != ''" >
+	    and del_date =  #{del_date}
+	</if>
+</trim>
+</sql>
+   
+
+<!-- 插入记录 -->
+<insert id="add" parameterType="Object" >
+<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+	SELECT LAST_INSERT_ID()
+  </selectKey>
+  insert into sx_program(id,name,file_url,file_type,play_length,course_id,peak,tread,comment_time,userid,description,cost,picture,create_by,create_date,update_by,update_date,delflag,del_date)
+ values(#{id},#{name},#{file_url},#{file_type},#{play_length},#{course_id},#{peak},#{tread},#{comment_time},#{userid},#{description},#{cost},#{picture},#{create_by},#{create_date},#{update_by},#{update_date},#{delflag},#{del_date})
+</insert>
+
+<!-- 根据id，修改记录-->  
+ <update id="update" parameterType="Object" >
+  update sx_program set name=#{name},file_url=#{file_url},file_type=#{file_type},play_length=#{play_length},course_id=#{course_id},peak=#{peak},tread=#{tread},comment_time=#{comment_time},userid=#{userid},description=#{description},cost=#{cost},picture=#{picture},create_by=#{create_by},create_date=#{create_date},update_by=#{update_by},update_date=#{update_date},delflag=#{delflag},del_date=#{del_date} where id=#{id}
+ </update>
+ 
+ <update id="sx_peakOrTread" parameterType="map" >
+  update sx_program set peak=peak+#{peak},tread=tread+#{tread} where id=#{id}
+ </update>
+ 
+ <!-- 修改记录，只修改只不为空的字段 -->
+<update id="updateBySelective" parameterType="Object" >
+	update sx_program set 
+	<trim  suffixOverrides="," >
+	<if test="name != null  ">
+		name=#{name},
+	</if>
+	<if test="file_url != null  ">
+		file_url=#{file_url},
+	</if>
+	<if test="file_type != null  ">
+		file_type=#{file_type},
+	</if>
+	<if test="play_length != null  ">
+		play_length=#{play_length},
+	</if>
+	<if test="course_id != null  ">
+		course_id=#{course_id},
+	</if>
+	<if test="peak != null  ">
+		peak=#{peak},
+	</if>
+	<if test="tread != null  ">
+		tread=#{tread},
+	</if>
+	<if test="comment_time != null  ">
+		comment_time=#{comment_time},
+	</if>
+	<if test="userid != null  ">
+		userid=#{userid},
+	</if>
+	<if test="description != null  ">
+		description=#{description},
+	</if>
+	<if test="cost != null  ">
+		cost=#{cost},
+	</if>
+	<if test="picture != null  ">
+		picture=#{picture},
+	</if>
+	<if test="create_by != null  ">
+		create_by=#{create_by},
+	</if>
+	<if test="create_date != null  ">
+		create_date=#{create_date},
+	</if>
+	<if test="update_by != null  ">
+		update_by=#{update_by},
+	</if>
+	<if test="update_date != null  ">
+		update_date=#{update_date},
+	</if>
+	<if test="delflag != null  ">
+		delflag=#{delflag},
+	</if>
+	<if test="del_date != null  ">
+		del_date=#{del_date},
+	</if>
+	</trim> where id=#{id}
+</update>
+
+<!-- 删除记录 -->
+<delete id="delete" parameterType="Object">
+	delete 	 from sx_program where id = #{id}
+</delete>
+ 
+<!-- 根据id查询 节目表 -->
+<select id="queryById"  resultMap="BaseResultMap" parameterType="Object">
+	select <include refid="Base_Column_List" /> 
+	 from sx_program where id = #{id}
+</select>
+
+<!-- 节目表 列表总数-->
+<select id="queryByCount" resultType="java.lang.Integer"  parameterType="Object">
+	select count(1) from sx_program 
+	<include refid="Example_Where_Clause"/>
+</select>
+  	
+<!-- 查询节目表列表 -->
+<select id="queryByList" resultMap="BaseResultMap"  parameterType="Object">
+	select 
+	<include refid="Base_Column_List"/>
+	from sx_program 
+	<include refid="Example_Where_Clause"/>
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+  	
+</mapper>   

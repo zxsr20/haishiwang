@@ -1,0 +1,5550 @@
+.bl {
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.n {
+	font-style: normal; font-weight: normal;
+}
+.b {
+	font-weight: bold;
+}
+.tc {
+	text-align: center;
+}
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.red {
+	color: rgb(204, 0, 0);
+}
+.line {
+	padding: 0px 10px; color: rgb(153, 153, 153); display: inline-block;
+}
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+.border_none {
+	border: 0px currentColor;
+}
+.text-overflow {
+	overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -moz-binding: url(ellipsis.xml#ellipsis);
+}
+* {
+	margin: 0px; padding: 0px;
+}
+body {
+	margin: 0px; padding: 0px;
+}
+h1 {
+	margin: 0px; padding: 0px;
+}
+h2 {
+	margin: 0px; padding: 0px;
+}
+h3 {
+	margin: 0px; padding: 0px;
+}
+h4 {
+	margin: 0px; padding: 0px;
+}
+h5 {
+	margin: 0px; padding: 0px;
+}
+h6 {
+	margin: 0px; padding: 0px;
+}
+hr {
+	margin: 0px; padding: 0px;
+}
+p {
+	margin: 0px; padding: 0px;
+}
+blockquote {
+	margin: 0px; padding: 0px;
+}
+dl {
+	margin: 0px; padding: 0px;
+}
+dt {
+	margin: 0px; padding: 0px;
+}
+dd {
+	margin: 0px; padding: 0px;
+}
+ul {
+	margin: 0px; padding: 0px;
+}
+ol {
+	margin: 0px; padding: 0px;
+}
+li {
+	margin: 0px; padding: 0px;
+}
+pre {
+	margin: 0px; padding: 0px;
+}
+form {
+	margin: 0px; padding: 0px;
+}
+fieldset {
+	margin: 0px; padding: 0px;
+}
+legend {
+	margin: 0px; padding: 0px;
+}
+button {
+	margin: 0px; padding: 0px;
+}
+input {
+	margin: 0px; padding: 0px;
+}
+textarea {
+	margin: 0px; padding: 0px;
+}
+th {
+	margin: 0px; padding: 0px;
+}
+td {
+	margin: 0px; padding: 0px;
+}
+body {
+	font: 12px/1.5 "Hiragino Sans GB", arial, tahoma, "SimSun", sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+button {
+	font: 12px/1.5 "Hiragino Sans GB", arial, tahoma, "SimSun", sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+input {
+	font: 12px/1.5 "Hiragino Sans GB", arial, tahoma, "SimSun", sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+select {
+	font: 12px/1.5 "Hiragino Sans GB", arial, tahoma, "SimSun", sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+textarea {
+	font: 12px/1.5 "Hiragino Sans GB", arial, tahoma, "SimSun", sans-serif; font-size-adjust: none; font-stretch: normal;
+}
+body {
+	position: relative; _background-image: url(about:blank); _background-attachment: fixed;
+}
+h1 {
+	font-size: 100%;
+}
+h2 {
+	font-size: 100%;
+}
+h3 {
+	font-size: 100%;
+}
+h4 {
+	font-size: 100%;
+}
+h5 {
+	font-size: 100%;
+}
+h6 {
+	font-size: 100%;
+}
+address {
+	font-style: normal;
+}
+cite {
+	font-style: normal;
+}
+dfn {
+	font-style: normal;
+}
+em {
+	font-style: normal;
+}
+var {
+	font-style: normal;
+}
+code {
+	font-family: courier new,courier,monospace;
+}
+kbd {
+	font-family: courier new,courier,monospace;
+}
+pre {
+	font-family: courier new,courier,monospace;
+}
+samp {
+	font-family: courier new,courier,monospace;
+}
+small {
+	font-size: 12px;
+}
+ul {
+	list-style: none;
+}
+ol {
+	list-style: none;
+}
+img {
+	border: 0px currentColor;
+}
+a {
+	color: rgb(0, 118, 179); text-decoration: none;
+}
+a:link {
+	color: rgb(0, 118, 179); text-decoration: none;
+}
+a:visited {
+	color: rgb(0, 118, 179); text-decoration: none;
+}
+a:hover {
+	color: rgb(0, 118, 179); text-decoration: underline;
+}
+a:active {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+a {
+	
+}
+ul {
+	list-style: none;
+}
+li {
+	list-style: none;
+}
+i {
+	font-style: normal;
+}
+strong {
+	color: rgb(204, 0, 0); font-weight: normal;
+}
+button {
+	border: 0px currentColor; font-size: 100%; cursor: pointer;
+}
+input {
+	font-size: 100%;
+}
+select {
+	font-size: 100%;
+}
+textarea {
+	font-size: 100%;
+}
+table {
+	border-collapse: collapse; border-spacing: 0;
+}
+u {
+	font-style: normal; text-decoration: none; border-bottom-color: currentColor; border-bottom-width: 0px; border-bottom-style: none;
+}
+.f_blue {
+	color: rgb(0, 118, 179);
+}
+.clearfix {
+	clear: both;
+}
+.mtop_10 {
+	margin-top: 10px;
+}
+.mtop_20 {
+	margin-top: 20px;
+}
+.mtop_30 {
+	margin-top: 30px;
+}
+.ptop_10 {
+	padding-top: 10px;
+}
+.ptop_20 {
+	padding-top: 20px;
+}
+.ptop_30 {
+	padding-top: 30px;
+}
+.icon {
+	background-position: 20px 20px; width: 20px; height: 20px; text-align: center; line-height: 20px; text-indent: -9999em; vertical-align: top; display: inline-block; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.icon_bbverify {
+	width: 23px;
+}
+.icon_byverify {
+	width: 23px;
+}
+.icon_lv {
+	width: 30px; height: 15px;
+}
+.icon_yellow_sign {
+	width: 35px; height: 17px;
+}
+.icon_coursecard {
+	width: 238px; height: 41px;
+}
+.icon_courseselect {
+	width: 238px; height: 41px;
+}
+.icon_guide {
+	width: 238px; height: 41px;
+}
+.icon_forward {
+	width: 150px; height: 36px;
+}
+.icon_follow_add {
+	width: 14px; height: 14px; opacity: 0.5;
+}
+.icon_dot {
+	width: 0px;
+}
+.icon_timer {
+	width: 30px; height: 30px; line-height: 30px;
+}
+.icon_arrow_up {
+	width: 12px; height: 17px;
+}
+.icon_arrow_down {
+	width: 12px; height: 17px;
+}
+.icon_new {
+	margin-left: -7px;
+}
+.icon_rmb {
+	width: 13px;
+}
+.icon_new {
+	
+}
+.icon_shopping {
+	background-position: -22px -75px;
+}
+.icon_messages {
+	background-position: -22px -270px;
+}
+.icon_settsings {
+	background-position: -22px -124px;
+}
+.icon_bverify {
+	background-position: -99px 2px;
+}
+.icon_bbverify {
+	background-position: -100px -50px;
+}
+.icon_yverify {
+	background-position: -100px -24px;
+}
+.icon_byverify {
+	background-position: -100px -75px;
+}
+.icon_home {
+	background-position: 0px -20px;
+}
+.icon_star {
+	background-position: 0px -50px;
+}
+.icon_heart {
+	background-position: 0px -75px;
+}
+.icon_th {
+	background-position: 0px -270px;
+}
+.icon_exam {
+	
+}
+.icon_report {
+	
+}
+.icon_schedule {
+	
+}
+.icon_user {
+	background-position: 8px -98px;
+}
+.icon_shield {
+	background-position: 0px -125px;
+}
+.icon_diamond {
+	background-position: 0px -145px;
+}
+.icon_lv {
+	background-position: -127px 0px;
+}
+.icon_orders {
+	background-position: -50px -125px;
+}
+.icon_coins {
+	background-position: -22px -25px;
+}
+.icon_card {
+	background-position: -22px -45px;
+}
+.icon_courses {
+	background-position: -18px -147px;
+}
+.icon_chevron_left {
+	background-position: -74px -276px;
+}
+.icon_chevron_right {
+	background-position: -76px -225px;
+}
+.icon_chevron_left_reverse {
+	background-position: -75px -200px;
+}
+.icon_chevron_right_reverse {
+	background-position: -75px -252px;
+}
+.icon_yellow_sign {
+	background-position: -127px -211px;
+}
+.icon_thumbs_up {
+	background-position: -69px -48px;
+}
+.icon_rmb {
+	background-position: -74px 3px;
+}
+.icon_gray_user {
+	background-position: -71px -24px;
+}
+.icon_clock {
+	background-position: -75px -75px;
+}
+.icon_word {
+	background-position: -75px -100px;
+}
+.icon_horn {
+	background-position: -75px -125px;
+}
+.icon_manuscript {
+	background-position: -75px -150px;
+}
+.icon_tv {
+	background-position: -75px -175px;
+}
+.icon_info_sign {
+	background-position: -75px -75px;
+}
+.icon_info_search {
+	background-position: -50px 0px;
+}
+.icon_follow_add {
+	background-position: -50px -177px;
+}
+.icon_coursecard {
+	background-position: -123px -375px;
+}
+.icon_guide {
+	background-position: -123px -420px;
+}
+.icon_courseselect {
+	background-position: -123px -466px;
+}
+.icon_forward {
+	background-position: -127px -366px;
+}
+.icon_arrow_up {
+	background-position: -104px -126px;
+}
+.icon_arrow_down {
+	background-position: -104px -100px;
+}
+.icon_arrow_right {
+	background-position: -43px -200px;
+}
+.icon_square_orange {
+	background-position: -47px -48px;
+}
+.icon_square_gray {
+	background-position: -47px -73px;
+}
+.icon_blue_sign {
+	background-position: -47px -145px;
+}
+.icon_dot {
+	background-position: 0px -215px;
+}
+.icon_star {
+	background-position: -50px -199px;
+}
+.icon_point {
+	background-position: -50px -22px;
+}
+.icon_live {
+	background-position: -45px -97px;
+}
+.icon_timer {
+	background-position: -17px -189px;
+}
+.icon_white_clock {
+	background-position: -129px -235px;
+}
+.icon_public_video {
+	background-position: -127px -258px;
+}
+form {
+	font-size: 12px;
+}
+fieldset {
+	margin: 0px; padding: 0px; border: 0px currentColor;
+}
+label {
+	text-align: right; display: block;
+}
+textarea {
+	height: auto;
+}
+select {
+	font-size: 12px;
+}
+label {
+	font-size: 12px;
+}
+textarea {
+	font-size: 12px;
+}
+input[type='text'] {
+	font-size: 12px;
+}
+input[type='password'] {
+	font-size: 12px;
+}
+input[type='datetime'] {
+	font-size: 12px;
+}
+input[type='date'] {
+	font-size: 12px;
+}
+input[type='month'] {
+	font-size: 12px;
+}
+input[type='time'] {
+	font-size: 12px;
+}
+input[type='week'] {
+	font-size: 12px;
+}
+input[type='number'] {
+	font-size: 12px;
+}
+input[type='email'] {
+	font-size: 12px;
+}
+input[type='url'] {
+	font-size: 12px;
+}
+input[type='search'] {
+	font-size: 12px;
+}
+input[type='tel'] {
+	font-size: 12px;
+}
+input[type='color'] {
+	font-size: 12px;
+}
+.uneditable-input {
+	font-size: 12px;
+}
+.form_submiting {
+	position: absolute; z-index: 10;
+}
+.form_tips {
+	width: 256px; height: 30px; color: rgb(153, 153, 153); overflow: hidden; clear: both;
+}
+.tips_error.form_tips {
+	color: rgb(204, 0, 0);
+}
+.tips_strength.form_tips {
+	_line-height: 24px;
+}
+.tips_strength.form_tips .strength_text {
+	float: left;
+}
+.tips_strength.form_tips strong {
+	background: url("http://img04.xesimg.com/passport/bg_strength.gif") no-repeat left 0px; width: 104px; height: 20px; overflow: hidden; float: left; display: inline-block;
+}
+.tips_strength.form_tips strong.strength_1 {
+	
+}
+.tips_strength.form_tips strong.strength_2 {
+	background-position: left -30px;
+}
+.tips_strength.form_tips strong.strength_3 {
+	background-position: left -60px;
+}
+.ui_username {
+	color: rgb(51, 51, 51); line-height: 20px; font-size: 14px; vertical-align: bottom; display: inline-block;
+}
+.ui_username_large {
+	color: rgb(51, 51, 51); line-height: 20px; font-size: 14px; vertical-align: bottom; display: inline-block;
+}
+.ui_username_large {
+	font-size: 20px;
+}
+.btn_wrap {
+	padding: 1px; border-radius: 3px; display: inline-block; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.btn_wrap_orange {
+	background: rgb(243, 137, 32); border: 1px solid rgb(231, 80, 7);
+}
+.btn_wrap_gray {
+	background: rgb(243, 243, 243); border: 1px solid rgb(243, 243, 243);
+}
+.btn_wrap_red {
+	background: rgb(203, 0, 0); border: 1px solid rgb(204, 204, 204);
+}
+.btn_wrap_blue {
+	background: rgb(51, 153, 204); border: 1px solid rgb(51, 153, 204);
+}
+.btn_wrap_disable {
+	background: rgb(102, 102, 102); border: 1px solid rgb(102, 102, 102);
+}
+.btn {
+	border-radius: 3px; border: 0px currentColor; text-align: center; color: rgb(255, 255, 255); text-decoration: none; display: inline-block; cursor: pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.btn_text {
+	border: currentColor;
+}
+.btn_large {
+	padding: 10px 20px; font-size: 14px;
+}
+.btn_small {
+	padding: 3px 5px;
+}
+.btn_medium {
+	padding: 5px 20px;
+}
+.btn_gray {
+	background: rgb(243, 243, 243); color: rgb(51, 51, 51);
+}
+.btn_red {
+	background: rgb(203, 0, 0);
+}
+.btn_blue {
+	background: rgb(51, 153, 204);
+}
+.btn_sky {
+	background: rgb(51, 153, 204);
+}
+.btn_orange {
+	background: rgb(255, 102, 0);
+}
+.pure_gray {
+	background: rgb(154, 154, 154);
+}
+.btn_disable {
+	background: rgb(102, 102, 102);
+}
+table {
+	border-collapse: collapse; max-width: 100%; border-spacing: 0; background-color: rgb(251, 251, 251);
+}
+.table {
+	border: 1px solid rgb(226, 226, 226); width: 100%; color: rgb(51, 51, 51); font-size: 12px; margin-bottom: 20px;
+}
+.table th {
+	padding: 10px; text-align: center; line-height: 20px; vertical-align: middle; border-top-color: rgb(226, 226, 226); border-top-width: 1px; border-top-style: dotted;
+}
+.table td {
+	padding: 10px; text-align: center; line-height: 20px; vertical-align: middle; border-top-color: rgb(226, 226, 226); border-top-width: 1px; border-top-style: dotted;
+}
+.table th {
+	font-weight: bold; border-bottom-color: rgb(226, 226, 226); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(240, 240, 240);
+}
+.table td a {
+	color: rgb(0, 102, 153);
+}
+.table-solid th {
+	border: 1px solid rgb(226, 226, 226);
+}
+.table-solid td {
+	border: 1px solid rgb(226, 226, 226);
+}
+.ui_tips .tips {
+	padding: 6px 12px; color: rgb(51, 51, 51); line-height: 24px; font-size: 12px; margin-bottom: 5px;
+}
+.ui_tips .tips .close {
+	background-position: -95px -145px; width: 20px; height: 20px; text-align: center; line-height: 20px; text-indent: -9999em; vertical-align: top; float: right; display: inline-block; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.ui_tips .tips a {
+	color: rgb(0, 120, 176);
+}
+.ui_tips .tips a:hover {
+	color: rgb(0, 120, 176);
+}
+.ui_tips .tips .icon_tips {
+	background-position: -75px -122px;
+}
+.ui_tips .tips_danger.tips {
+	background: rgb(251, 239, 239); border: 1px solid rgb(219, 193, 196);
+}
+.ui_tips .tips_info.tips {
+	background: rgb(255, 245, 218); border: 1px solid rgb(229, 213, 162); box-shadow: inset 1px 1px 1px #fffbf0, inset -1px -1px 1px #fffbf0;
+}
+.ui_tips .tips_info.tips .icon_tips {
+	background-position: -50px -22px;
+}
+.ui_tips ul li.tips {
+	display: none;
+}
+.ui_tips ul li.current.tips {
+	display: block;
+}
+.tip {
+	background: rgb(255, 245, 218); padding: 6px 12px; color: rgb(51, 51, 51); line-height: 24px; font-size: 12px;
+}
+.tip .close {
+	font-size: 18px; float: right;
+}
+.tip_danger {
+	background: rgb(251, 239, 239); border: 1px solid rgb(219, 193, 196);
+}
+.tip a {
+	color: rgb(0, 120, 176);
+}
+.tip a:hover {
+	color: rgb(0, 120, 176);
+}
+.notCourse {
+	background: rgb(252, 252, 252); border: 1px solid rgb(236, 236, 236); text-align: center; color: rgb(153, 153, 153); line-height: 125px; font-size: 16px; margin-bottom: 10px;
+}
+#header {
+	height: 84px; position: relative; z-index: 100;
+}
+#header .header_box {
+	margin: 0px auto; width: 980px; height: 45px;
+}
+#header .header_box h1.logo {
+	width: 220px; float: left; display: inline;
+}
+#header .header_box h1.logo a {
+	background: url("http://bcs.duapp.com/lvyou01/logo.png") no-repeat -17px 0px; height: 45px; text-indent: -9999em; display: block;
+}
+#header .header_box ul.navs {
+	width: 385px; height: 45px; float: left;
+}
+#header .header_box ul.navs li {
+	border-width: 1px 1px 0px; border-style: solid solid none; border-color: rgb(255, 255, 255) rgb(255, 255, 255) currentColor; width: 68px; text-align: center; line-height: 35px; font-family: "Microsoft YaHei"; font-size: 16px; float: left; display: inline;
+}
+#header .header_box ul.navs li a {
+	color: rgb(51, 51, 51); margin-top: 6px; border-bottom-color: rgb(255, 255, 255); border-bottom-width: 4px; border-bottom-style: solid; display: inline-block;
+}
+#header .header_box ul.navs li a:hover {
+	color: rgb(51, 152, 204); text-decoration: none;
+}
+#header .header_box ul.navs li .icon_down {
+	display: none;
+}
+#header .header_box ul.navs li .current {
+	color: rgb(51, 152, 204); text-decoration: none;
+}
+#header .header_box ul.navs .homes {
+	width: 53px;
+}
+#header .header_box ul.navs .news {
+	position: relative;
+}
+#header .header_box ul.navs .news span {
+	background: url("http://img04.xesimg.com/icon/new_03.jpg") no-repeat; top: 6px; width: 25px; height: 11px; right: -12px; text-indent: -9999em; display: block; position: absolute; z-index: 100;
+}
+#header .header_box .search {
+	background: url("http://img04.xesimg.com/head_search.jpg") no-repeat; width: 319px; height: 28px; overflow: hidden; margin-top: 10px; float: right; display: inline;
+}
+#header .header_box .search .head_top_search {
+	margin: 4px 0px 0px 5px; border: 0px currentColor; width: 240px; height: 20px; color: rgb(0, 0, 0); float: left;
+}
+#header .header_box .search .head_btn_search {
+	background: url("http://img04.xesimg.com/head_search.jpg") no-repeat right top; width: 67px; height: 28px; text-indent: -9999em; float: right; display: inline;
+}
+#header .header_menu {
+	margin: 0px auto; width: 980px; height: 38px; position: relative; z-index: 19;
+}
+#header .header_menu .xrs {
+	width: 200px; color: rgb(153, 153, 153); line-height: 38px; float: left; display: inline;
+}
+#header .header_menu .xrs a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+#header .header_menu .phone_400 {
+	background: url("http://bcs.duapp.com/lvyou01/400800.jpg") no-repeat center; padding: 0px 3px; width: 141px; height: 38px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; float: right; display: inline;
+}
+#header .header_menu .phone_400 .layer_head {
+	background: url("http://img04.xesimg.com/kefutime.png") no-repeat center rgb(255, 255, 255); width: 230px; height: 70px; display: none;
+}
+#header .header_menu .phone_400 .white_cover {
+	background: white; width: 100%; height: 2px; display: none;
+}
+#header .header_menu .current_phone {
+	border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: relative; z-index: 2; cursor: pointer;
+}
+#header .header_menu .current_phone .layer_head {
+	border: 1px solid rgb(204, 204, 204); left: -84px; bottom: -72px; display: block; position: absolute; z-index: 1; cursor: default;
+}
+#header .header_menu .current_phone .white_cover {
+	bottom: -1px; margin-left: -3px; display: block; position: absolute; z-index: 100;
+}
+#header .header_picture {
+	margin: 0px auto; width: 980px; height: 60px; overflow: hidden; position: relative; z-index: 10;
+}
+#header .header_picture .settime {
+	top: 15px; width: 240px; text-align: right; right: 180px; color: rgb(255, 255, 255); font-family: Arial; font-size: 23px; font-weight: bold; position: absolute;
+}
+#header .header_picture .close {
+	top: 0px; width: 28px; height: 28px; right: 0px; text-indent: -99999em; display: block; position: absolute; z-index: 100;
+}
+#header .header_menu .loginbar {
+	width: 425px; float: right; display: inline;
+}
+#header .header_menu .loginbar li {
+	width: 45px; text-align: center; font-family: "SimSun"; margin-right: 5px; float: left; display: inline; cursor: pointer;
+}
+#header .header_menu .loginbar li p {
+	background: rgb(255, 255, 255); height: 38px; color: rgb(102, 102, 102); line-height: 38px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: relative;
+}
+#header .header_menu .loginbar li p a {
+	color: rgb(102, 102, 102);
+}
+#header .header_menu .loginbar li span {
+	height: 38px; line-height: 38px; display: block; position: relative;
+}
+#header .header_menu .loginbar li span a {
+	color: rgb(102, 102, 102);
+}
+#header .header_menu .loginbar li .layer_head {
+	display: none;
+}
+#header .header_menu .loginbar li .icon_new {
+	top: 9px; right: -10px; vertical-align: baseline; position: absolute; z-index: 11;
+}
+#header .header_menu .loginbar .homes {
+	width: 60px;
+}
+#header .header_menu .loginbar .homes a {
+	color: rgb(204, 0, 0);
+}
+#header .header_menu .loginbar .jiazhanghui {
+	position: relative;
+}
+#header .header_menu .loginbar .jiazhanghui .new_icon {
+	background: url("http://img04.xesimg.com/icon/new_10.png") no-repeat; top: 6px; width: 13px; height: 13px; right: -8px; text-indent: -9999em; position: absolute; z-index: 100;
+}
+#header .header_menu .loginbar .settsings {
+	width: 35px;
+}
+#header .header_menu .loginbar .tips {
+	width: 35px;
+}
+#header .header_menu .loginbar .register {
+	width: 35px;
+}
+#header .header_menu .loginbar .login {
+	width: 35px;
+}
+#header .header_menu .loginbar .current {
+	position: relative; z-index: 10;
+}
+#header .header_menu .loginbar .current p {
+	border-right-color: rgb(204, 204, 204); border-left-color: rgb(204, 204, 204); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: relative; z-index: 110;
+}
+#header .header_menu .loginbar .current p .icon_new {
+	display: none;
+}
+#header .header_menu .loginbar .current .layer_head {
+	background: rgb(252, 252, 252); border: 1px solid rgb(204, 204, 204); left: 0px; top: 37px; width: 101px; display: block; position: absolute; z-index: 1; box-shadow: 0px 2px 2px #ddd;
+}
+#header .header_menu .loginbar .current .layer_head ul {
+	padding-top: 5px;
+}
+#header .header_menu .loginbar .current .layer_head ul li {
+	margin: 0px; padding: 0px; width: 101px; height: 25px; text-align: left; line-height: 25px;
+}
+#header .header_menu .loginbar .current .layer_head ul li a {
+	padding: 0px 5px 0px 15px; color: rgb(102, 102, 102); text-decoration: none; display: block;
+}
+#header .header_menu .loginbar .current .layer_head ul li a:hover {
+	background: rgb(51, 153, 204); color: rgb(255, 255, 255);
+}
+#header .header_menu .loginbar .current .layer_head ul li a:hover strong {
+	color: rgb(255, 255, 255);
+}
+#header .header_menu .loginbar .current .layer_head ul .exit {
+	background: rgb(242, 242, 242); border-top-color: rgb(230, 230, 230); border-top-width: 1px; border-top-style: solid;
+}
+#header .header_menu .loginbar .current .layer_head ul .exit a {
+	color: rgb(0, 102, 153);
+}
+#header .header_menu .loginbar .current .layer_head ul .exit a:hover {
+	background: rgb(242, 242, 242); color: rgb(0, 102, 153);
+}
+#header .header_menu ul.topbar {
+	width: 365px;
+}
+.layer_news_tips {
+	background: rgb(252, 252, 252); border: 1px solid rgb(197, 197, 197); top: 86px; width: 175px; right: -1px; overflow: hidden; position: absolute; z-index: 100; box-shadow: 0px 2px 2px rgba(0,0,0,0.3);
+}
+.layer_news_tips .news_tips {
+	position: relative;
+}
+.layer_news_tips .news_tips ul {
+	padding: 10px 15px;
+}
+.layer_news_tips .news_tips ul li {
+	color: rgb(102, 102, 102); line-height: 20px;
+}
+.layer_news_tips .news_tips button.close {
+	border: 0px currentColor; top: 3px; width: 15px; height: 15px; right: 5px; color: rgb(153, 153, 153); font-size: 14px; font-weight: bold; position: absolute;
+}
+#headnav {
+	background: url("http://img04.xesimg.com/channel/nav_bg.png") repeat-x; width: 100%; height: 41px; line-height: 41px; overflow: hidden;
+}
+#headnav ul {
+	background: url("http://img04.xesimg.com/channel/nav1.png") no-repeat; margin: 0px auto; width: 980px; height: 41px; line-height: 41px;
+}
+#headnav li {
+	background: url("http://img04.xesimg.com/channel/nav_line.png") no-repeat 0px 10px; height: 41px; line-height: 41px; overflow: hidden; float: left; display: inline;
+}
+#headnav li a {
+	padding: 0px 17px; width: auto; text-align: center; color: rgb(255, 255, 255); font-family: "SimSun"; font-size: 14px; text-decoration: none; display: block;
+}
+#headnav li a:hover {
+	background: rgb(17, 109, 173);
+}
+#headnav li.firstClass {
+	margin-left: 131px;
+}
+#headnav li.current {
+	background: rgb(6, 91, 148); font-weight: bold;
+}
+#container {
+	margin: 0px; width: 100%;
+}
+.layout {
+	margin: 0px auto; width: 980px;
+}
+.layout_content {
+	overflow: hidden;
+}
+.layout_back {
+	background: rgb(245, 245, 245); margin: 0px auto; overflow: hidden;
+}
+.layout_back .layout_body {
+	background: rgb(255, 255, 255); min-height: 1000px;
+}
+.layout_back .w_740 .content_box {
+	width: 730px; overflow: hidden;
+}
+.layout_back .w_740 .main_header {
+	width: 730px; overflow: hidden;
+}
+.layout_home {
+	background: url("http://img04.xesimg.com/sida_nav_bg.jpg") repeat-y left top rgb(255, 255, 255); overflow: hidden;
+}
+.w_310 .panel .ui_feed .feed_detail {
+	width: 250px;
+}
+.w_310 .panel .ui_feed {
+	border-bottom-color: rgb(241, 241, 241); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.panle {
+	overflow: hidden;
+}
+.panel_content {
+	overflow: hidden;
+}
+.left {
+	float: left; display: inline;
+}
+.right {
+	float: right; display: inline;
+}
+.w_215 {
+	width: 215px; padding-bottom: 50px;
+}
+.w_240 {
+	width: 240px; padding-bottom: 50px;
+}
+.w_235 {
+	width: 235px; padding-bottom: 50px;
+}
+.w_240 {
+	width: 240px;
+}
+.w_310 {
+	width: 310px; margin-right: 200px;
+}
+.w_655 {
+	width: 655px;
+}
+.w_645 {
+	width: 645px;
+}
+.w_730 {
+	width: 730px; padding-bottom: 50px;
+}
+.w_740 {
+	width: 740px; overflow: hidden; padding-bottom: 50px;
+}
+.w_753 {
+	width: 753px; padding-bottom: 50px;
+}
+.advert {
+	margin-top: 10px;
+}
+.out_box {
+	background: rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); margin-top: 13px;
+}
+.list_box {
+	padding: 0px 5px; cursor: pointer;
+}
+.focus_box {
+	background: rgb(243, 137, 32); padding: 0px 5px; color: rgb(255, 255, 255); cursor: pointer;
+}
+.focus_box span.mark_box {
+	color: rgb(255, 255, 255);
+}
+.mark_box {
+	color: rgb(102, 102, 102);
+}
+#footer {
+	padding: 0px; width: 100%; overflow: hidden; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+#footer .foot_area {
+	padding: 20px 0px;
+}
+#footer .foot_area p {
+	text-align: center; line-height: 180%;
+}
+#footer .foot_area p a {
+	padding: 0px 5px; color: rgb(51, 51, 51);
+}
+#footer .foot_area p.link {
+	padding-top: 15px;
+}
+#footer .foot_service {
+	margin: 0px auto; width: 980px; overflow: hidden; padding-bottom: 20px; border-bottom-color: rgb(241, 241, 241); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#footer .foot_service a {
+	margin: 10px 10px 0px 20px; width: 140px; height: 56px; overflow: hidden; padding-left: 68px; text-decoration: none; float: left; display: inline; cursor: pointer;
+}
+#footer .foot_service a p {
+	text-align: left; color: rgb(102, 102, 102); line-height: 150%;
+}
+#footer .foot_service a.service_share {
+	background: url("http://img04.xesimg.com/service/A1_01.gif") no-repeat;
+}
+#footer .foot_service a.service_live {
+	background: url("http://img04.xesimg.com/service/A2_01.gif") no-repeat;
+}
+#footer .foot_service a.service_system {
+	background: url("http://img04.xesimg.com/service/B3_01.gif") no-repeat;
+}
+#footer .foot_service a.service_interaction {
+	background: url("http://img04.xesimg.com/service/A4_01.gif") no-repeat;
+}
+#footer .foot_service a.service_share:hover {
+	background: url("http://img04.xesimg.com/service/A1.gif") no-repeat;
+}
+#footer .foot_service a.service_live:hover {
+	background: url("http://img04.xesimg.com/service/A2.gif") no-repeat;
+}
+#footer .foot_service a.service_system:hover {
+	background: url("http://img04.xesimg.com/service/B3new.gif") no-repeat;
+}
+#footer .foot_service a.service_interaction:hover {
+	background: url("http://img04.xesimg.com/service/A4.gif") no-repeat;
+}
+#footer .foot_service a span {
+	color: rgb(51, 51, 51); line-height: 22px; font-weight: bold; display: block;
+}
+.nav {
+	overflow: hidden;
+}
+.nav li {
+	line-height: 20px; float: left; display: inline;
+}
+.nav li a {
+	padding: 1px 10px; color: rgb(51, 51, 51); display: inline-block;
+}
+.nav_tabs {
+	left: 0px; top: 1px; height: 26px; position: relative; z-index: 10;
+}
+.nav_tabs li {
+	width: 65px; text-align: center; line-height: 26px; margin-left: 10px;
+}
+.nav_tabs li a {
+	color: rgb(153, 153, 153);
+}
+.nav_tabs .current {
+	background: rgb(255, 255, 255); border-top-color: rgb(223, 223, 223); border-right-color: rgb(223, 223, 223); border-left-color: rgb(223, 223, 223); border-top-width: 1px; border-right-width: 1px; border-left-width: 1px; border-top-style: solid; border-right-style: solid; border-left-style: solid;
+}
+.nav_pills {
+	overflow: hidden; margin-bottom: 10px;
+}
+.nav_pills li {
+	margin-right: 10px; position: relative;
+}
+.nav_pills li .icon_new {
+	margin-left: -15px;
+}
+.nav_pills .current a {
+	background: rgb(51, 153, 204); padding: 1px 10px; border-radius: 3px; color: rgb(255, 255, 255) !important; font-size: 12px; text-decoration: none; vertical-align: 10%; display: inline-block; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.nav_pills .current a b {
+	height: 100%;
+}
+.side_nav {
+	padding: 20px 0px; overflow: hidden; border-right-color: rgb(228, 228, 228); border-bottom-color: rgb(228, 228, 228); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; background-color: rgb(251, 251, 251);
+}
+.side_nav .nav_header {
+	text-align: center; color: rgb(153, 153, 153); padding-right: 10px; margin-bottom: 20px; border-bottom-color: rgb(202, 224, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.side_nav .nav_header span {
+	padding: 0px 10px; top: 12px; font-size: 14px; display: inline-block; position: relative; z-index: 10; background-color: rgb(251, 251, 251);
+}
+.side_nav li {
+	line-height: 24px;
+}
+.side_nav li a {
+	color: rgb(0, 118, 184); font-size: 14px;
+}
+.side_header {
+	height: 42px; line-height: 42px; margin-bottom: 10px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.side_header span {
+	text-align: left; color: rgb(102, 102, 102); font-family: "Microsoft YaHei"; font-size: 16px;
+}
+.main_header {
+	overflow: hidden; margin-bottom: 20px; border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.main_header .nav_links {
+	width: 645px; height: 42px; overflow: hidden;
+}
+.main_header .nav_links li {
+	color: rgb(0, 118, 179); line-height: 42px; font-size: 14px; float: left; display: inline; position: relative;
+}
+.main_header .nav_links li a {
+	background: url("http://img04.xesimg.com/line.jpg") no-repeat right 13px; padding: 0px 10px; color: rgb(0, 118, 179); font-size: 14px; display: inline-block;
+}
+.main_header .nav_links li a strong {
+	color: rgb(0, 118, 179); font-family: "ËÎÌå";
+}
+.main_header .nav_links li i {
+	padding: 0px 8px; color: rgb(204, 204, 204); font-style: normal; display: none;
+}
+.main_header .nav_links li .icon_new {
+	top: 7px; right: -7px; position: absolute; z-index: 10;
+}
+.main_header .nav_links li.current {
+	background: url("http://img04.xesimg.com/ie_project/nav_links.jpg") no-repeat center 37px; font-weight: bold;
+}
+.main_header .nav_links li.current a {
+	font-weight: bold;
+}
+.main_header .nav_links li.current a strong {
+	color: rgb(204, 0, 0);
+}
+.main_header .nav_links .last a {
+	
+}
+.border_blue {
+	border-bottom-color: rgb(0, 118, 179); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.layout_body .border_blue .nav_links li.current {
+	
+}
+.layout_body .border_blue span {
+	color: rgb(0, 120, 176); line-height: 40px; font-size: 14px; font-weight: bold; float: left;
+}
+.layout_side .border_blue span {
+	text-align: right; color: rgb(102, 102, 102); font-size: 18px; float: left;
+}
+.header_setting {
+	margin: 10px 0px;
+}
+.w_310 .border_blue {
+	border-bottom-color: rgb(229, 229, 229); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.layout_back .side_header {
+	border: 0px currentColor;
+}
+.layout_back .side_header span {
+	padding-left: 10px;
+}
+.ui_avatar {
+	width: 50px; overflow: hidden; position: relative;
+}
+.avatar_roll {
+	overflow: hidden; padding-top: 5px;
+}
+.avatar_roll .prev {
+	float: left; display: inline;
+}
+.avatar_roll .prev .icon_chevron_left {
+	background-position: -74px -276px;
+}
+.avatar_roll .none.prev .icon_chevron_left {
+	background-position: -75px -200px;
+}
+.avatar_roll .next {
+	float: right; display: inline;
+}
+.avatar_roll .next .icon_chevron_right {
+	background-position: -76px -225px;
+}
+.avatar_roll .none.next .icon_chevron_right {
+	background-position: -75px -252px;
+}
+.ui_avatar ul.avatar_items {
+	width: 718px; height: 78px; overflow: hidden;
+}
+.ui_avatar ul.avatar_items li {
+	margin-right: 10px; float: left;
+}
+.ui_avatar ul.avatar_items li a {
+	text-align: center; color: rgb(102, 102, 102); line-height: 180%; display: block;
+}
+.ui_avatar ul.avatar_items li img {
+	width: 50px; height: 50px;
+}
+.ui_avatar .userpic img {
+	width: 50px; height: 50px;
+}
+.ui_list {
+	line-height: 20px; padding-left: 5px; list-style-type: none;
+}
+.list_blue {
+	line-height: 22px;
+}
+.list_blue a {
+	color: rgb(50, 155, 202);
+}
+.list_blue a:hover {
+	color: rgb(50, 155, 202);
+}
+.list_black a {
+	color: rgb(51, 51, 51);
+}
+.list_black a:hover {
+	color: rgb(51, 51, 51);
+}
+.ui_feed {
+	overflow: hidden; padding-bottom: 5px; margin-bottom: 20px; border-bottom-color: rgb(241, 241, 241); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_avatar {
+	overflow: hidden;
+}
+.ui_feed .avatar_mini {
+	width: 60px; float: left; display: inline;
+}
+.hover_feed {
+	background: rgb(252, 252, 252); cursor: pointer;
+}
+.feed_detail {
+	margin-left: 5px; float: left; display: inline;
+}
+.feed_detail .ui_userinfo {
+	font-size: 14px;
+}
+.feed_detail .feed_text {
+	color: rgb(102, 102, 102); line-height: 180%; font-size: 14px; word-wrap: break-word; break-word: break-all;
+}
+.feed_detail .feed_bar {
+	top: 1px; height: 30px; text-align: right; color: rgb(153, 153, 153); line-height: 30px; position: relative; z-index: 10;
+}
+.feed_detail .feed_bar .S_time {
+	width: 100px; text-align: left; float: left; display: inline;
+}
+.feed_detail .feed_bar p {
+	float: right; display: inline;
+}
+.feed_detail .feed_bar p span {
+	padding-right: 10px;
+}
+.feed_detail .feed_bar p span .S_time {
+	text-align: right; float: right;
+}
+.feed_detail .feed_bar p span strong {
+	color: rgb(153, 153, 153);
+}
+.feed_detail .feed_bar p span a {
+	display: inline-block; position: relative;
+}
+.feed_detail .feed_bar p span a .icon_comments_corner {
+	display: none;
+}
+.feed_detail .feed_bar p span a.noclick {
+	cursor: text;
+}
+.feed_detail .feed_bar p .current .icon_comments_corner {
+	background-position: -20px -173px; left: 0px; top: 20px; display: none; position: absolute; z-index: 100; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.feed_detail .feed_bar .addGold {
+	background: url("http://img04.xesimg.com/ie_project/feed_add_1.png") no-repeat; top: 5px; width: 86px; height: 21px; text-align: left; right: 35px; line-height: 21px; overflow: hidden; position: absolute; z-index: 10;
+}
+.feed_detail .feed_bar .addGold .gold_num {
+	color: rgb(204, 0, 0); padding-left: 42px;
+}
+.feed_detail .feed_bar .addGold .gold_num strong {
+	font-weight: bold;
+}
+.feed_detail .feed_bar .addGold_2.addGold {
+	background: url("http://img04.xesimg.com/ie_project/feed_add_2.png") no-repeat;
+}
+.feed_detail .feed_bar .addGold_2.addGold .gold_num {
+	padding-left: 38px;
+}
+.feed_detail .feed_text_my {
+	overflow: hidden;
+}
+.feed_detail .feed_text_my .my {
+	color: rgb(51, 51, 51); padding-right: 10px; font-size: 14px; display: inline;
+}
+.feed_detail .feed_text_my .my_info {
+	color: rgb(51, 51, 51); display: inline;
+}
+.feed_comment {
+	background: rgb(247, 247, 247); border: 1px solid rgb(237, 237, 237); margin-bottom: 15px; position: relative;
+}
+.feed_comment .ui_comment {
+	margin: 10px auto; width: 640px;
+}
+.feed_media {
+	overflow: hidden; margin-top: 10px;
+}
+.feed_media ul {
+	overflow: hidden;
+}
+.feed_media ul li {
+	overflow: hidden;
+}
+.feed_media ul li img {
+	vertical-align: top; cursor: url(http://img04.xesimg.com/big.cur), auto !important; max-height: 120px; max-width: 120px;
+}
+.feed_media ul .media_item_small {
+	background: rgb(204, 204, 204); text-align: center; line-height: 0; overflow: hidden; display: inline-block; cursor: url(http://img04.xesimg.com/big.cur), auto !important; min-width: 36px;
+}
+.feed_media_expand {
+	background: rgb(242, 242, 242); margin: 10px 0px; padding: 10px; border: 1px solid rgb(217, 217, 217); width: 640px; overflow: hidden;
+}
+.feed_media_expand .media_expand_func {
+	display: none;
+}
+.feed_media_expand .media_expand_box {
+	text-align: center;
+}
+.feed_media_expand .media_expand_box img {
+	cursor: url(http://img04.xesimg.com/small.cur), auto !important; max-width: 640px;
+}
+.feed_media_video {
+	overflow: hidden; margin-top: 10px;
+}
+.feed_media_video ul {
+	overflow: hidden;
+}
+.feed_media_video ul li {
+	overflow: hidden;
+}
+.feed_media_video ul li img {
+	width: 210px; height: 120px; vertical-align: top; cursor: pointer;
+}
+.feed_media_video ul .video_item_small {
+	background: rgb(204, 204, 204); text-align: center; line-height: 0; overflow: hidden; display: inline-block; position: relative; min-width: 36px;
+}
+.feed_media_video ul .video_play {
+	background: url("http://img04.xesimg.com/feedvideoplay_ph.png") no-repeat; margin: -28px 0px 0px -28px; left: 50%; top: 50%; width: 57px; height: 57px; display: block; position: absolute; z-index: 100;
+}
+.feed_media_video ul .video_play:hover {
+	background: url("http://img04.xesimg.com/feedvideoplay.png") no-repeat;
+}
+.feed_video_expand {
+	background: rgb(242, 242, 242); margin: 10px 0px; padding: 5px 10px 10px; border: 1px solid rgb(217, 217, 217); width: 600px; overflow: hidden; display: none;
+}
+.feed_video_expand .video_expand_box {
+	text-align: center;
+}
+.feed_video_expand .video_expand_box .retract {
+	height: 30px; text-align: left; line-height: 30px;
+}
+.feed_video_expand .video_expand_box .retract a {
+	background: url("http://img04.xesimg.com/icon/icon_22.png") no-repeat 3px 9px; color: rgb(0, 118, 179); padding-left: 15px; display: inline-block; cursor: pointer;
+}
+.feed_video_expand .video_expand_box img {
+	max-width: 640px;
+}
+.ui_filter {
+	clear: both;
+}
+.ui_filter .filter_handle {
+	height: 28px; border-bottom-color: rgb(51, 153, 204); border-bottom-width: 1px; border-bottom-style: solid; position: relative; z-index: 1;
+}
+.ui_filter .filter_handle h2 {
+	background: rgb(51, 153, 204); width: 77px; text-align: center; color: rgb(255, 255, 255); line-height: 28px; font-size: 14px; font-weight: normal; float: left;
+}
+.ui_filter .filter_handle p.more {
+	color: rgb(153, 153, 153); line-height: 28px; font-size: 12px; float: right;
+}
+.ui_filter .filter_handle p.more strong {
+	padding: 0px 5px; font-weight: bold;
+}
+.ui_filter .filter_handle .filter_down {
+	cursor: pointer;
+}
+.ui_filter .filter_handle .filter_down .icon_course_down {
+	background: url("http://img04.xesimg.com/course_corner.jpg") no-repeat right bottom; width: 15px; height: 16px; vertical-align: top; display: inline-block;
+}
+.ui_filter .filter_handle .filter_down .icon_course_up {
+	background: url("http://img04.xesimg.com/course_corner_up.jpg") no-repeat right bottom;
+}
+.ui_filter .filter_handle .filter_handle_items {
+	background: rgb(255, 255, 255); border-width: 0px 1px 1px; border-style: none solid solid; border-color: currentColor rgb(51, 153, 204) rgb(51, 153, 204); padding: 5px; left: 0px; top: 29px; width: 100px; display: none; position: absolute; z-index: 100; _width: 105px;
+}
+.ui_filter .filter_handle .filter_handle_items li {
+	height: 25px; line-height: 25px; float: left; display: inline;
+}
+.ui_filter .filter_handle .filter_handle_items li a {
+	padding: 0px 10px; color: rgb(51, 51, 51); text-decoration: none; display: inline-block;
+}
+.ui_filter .filter_handle .filter_handle_items li a:hover {
+	background: rgb(51, 153, 204); color: rgb(255, 255, 255);
+}
+.ui_filter .filter_item {
+	background: rgb(247, 246, 245); margin: 0px; overflow: hidden; font-size: 12px; border-right-color: rgb(238, 235, 233); border-bottom-color: rgb(230, 230, 230); border-left-color: rgb(238, 235, 233); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: dashed; border-left-style: solid;
+}
+.ui_filter .filter_item dt {
+	width: 77px; text-align: center; color: rgb(51, 51, 51); padding-top: 12px; font-weight: bold; float: left; display: inline;
+}
+.ui_filter .filter_item dd {
+	background: rgb(255, 255, 255); padding: 5px 0px; width: 651px; line-height: 180%; float: left; display: inline;
+}
+.ui_filter .filter_item dd a {
+	margin: 0px 0px 0px 5px; padding: 2px 6px; color: rgb(102, 102, 102); word-spacing: normal; display: inline-block;
+}
+.ui_filter .filter_item dd a.current {
+	background: rgb(51, 153, 204); color: rgb(255, 255, 255); text-decoration: none;
+}
+.ui_filter .filter_item dd a.news_icon {
+	background: url("http://img04.xesimg.com/icon/new_flag.gif") no-repeat right 0px; padding-right: 30px;
+}
+.ui_filter .filter_other {
+	display: none;
+}
+.ui_filter .filter_more {
+	height: 22px; overflow: hidden; border-top-color: rgb(51, 153, 204); border-top-width: 5px; border-top-style: solid; position: relative;
+}
+.ui_filter .filter_more p {
+	background: url("http://img04.xesimg.com/course_more.jpg") no-repeat 67px 10px rgb(51, 153, 204); top: -4px; width: 75px; right: 0px; color: rgb(255, 255, 255); line-height: 27px; padding-left: 12px; font-size: 12px; position: absolute; cursor: pointer;
+}
+.ui_filter .filter_more .up {
+	background: url("http://img04.xesimg.com/course_up.jpg") no-repeat 67px 10px rgb(51, 153, 204);
+}
+.ui_filter .border_none {
+	border-bottom-color: rgb(238, 235, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_sortbar {
+	background: rgb(252, 252, 252); margin: 10px 0px 15px; border: 1px solid rgb(237, 237, 237); height: 36px; line-height: 36px; overflow: hidden;
+}
+.ui_sortbar li {
+	margin: 8px 30px 0px 5px; height: 20px; line-height: 20px; font-size: 12px; float: left; display: inline-block;
+}
+.ui_sortbar li a {
+	padding: 3px 5px; zoom: 1;
+}
+.ui_sortbar li a.current {
+	background: rgb(51, 153, 204); color: rgb(255, 255, 255); text-decoration: none;
+}
+.ui_sortbar li.sort_num {
+	margin: 8px 5px 0px 15px; font-weight: bold;
+}
+.sort_teacher ul {
+	overflow: hidden;
+}
+.sort_teacher li {
+	margin: 8px 0px 0px;
+}
+.sort_teacher li.sort_num {
+	margin: 10px 15px 0px; width: 30px; font-weight: normal;
+}
+.sort_teacher li.sort_avatar {
+	width: 180px; padding-left: 30px; margin-top: 10px;
+}
+.sort_teacher li.sort_course_num {
+	width: 100px;
+}
+.sort_teacher li.icon_rank_down.sort_course_num {
+	background: url("http://img04.xesimg.com/icon/r_icon_01.jpg") no-repeat 45px 7px;
+}
+.sort_teacher li.sort_trend {
+	width: 100px;
+}
+.sort_teacher li.icon_rank_down.sort_trend {
+	background: url("http://img04.xesimg.com/icon/r_icon_01.jpg") no-repeat 45px 7px;
+}
+.sort_teacher li.sort_student_num {
+	width: 100px;
+}
+.sort_teacher li.sort_new_trend {
+	width: 100px;
+}
+.sort_teacher li.satis_sort {
+	background: url("http://img04.xesimg.com/icon/r_icon_01.jpg") no-repeat 68px 7px; width: 120px;
+}
+.ui_courses {
+	overflow: hidden; position: relative;
+}
+.ui_courses .ui_avatar {
+	margin: 10px 10px 0px; float: left; display: inline;
+}
+.course_item {
+	background: rgb(252, 252, 252); border: 1px solid rgb(237, 237, 237); overflow: hidden; padding-bottom: 10px; margin-bottom: 10px;
+}
+.wrong_download {
+	top: 370px; width: 21px; height: 61px; right: 200px; position: fixed; z-index: 10000;
+}
+.course_detail {
+	width: 645px; float: left; display: inline;
+}
+.course_detail .course_title {
+	padding: 7px 0px; color: rgb(51, 51, 51); font-family: "Microsoft YaHei"; font-size: 16px; font-weight: normal;
+}
+.course_detail .course_title em {
+	background-position: -35px -59px; width: 35px; color: rgb(255, 255, 255); line-height: 18px; padding-left: 3px; font-family: "SimSun"; font-size: 12px; margin-top: 4px; float: left; display: inline; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.course_detail .course_title strong {
+	font-size: 14px;
+}
+.course_detail .course_title a {
+	color: rgb(51, 51, 51);
+}
+.course_detail .course_title span.goComments {
+	display: inline-block;
+}
+.course_detail .course_title span.goComments a {
+	color: rgb(0, 118, 179); font-family: "ËÎÌå"; font-size: 12px;
+}
+.course_detail .course_info {
+	color: rgb(153, 153, 153); font-size: 12px; margin-bottom: 5px;
+}
+.course_detail .course_info span.red {
+	color: rgb(204, 0, 0); float: right;
+}
+.course_detail .course_info a {
+	margin-left: 10px;
+}
+.course_detail .course_info strong {
+	padding: 0px 5px; font-size: 14px; font-weight: bold;
+}
+.course_detail .course_func {
+	height: 25px; line-height: 25px; overflow: hidden; margin-bottom: 5px; display: block;
+}
+.course_detail .course_func span {
+	margin: 3px 10px 3px 0px; color: rgb(153, 153, 153); line-height: 21px; font-family: SimSun; font-size: 14px; vertical-align: middle; float: left; display: inline;
+}
+.course_detail .course_func span i.line {
+	padding: 2px 0px;
+}
+.course_detail .course_func span a {
+	padding: 3px 5px; font-size: 12px; float: left; position: relative;
+}
+.course_detail .course_func span .icon_new {
+	top: 0px; right: -10px; position: absolute;
+}
+.course_detail .course_func span.num_videos strong {
+	color: rgb(255, 103, 0);
+}
+.course_detail .course_func i {
+	float: left;
+}
+.course_detail .course_func .tools {
+	margin: 0px 10px; color: rgb(0, 102, 153); font-size: 14px; float: left;
+}
+.course_detail .course_func .btn_audition {
+	background-position: -35px -138px; width: 75px; height: 25px; color: rgb(204, 0, 0); line-height: 25px; text-indent: 20px; text-decoration: none; margin-right: 20px; float: left; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.course_detail .course_func .btn_audition:hover {
+	background-position: -35px -107px; color: rgb(255, 255, 255); background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.course_detail .course_func .btn_disable {
+	margin: 0px 20px 3px 0px; width: 75px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; font-size: 12px; cursor: default;
+}
+.course_detail .course_func .btn_start {
+	background-position: -35px -107px; width: 75px; height: 25px; color: rgb(255, 255, 255); line-height: 25px; text-indent: 20px; text-decoration: none; margin-right: 20px; float: left; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.course_detail .course_btnc {
+	overflow: hidden; margin-top: 5px;
+}
+.course_detail .course_btnc .btn_audition {
+	background-position: -35px -138px; width: 75px; height: 25px; color: rgb(204, 0, 0); line-height: 25px; text-indent: 20px; text-decoration: none; float: left; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.course_detail .course_btnc .btn_audition:hover {
+	background-position: -35px -107px; color: rgb(255, 255, 255); background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.course_detail .course_btnc .cancel_btn_fav {
+	line-height: 25px; margin-left: 15px; float: left;
+}
+.course_detail .course_btnc .fav_end.cancel_btn_fav {
+	color: rgb(153, 153, 153); text-decoration: none; cursor: default;
+}
+.course_width1 {
+	width: 545px;
+}
+.recommend_icon {
+	background: url("http://img04.xesimg.com/channel/duc_03.png") no-repeat; top: 0px; width: 33px; height: 33px; right: 0px; overflow: hidden; position: absolute; z-index: 10;
+}
+ul.course_right_info {
+	margin: 22px 0px 0px 10px; padding: 8px 0px 0px 12px; width: 88px; height: 92px; overflow: hidden; border-left-color: rgb(229, 229, 229); border-left-width: 1px; border-left-style: solid; display: inline-block;
+}
+ul.course_right_info li {
+	padding-left: 24px; margin-top: 10px;
+}
+ul.course_right_info li a {
+	color: rgb(102, 102, 102);
+}
+ul.course_right_info .book {
+	background: url("http://img04.xesimg.com/icon/course_book_mini.png") no-repeat;
+}
+ul.course_right_info .live {
+	background: url("http://img04.xesimg.com/icon/course_living_mini.png") no-repeat;
+}
+ul.course_right_info .meet {
+	background: url("http://img04.xesimg.com/icon/course_jiazhanghui_mini.png") no-repeat;
+}
+.head_user {
+	background: url("http://img04.xesimg.com/headPng.png") repeat-x bottom; margin: 0px auto; width: 980px; height: 160px; overflow: hidden; padding-top: 50px;
+}
+.head_user .user_pic {
+	margin: 0px 15px 0px 12px; float: left;
+}
+.head_user .user_pic img {
+	border: 2px solid rgb(255, 255, 255); width: 134px; height: 134px; box-shadow: -1px 2px 2px #dddddd;
+}
+.head_user .user_detail {
+	overflow: hidden; float: left; display: inline; _width: 325px;
+}
+.head_user .user_detail .user_name {
+	height: 30px; color: rgb(51, 51, 51); font-family: "Microsoft YaHei"; font-size: 20px; margin-top: 20px;
+}
+.head_user .user_detail .user_name em {
+	margin-top: 5px; vertical-align: top;
+}
+.head_user .user_detail .user_name .teacher_subject {
+	font-size: 14px;
+}
+.head_user .user_detail .user_name a {
+	color: rgb(51, 51, 51);
+}
+.head_user .user_detail .user_info {
+	width: 325px; color: rgb(102, 102, 102); line-height: 150%; overflow: hidden; margin-top: 10px; margin-bottom: 10px;
+}
+.head_user .user_detail .user_info .icon_teacher_live {
+	background: url("http://img04.xesimg.com/teacher_live.jpg") no-repeat 5px 4px; padding-left: 20px; display: inline-block;
+}
+.head_user .user_count {
+	margin-top: 65px; margin-right: 20px; float: right; display: inline;
+}
+.head_user .user_count li {
+	background: url("http://img04.xesimg.com/line_long.jpg") no-repeat right 5px; width: 90px; height: 50px; text-align: center; overflow: hidden; font-size: 12px; float: left; display: inline;
+}
+.head_user .user_count li a {
+	text-decoration: none;
+}
+.head_user .user_count li p {
+	color: rgb(102, 102, 102);
+}
+.head_user .user_count li p a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.head_user .user_count li strong {
+	color: rgb(51, 51, 51); font-size: 18px; display: block;
+}
+.head_user .user_count li .red {
+	color: rgb(204, 0, 0);
+}
+.head_user .user_count .last {
+	
+}
+.user_student {
+	margin: 0px auto; width: 980px; height: 210px; position: relative;
+}
+.user_student .user_pic {
+	background: rgb(255, 255, 255); border: 2px solid rgb(255, 255, 255); left: 9px; top: 13px; width: 134px; height: 134px; text-align: center; overflow: hidden; filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#e0e0e0', GradientType='0'); position: absolute; z-index: 10; box-shadow: -1px 2px 2px #dddddd;
+}
+.user_student .user_name {
+	left: 150px; top: 80px; height: 30px; color: rgb(51, 51, 51); font-family: "Microsoft YaHei"; font-size: 18px; position: absolute; z-index: 10;
+}
+.user_student .user_name a {
+	color: rgb(51, 51, 51);
+}
+.user_student .user_name .gender_0 {
+	background: url("http://img04.xesimg.com/girl.png") no-repeat right -2px; padding-right: 25px; display: inline-block;
+}
+.user_student .user_name .gender_1 {
+	background: url("http://img04.xesimg.com/boy.png") no-repeat right 7px; padding-right: 20px; display: inline-block;
+}
+.user_student .user_detail {
+	background: rgb(248, 248, 248); left: 0px; top: 110px; width: 227px; height: 177px; overflow: hidden; padding-top: 55px; position: absolute; z-index: 1;
+}
+.user_student .user_detail .user_profile {
+	background: url("http://img04.xesimg.com/icon_add.jpg") no-repeat 8px 2px; padding: 0px 10px 0px 22px; height: 44px; color: rgb(102, 102, 102); line-height: 180%; overflow: hidden; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.user_student .user_detail .user_level {
+	padding: 0px 10px; height: 42px; color: rgb(102, 102, 102); line-height: 42px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(239, 239, 239); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.user_student .user_detail .user_level span {
+	width: 50px; float: left; display: inline;
+}
+.user_student .user_detail .user_level span a {
+	color: rgb(102, 102, 102); text-decoration: none;
+}
+.user_student .user_detail .user_level .icon_level {
+	width: 157px; overflow: hidden; margin-top: 5px;
+}
+.user_student .user_detail ul.studentMedal {
+	height: 42px; overflow: hidden; padding-left: 10px; border-top-color: rgb(255, 255, 255); border-bottom-color: rgb(239, 239, 239); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.user_student .user_detail ul.studentMedal li {
+	width: 25px; height: 25px; overflow: hidden; margin-top: 9px; margin-right: 5px; float: left; display: inline;
+}
+.user_student .user_detail .user_order {
+	padding: 0px 10px; height: 42px; color: rgb(102, 102, 102); line-height: 42px; overflow: hidden; border-top-color: rgb(255, 255, 255); border-top-width: 1px; border-top-style: solid;
+}
+.user_student .user_detail .user_order span {
+	padding-right: 10px;
+}
+.user_student .user_detail .user_order span a em {
+	color: rgb(51, 51, 51);
+}
+.user_student .adv_live_picture {
+	width: 740px; height: 100px; right: 0px; bottom: 0px; overflow: hidden; position: absolute; z-index: 10;
+}
+.user_student .adv_live_picture ul {
+	background: white; left: 0px; top: 0px; width: 740px; height: 100px; position: relative; z-index: 1;
+}
+.user_student .adv_live_picture ul li {
+	left: 0px; top: 0px; width: 740px; height: 100px; position: absolute; opacity: 0;
+}
+.user_student .adv_live_picture ul li img {
+	width: 740px; height: 100px; float: left;
+}
+.user_student .adv_live_picture ol {
+	right: 8px; bottom: 8px; position: absolute; z-index: 2;
+}
+.user_student .adv_live_picture ol li {
+	margin: 0px 1px; border-radius: 15px; width: 19px; height: 19px; text-align: center; color: rgb(102, 102, 102); line-height: 19px; float: left; display: inline; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.user_student .adv_live_picture ol li.active {
+	background: rgb(102, 102, 102); color: rgb(255, 255, 255);
+}
+.ui_visitor ul li {
+	width: 32%; text-align: center; font-size: 12px; margin-top: 10px; vertical-align: top; display: inline-block; zoom: 1;
+}
+.stupic {
+	margin: 0px 5px 15px 15px; width: 53px; height: 95px; text-align: center; line-height: 20px; overflow: hidden; font-size: 12px; float: left; display: inline;
+}
+.stupic span {
+	padding: 0px 2px; width: 46px; height: 20px; overflow: hidden; display: block;
+}
+.stupic img {
+	border: 1px solid rgb(241, 241, 241); width: 50px; height: 50px;
+}
+.stupic .latesttime {
+	color: rgb(179, 179, 179); overflow: hidden; white-space: nowrap;
+}
+.ui_follow {
+	background: rgb(243, 243, 243); padding: 0px 2px; width: 52px; height: 24px; color: rgb(102, 102, 102); line-height: 24px; font-size: 12px; display: inline-block;
+}
+.ui_follow em {
+	padding-right: 3px; font-weight: bold;
+}
+.ui_follow a {
+	color: rgb(50, 155, 202); padding-left: 2px;
+}
+.ui_follow .addsucess {
+	display: none;
+}
+.add.ui_follow {
+	background: rgb(243, 137, 32); text-align: center; color: rgb(255, 255, 255); text-decoration: none; cursor: pointer;
+}
+.add.ui_follow em {
+	font-size: 14px; font-weight: bold;
+}
+.add.ui_follow:hover {
+	background: rgb(232, 114, 4); color: rgb(255, 255, 255); cursor: pointer;
+}
+.follow_hidden.ui_follow {
+	border: 1px solid rgb(221, 221, 221); width: 50px; height: 22px; color: rgb(179, 179, 179); line-height: 22px;
+}
+.follow_cancel.ui_follow {
+	width: 75px; cursor: default;
+}
+.follow_cancel.ui_follow .line {
+	padding: 0px;
+}
+.ui_comment {
+	overflow: hidden;
+}
+.ui_comment form.comment_form {
+	overflow: hidden; margin-bottom: 10px;
+}
+.ui_comment form.comment_form .comment_title {
+	color: rgb(153, 153, 153); line-height: 25px;
+}
+.ui_comment form.comment_form .comment_close {
+	background: url("http://img04.xesimg.com/dialog/dialog_close.png") no-repeat center rgb(255, 255, 255); border: 1px solid rgb(223, 223, 223); top: 5px; width: 13px; height: 13px; right: 5px; overflow: hidden; position: absolute; z-index: 10; cursor: pointer;
+}
+.ui_comment form.comment_form .comment_textarea {
+	overflow: hidden;
+}
+.ui_comment form.comment_form .comment_textarea textarea {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); width: 98%; height: 60px;
+}
+.ui_comment form.comment_form .comment_textarea .comment_status {
+	width: 640px; height: 74px; text-align: center; position: absolute; z-index: 10; opacity: 0.7; background-color: rgb(252, 252, 252);
+}
+.ui_comment form.comment_form .comment_textarea .comment_status .ui_loading {
+	margin-top: 10px;
+}
+.ui_comment form.comment_form .comment_textarea .comment_status .ui_success {
+	background: url("http://img04.xesimg.com/dialog/icon/check-64.png") no-repeat left 0px; margin: 16px auto; width: auto; height: 32px; line-height: 32px; padding-left: 40px; display: inline-block;
+}
+.ui_comment form.comment_form .comment_textarea .comment_status .ui_warning {
+	background: url("http://img04.xesimg.com/dialog/icon/attention.png") no-repeat left 0px; margin: 16px auto; width: auto; height: 32px; line-height: 32px; padding-left: 40px; display: inline-block;
+}
+.ui_comment form.comment_form .comment_func {
+	height: 50px; overflow: hidden;
+}
+.ui_comment form.comment_form .comment_func .comment_kind {
+	width: 240px; float: left; display: inline;
+}
+.ui_comment form.comment_form .comment_func .comment_kind span {
+	line-height: 30px; float: left; display: inline;
+}
+.ui_comment form.comment_form .comment_func .comment_kind a {
+	margin: 7px 10px 0px 0px; width: 25px; height: 20px; text-align: center; text-indent: -9999em; overflow: hidden; display: inline-block;
+}
+.ui_comment form.comment_form .comment_func .comment_kind .kind_img {
+	background: url("http://img04.xesimg.com/icon_02.png") no-repeat 0px -25px;
+}
+.ui_comment form.comment_form .comment_func .comment_kind .kind_img:hover {
+	background: url("http://img04.xesimg.com/icon_02.png") no-repeat -25px -25px;
+}
+.ui_comment form.comment_form .comment_func .comment_kind .kind_media {
+	display: none;
+}
+.ui_comment form.comment_form .comment_func .comment_tips {
+	color: rgb(204, 0, 0); line-height: 30px; float: left;
+}
+.ui_comment form.comment_form .comment_func .comment_button {
+	float: right;
+}
+.ui_comment form.comment_form .comment_func .comment_button .comment_size {
+	color: rgb(153, 153, 153); line-height: 45px; margin-right: 10px; float: left;
+}
+.ui_comment form.comment_form .comment_func .comment_button .comment_size .text_num {
+	font-size: 14px; font-weight: bold;
+}
+.ui_comment form.comment_form .comment_func .comment_button .btn_submit {
+	margin: 10px 5px 0px 0px; width: 50px; height: 23px; line-height: 23px; font-size: 12px;
+}
+.ui_comment form.comment_form .comment_func .comment_button .ui_disible_div {
+	width: 55px; height: 34px; right: 10px; filter: alpha(opacity=70); position: absolute; z-index: 10; opacity: 0.7; background-color: rgb(252, 252, 252);
+}
+.ui_comment form.comment_form .comment_files {
+	margin: 7px 10px 0px 0px; width: 25px; height: 20px; filter: alpha(opacity=0); position: absolute; z-index: 1; opacity: 0;
+}
+.ui_comment .comment_content {
+	overflow: hidden;
+}
+.ui_comment .comment_content .comment_list {
+	overflow: hidden; padding-bottom: 5px; margin-top: 15px; border-bottom-color: rgb(237, 237, 237); border-bottom-width: 1px; border-bottom-style: dashed; _width: 100%;
+}
+.ui_comment .comment_content .comment_list .feed_detail {
+	width: 570px;
+}
+.ui_comment .comment_content .comment_list .feed_detail .feed_text {
+	color: rgb(102, 102, 102); font-size: 12px;
+}
+.ui_comment .comment_content .comment_list .feed_detail .feed_text span {
+	color: rgb(0, 0, 0);
+}
+.ui_comment .comment_content .comment_list .feed_detail .feed_text strong {
+	color: rgb(51, 51, 51); font-size: 14px;
+}
+.ui_comment .comment_more {
+	height: 30px; text-align: right; line-height: 40px; padding-right: 5px; font-size: 12px;
+}
+.comment_preview {
+	padding: 5px; width: 122px; overflow: hidden; max-height: 122px;
+}
+.comment_preview img {
+	margin: 0px auto; display: block; max-width: 120px;
+}
+.comment_num_all {
+	height: 25px; text-align: right; color: rgb(153, 153, 153); line-height: 25px; padding-right: 5px;
+}
+.all_comment .ui_comment .comment_content .comment_list .feed_detail {
+	width: 630px;
+}
+.pop_comments_medal {
+	margin: auto; width: 355px;
+}
+.pop_comments_medal .comments_medal_list {
+	color: rgb(102, 102, 102); overflow: hidden; font-size: 14px;
+}
+.pop_comments_medal .comments_medal_list span {
+	background: url("http://img04.xesimg.com/icon/32x32/attention.png") no-repeat; height: 32px; line-height: 32px; padding-left: 35px; float: left; display: inline;
+}
+.pop_comments_medal .comments_medal_img {
+	width: 270px; overflow: hidden; margin-top: 20px; margin-left: 38px;
+}
+.pop_comments_medal .comments_medal_img span {
+	margin-right: 5px; float: left; display: inline;
+}
+.pop_comments_medal .comments_medal_img input {
+	margin-right: 5px; float: left; display: inline;
+}
+.pop_comments_medal .comments_medal_img span {
+	font-size: 14px;
+}
+.pop_comments_medal .comments_medal_img span #verificationImg {
+	height: 26px; cursor: pointer;
+}
+.pop_comments_medal .comments_medal_img input {
+	border: 1px solid rgb(204, 204, 204); width: 115px; height: 26px;
+}
+.pop_comments_medal #tips_verificationCode {
+	height: 20px; color: rgb(204, 0, 0); overflow: hidden; padding-left: 85px;
+}
+.pop_comments_medal .comments_medal_button {
+	overflow: hidden; margin-top: 20px;
+}
+.pop_comments_medal .comments_medal_button .btn_sky {
+	width: 80px; height: 30px; line-height: 30px; font-family: "@fw"; font-size: 14px; font-weight: bold; margin-left: 130px;
+}
+.ui_pages {
+	margin: 10px auto; text-align: center;
+}
+.ui_pages li {
+	width: auto; display: inline-block;
+}
+.ui_pages li a {
+	margin: 0px 5px; padding: 0px 10px; border-radius: 0px; border: 1px solid rgb(207, 207, 207); height: 25px; color: rgb(51, 51, 51); line-height: 25px; display: inline-block;
+}
+.ui_pages li span {
+	margin: 0px 5px; padding: 0px 10px; border-radius: 0px; border: 1px solid rgb(207, 207, 207); height: 25px; color: rgb(51, 51, 51); line-height: 25px; display: inline-block;
+}
+.ui_pages li a:hover {
+	border-color: rgb(0, 120, 176); color: rgb(255, 255, 255); text-decoration: none; background-color: rgb(0, 120, 176);
+}
+.ui_pages li .btn {
+	
+}
+.ui_pages li .btn:hover {
+	background: rgb(0, 120, 176); border-color: rgb(207, 207, 207); color: rgb(255, 255, 255);
+}
+.ui_pages li .btn_disable.btn {
+	color: rgb(153, 153, 153); background-color: rgb(243, 243, 243);
+}
+.ui_pages li .btn_disable.btn:hover {
+	color: rgb(153, 153, 153); cursor: text; background-color: rgb(243, 243, 243);
+}
+.ui_pages li.disable .btn {
+	color: rgb(153, 153, 153); background-color: rgb(243, 243, 243);
+}
+.ui_pages li.pages_current {
+	color: rgb(255, 255, 255);
+}
+.ui_pages li.pages_current a {
+	border-color: rgb(255, 255, 255); color: rgb(255, 102, 0); font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.ui_pages li.pages_current span {
+	border-color: rgb(255, 255, 255); color: rgb(255, 102, 0); font-weight: bold; background-color: rgb(255, 255, 255);
+}
+.ui_pages li.pages_current a:hover {
+	border-radius: 2px; cursor: text;
+}
+.ui_pages li.pages_current span:hover {
+	border-radius: 2px; cursor: text;
+}
+.ui_pages li.pages_more a {
+	margin: 0px; border: 1px solid rgb(255, 255, 255);
+}
+.ui_pages li.pages_more span {
+	margin: 0px; border: 1px solid rgb(255, 255, 255);
+}
+.ui_pages li a.btn:hover {
+	background: rgb(0, 120, 176);
+}
+.ui_teachers {
+	overflow: hidden;
+}
+.teacher_item {
+	height: 80px; line-height: 80px; overflow: hidden; font-size: 14px; border-bottom-color: rgb(241, 241, 241); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.teacher_item .num {
+	text-align: center; float: left; display: inline;
+}
+.avatar {
+	text-align: center; float: left; display: inline;
+}
+.course_num {
+	text-align: center; float: left; display: inline;
+}
+.trend {
+	text-align: center; float: left; display: inline;
+}
+.student_num {
+	text-align: center; float: left; display: inline;
+}
+.new_trend {
+	text-align: center; float: left; display: inline;
+}
+.follow_con {
+	text-align: center; float: left; display: inline;
+}
+.teacher_item .num {
+	background-position: -114px -145px; margin: 0px 15px; width: 32px; color: rgb(153, 153, 153); font-style: italic; font-weight: bold; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.teacher_item .avatar {
+	width: 200px;
+}
+.teacher_item .course_num {
+	width: 100px;
+}
+.teacher_item .trend {
+	width: 120px;
+}
+.teacher_item .student_num {
+	width: 100px;
+}
+.teacher_item .new_trend {
+	width: 100px;
+}
+.teacher_item .follow_con {
+	width: 110px; float: right;
+}
+.teacher_item .num_1 {
+	background-position: 3px -17px; color: rgb(255, 255, 255); text-indent: -9999em; font-size: 18px; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.teacher_item .num_2 {
+	background-position: 3px -87px; color: rgb(255, 255, 255); text-indent: -9999em; font-size: 18px; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.teacher_item .num_3 {
+	background-position: 3px -157px; color: rgb(255, 255, 255); text-indent: -9999em; font-size: 18px; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.teacher_item .avatar p {
+	margin-top: 18px;
+}
+.teacher_item .avatar a {
+	margin-left: 10px; float: left;
+}
+.teacher_item .avatar a img {
+	width: 50px; height: 50px;
+}
+.teacher_item .avatar a.ui_username {
+	margin-top: 15px;
+}
+.teacher_item .avatar p .icon_yverify {
+	margin-top: 16px; margin-left: 3px; float: left; display: inline;
+}
+.paylists {
+	line-height: 22px;
+}
+.paylists .right-content button {
+	margin-left: 15px;
+}
+.paylists h5 {
+	line-height: 30px; padding-left: 46px;
+}
+.paylists .paynow h5 {
+	padding-left: 0px;
+}
+.paylists .bank_list {
+	margin: 20px 0px 0px 50px; overflow: hidden; clear: both;
+}
+.paylists .bank_more {
+	margin: 0px 7px 10px 50px; padding: 5px 10px; border: 1px solid rgb(222, 222, 213); width: 180px; height: 30px; text-align: center; color: rgb(0, 118, 179); line-height: 34px; cursor: pointer;
+}
+.paylists .bank_more span {
+	background: url("http://img04.xesimg.com/arrow_down.gif") no-repeat right; padding-right: 20px;
+}
+.paylists .collapse.bank_more span {
+	background-image: url("http://img04.xesimg.com/arrow_down.gif");
+}
+.paylists .open.bank_more span {
+	background-image: url("http://img04.xesimg.com/arrow_up.gif");
+}
+.paylists .paynow {
+	margin: 20px 0px 0px 50px;
+}
+.paylists .paynow label {
+	float: left;
+}
+.paylists .paynow input {
+	float: left;
+}
+.paylists .paynow button {
+	float: left;
+}
+.paylists .paynow input {
+	margin: 0px 5px; width: 150px;
+}
+.paylists .paynow button {
+	padding: 2px 5px;
+}
+.paylists .paynow .bank_list input {
+	width: 15px; margin-top: 10px;
+}
+.paylists .setting_menu {
+	margin-bottom: 10px;
+}
+.paylists .pay_info {
+	padding: 10px 50px; color: rgb(91, 91, 91); font-size: 14px;
+}
+.paylists .pay_info strong {
+	width: 90px; text-align: right; color: rgb(51, 51, 51); font-weight: bold; display: inline-block;
+}
+.paylists .pay_tips {
+	background: rgb(250, 250, 250); padding: 10px 20px; color: rgb(173, 173, 173); overflow: hidden;
+}
+.paylists ul li {
+	margin: 0px 15px 40px 0px; width: 180px; float: left; _width: 180px;
+}
+.paylists ul li input {
+	margin-top: 10px; margin-right: 5px; float: left;
+}
+.paylists ul li .bank-item {
+	width: 154px; height: 33px; margin-top: 5px; vertical-align: middle; float: left; display: inline-block; cursor: pointer; background-image: url("http://img04.xesimg.com/banklist.png"); background-repeat: no-repeat;
+}
+.paylists ul li .ICBC {
+	
+}
+.paylists ul li .CMB {
+	background-position: 0px -99px;
+}
+.paylists ul li .ABC {
+	background-position: 0px -198px;
+}
+.paylists ul li .CCB {
+	background-position: -154px 0px;
+}
+.paylists ul li .BCM {
+	background-position: -154px -99px;
+}
+.paylists ul li .SDB {
+	background-position: -154px -198px;
+}
+.paylists ul li .BOB {
+	background-position: -308px 0px;
+}
+.paylists ul li .CIB {
+	background-position: -308px -99px;
+}
+.paylists ul li .BOC {
+	background-position: 0px -231px;
+}
+.paylists ul li .CEB {
+	background-position: 0px -33px;
+}
+.paylists ul li .SPD {
+	background-position: 0px -132px;
+}
+.paylists ul li .CMBC {
+	background-position: -308px -198px;
+}
+.paylists ul li .POST {
+	background-position: -154px -33px;
+}
+.paylists ul li .BEA {
+	background-position: -154px -132px;
+}
+.paylists ul li .RCB {
+	background-position: -154px -231px;
+}
+.paylists ul li .CBHB {
+	background-position: -308px -33px;
+}
+.paylists ul li .CGD {
+	background-position: -308px -133px;
+}
+.paylists ul li .GZCB {
+	background-position: -308px -230px;
+}
+.paylists ul li .GZNC {
+	background-position: 0px -66px;
+}
+.paylists ul li .HXB {
+	background-position: 0px -165px;
+}
+.paylists ul li .ZXSY {
+	background-position: 0px -264px;
+}
+.paylists ul li .NBCB {
+	background-position: -154px -66px;
+}
+.paylists ul li .SHNC {
+	background-position: -154px -165px;
+}
+.paylists ul li .BBON {
+	background-position: -154px -264px;
+}
+.paylists ul li .HCCB {
+	background-position: -308px -66px;
+}
+.paylists ul li .PAYH {
+	background-position: -308px -165px;
+}
+.paylists ul li .gateway {
+	background-position: -308px -264px;
+}
+.paylists ul li .ZFB {
+	background-position: -308px -297px;
+}
+.paylists ul li .SHYH {
+	background-position: -154px -330px;
+}
+.paylists ul li .ECITIC {
+	background-position: 0px -297px;
+}
+.paylists ul li .FDYH {
+	background-position: 0px -330px;
+}
+.dialog {
+	left: 40%; top: 100px; width: auto; position: fixed; z-index: 1000; _position: absolute;
+}
+.dialog table {
+	background-color: transparent;
+}
+.dialog .dialog_arrow {
+	width: 100%; height: 11px; position: absolute; z-index: 1001; background-repeat: no-repeat;
+}
+.dialog .arrow_bl.dialog_arrow {
+	bottom: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_b.png");
+}
+.dialog .arrow_bc.dialog_arrow {
+	bottom: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_b.png");
+}
+.dialog .arrow_br.dialog_arrow {
+	bottom: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_b.png");
+}
+.dialog .arrow_tl.dialog_arrow {
+	top: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_t.png");
+}
+.dialog .arrow_tc.dialog_arrow {
+	top: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_t.png");
+}
+.dialog .arrow_tr.dialog_arrow {
+	top: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_t.png");
+}
+.dialog .arrow_bl.dialog_arrow {
+	background-position: 30% 0px;
+}
+.dialog .arrow_tl.dialog_arrow {
+	background-position: 30% 0px;
+}
+.dialog .arrow_br.dialog_arrow {
+	background-position: 70% 0px;
+}
+.dialog .arrow_tr.dialog_arrow {
+	background-position: 70% 0px;
+}
+.dialog .arrow_bc.dialog_arrow {
+	background-position: center 0px;
+}
+.dialog .arrow_tc.dialog_arrow {
+	background-position: center 0px;
+}
+.dialog .arrow_lt.dialog_arrow {
+	top: 0px; width: 11px; height: 100%;
+}
+.dialog .arrow_lc.dialog_arrow {
+	top: 0px; width: 11px; height: 100%;
+}
+.dialog .arrow_lb.dialog_arrow {
+	top: 0px; width: 11px; height: 100%;
+}
+.dialog .arrow_rt.dialog_arrow {
+	top: 0px; width: 11px; height: 100%;
+}
+.dialog .arrow_rc.dialog_arrow {
+	top: 0px; width: 11px; height: 100%;
+}
+.dialog .arrow_rb.dialog_arrow {
+	top: 0px; width: 11px; height: 100%;
+}
+.dialog .arrow_lt.dialog_arrow {
+	left: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_l.png");
+}
+.dialog .arrow_lc.dialog_arrow {
+	left: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_l.png");
+}
+.dialog .arrow_lb.dialog_arrow {
+	left: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_l.png");
+}
+.dialog .arrow_rt.dialog_arrow {
+	right: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_r.png");
+}
+.dialog .arrow_rc.dialog_arrow {
+	right: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_r.png");
+}
+.dialog .arrow_rb.dialog_arrow {
+	right: -7px; background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_r.png");
+}
+.dialog .arrow_lt.dialog_arrow {
+	background-position: 0px 30%;
+}
+.dialog .arrow_rt.dialog_arrow {
+	background-position: 0px 30%;
+}
+.dialog .arrow_lb.dialog_arrow {
+	background-position: 0px 70%;
+}
+.dialog .arrow_rb.dialog_arrow {
+	background-position: 0px 70%;
+}
+.dialog .arrow_lc.dialog_arrow {
+	background-position: 0px;
+}
+.dialog .arrow_rc.dialog_arrow {
+	background-position: 0px;
+}
+.dialog .dialog_close {
+	background: url("http://img04.xesimg.com/dialog/dialog_close_new.png") no-repeat left 0px; top: 15px; width: 15px; height: 15px; right: 22px; text-indent: -2000px; overflow: hidden; display: inline-block; position: absolute; z-index: 1001;
+}
+.dialog .dialog_close:hover {
+	background: url("http://img04.xesimg.com/dialog/dialog_close_hover.png") no-repeat left 0px;
+}
+.dialog .dialog_box .tl {
+	height: 4px;
+}
+.dialog .dialog_box .tc {
+	height: 4px;
+}
+.dialog .dialog_box .tr {
+	height: 4px;
+}
+.dialog .dialog_box .bl {
+	height: 4px;
+}
+.dialog .dialog_box .bc {
+	height: 4px;
+}
+.dialog .dialog_box .br {
+	height: 4px;
+}
+.dialog .dialog_box .tl {
+	width: 4px;
+}
+.dialog .dialog_box .tr {
+	width: 4px;
+}
+.dialog .dialog_box .cl {
+	width: 4px;
+}
+.dialog .dialog_box .cr {
+	width: 4px;
+}
+.dialog .dialog_box .bl {
+	width: 4px;
+}
+.dialog .dialog_box .br {
+	width: 4px;
+}
+.dialog .dialog_box .tl {
+	background: url("http://img04.xesimg.com/dialog/dialog_tl.png") no-repeat left 0px;
+}
+.dialog .dialog_box .tr {
+	background: url("http://img04.xesimg.com/dialog/dialog_tr.png") no-repeat right 0px;
+}
+.dialog .dialog_box .bl {
+	background: url("http://img04.xesimg.com/dialog/dialog_border.png") no-repeat left bottom;
+}
+.dialog .dialog_box .br {
+	background: url("http://img04.xesimg.com/dialog/dialog_border.png") no-repeat right bottom;
+}
+.dialog .dialog_box .tc {
+	background: url("http://img04.xesimg.com/dialog/dialog_hline.png") repeat-x left 0px;
+}
+.dialog .dialog_box .bc {
+	background: url("http://img04.xesimg.com/dialog/dialog_hline.png") repeat-x left bottom;
+}
+.dialog .dialog_box .cl {
+	background: url("http://img04.xesimg.com/dialog/dialog_vline.png") repeat-y left 0px;
+}
+.dialog .dialog_box .cr {
+	background: url("http://img04.xesimg.com/dialog/dialog_vline.png") repeat-y right 0px;
+}
+.dialog .dialog_box .dialog_handle {
+	background-color: rgb(255, 255, 255);
+}
+.dialog .dialog_box .dialog_content_wrap {
+	background-color: rgb(255, 255, 255);
+}
+.dialog .dialog_handle {
+	background: url("http://img04.xesimg.com/dialog/dialog_header.png"); padding: 5px 35px 5px 15px; height: 30px; line-height: 30px;
+}
+.dialog .dialog_handle .dialog_title {
+	color: rgb(51, 51, 51); font-size: 14px; font-weight: 700; display: inline-block;
+}
+.dialog .dialog_content {
+	padding: 25px 20px; overflow: auto; min-width: 100px;
+}
+.dialog .dialog_content .dialog_icon {
+	width: 32px; height: 32px; margin-left: 10px; float: left; display: inline-block; background-repeat: no-repeat;
+}
+.dialog .dialog_content .dialog_success .dialog_icon {
+	background-image: url("http://img04.xesimg.com/dialog/icon/check-64.png");
+}
+.dialog .dialog_content .dialog_warning .dialog_icon {
+	background-image: url("http://img04.xesimg.com/dialog/icon/attention.png");
+}
+.dialog .dialog_content .dialog_error .dialog_icon {
+	background-image: url("http://img04.xesimg.com/dialog/icon/delete_2.png");
+}
+.dialog .dialog_content .dialog_info .dialog_icon {
+	background-image: url("http://img04.xesimg.com/dialog/icon/information.png");
+}
+.dialog .dialog_buttons {
+	padding: 10px 20px; text-align: center; background-color: rgb(255, 255, 255);
+}
+.dialog .dialog_buttons .btn {
+	margin: 0px 5px; padding: 5px 20px;
+}
+.dialog .dialog_buttons .btna {
+	color: rgb(255, 255, 255);
+}
+.dialog .dialog_buttons .btn_graya {
+	color: rgb(85, 85, 85);
+}
+.dialog_noborder.dialog {
+	
+}
+.dialog_noborder.dialog .tl {
+	
+}
+.dialog_noborder.dialog .tc {
+	
+}
+.dialog_noborder.dialog .tr {
+	
+}
+.dialog_noborder.dialog .cl {
+	
+}
+.dialog_noborder.dialog .cr {
+	
+}
+.dialog_noborder.dialog .bl {
+	
+}
+.dialog_noborder.dialog .bc {
+	
+}
+.dialog_noborder.dialog .br {
+	
+}
+.dialog_noborder.dialog .dialog_arrow {
+	background: url("http://img04.xesimg.com/dialog/dialog_arrow_b_n.png") no-repeat left 0px;
+}
+.dialog_noborder.dialog .arrow_tl.dialog_arrow {
+	background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_t_n.png");
+}
+.dialog_noborder.dialog .arrow_tr.dialog_arrow {
+	background-image: url("http://img04.xesimg.com/dialog/dialog_arrow_t_n.png");
+}
+.dialog_noborder.dialog .arrow_bl.dialog_arrow {
+	bottom: -6px;
+}
+.dialog_noborder.dialog .arrow_br.dialog_arrow {
+	bottom: -6px;
+}
+.dialog_noborder.dialog .arrow_tl.dialog_arrow {
+	top: -6px;
+}
+.dialog_noborder.dialog .arrow_tr.dialog_arrow {
+	top: -6px;
+}
+.dialog_noborder.dialog .dialog_handle {
+	border-radius: 5px 5px 0px 0px;
+}
+.dialog_noborder.dialog .dialog_buttons {
+	border-radius: 0px 0px 5px 5px;
+}
+.dialog_noborder.dialog .dialog_radius_top.dialog_content_wrap {
+	border-radius: 3px 3px 0px 0px;
+}
+.dialog_noborder.dialog .dialog_radius_bottom.dialog_radius_top.dialog_content_wrap {
+	border-radius: 3px;
+}
+.dialog_noborder.dialog .dialog_radius_bottom.dialog_content_wrap {
+	border-radius: 0px 0px 3px 3px;
+}
+.dialog_noMask.dialog_noborder.dialog .dialog_handle {
+	border-width: 1px 1px 0px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.dialog_noMask.dialog_noborder.dialog .dialog_buttons {
+	border-width: 0px 1px 1px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.dialog_noMask.dialog_noborder.dialog .dialog_content_wrap {
+	border-width: 0px 1px; border-style: solid; border-color: rgb(204, 204, 204);
+}
+.dialog_noMask.dialog_noborder.dialog .dialog_radius_top.dialog_content_wrap {
+	border-top-width: 1px;
+}
+.dialog_noMask.dialog_noborder.dialog .dialog_radius_bottom.dialog_content_wrap {
+	border-bottom-width: 1px;
+}
+.dialog_alert.dialog .dialog_buttons {
+	padding: 0px 20px 10px; text-align: center;
+}
+.dialog_alert.dialog .dialog_buttons .btn {
+	margin: 0px 5px;
+}
+.dialog_alert.dialog .dialog_buttons .btna {
+	color: rgb(255, 255, 255);
+}
+.dialog_alert.dialog .dialog_buttons .btn_graya {
+	color: rgb(85, 85, 85);
+}
+.dialog_alert.dialog .dialog_content {
+	padding: 20px 30px 10px; text-align: center;
+}
+.dialog_poptips.dialog {
+	position: absolute;
+}
+.dialog_poptips.dialog .dialog_content {
+	padding: 15px 20px 15px 10px; text-align: center; line-height: 32px;
+}
+.dialog_follow.dialog {
+	position: absolute;
+}
+.dialog_userinfo.dialog {
+	position: absolute;
+}
+.dialog_userinfo.dialog .dialog_content {
+	padding: 0px;
+}
+.dialog_userinfo.dialog .arrow_bl {
+	background-position: 20% 0px;
+}
+.dialog_userinfo.dialog .arrow_br {
+	background-position: 80% 0px;
+}
+.dialog_userinfo.dialog .arrow_tl {
+	background-position: 20% 0px;
+}
+.dialog_userinfo.dialog .arrow_tr {
+	background-position: 80% 0px;
+}
+.dialog_gift.dialog {
+	position: absolute;
+}
+.dialog_gift.dialog .arrow_lt {
+	background-position: 0px 20%;
+}
+.dialog_gift.dialog .arrow_rt {
+	background-position: 0px 20%;
+}
+.dialog_leave.dialog .dialog_content {
+	padding: 10px;
+}
+.dialog_noshadow.dialog {
+	
+}
+.dialog_noshadow.dialog .dialog_box .tl {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_tl.gif") no-repeat left 0px;
+}
+.dialog_noshadow.dialog .dialog_box .tr {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_tr.gif") no-repeat right 0px;
+}
+.dialog_noshadow.dialog .dialog_box .bl {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_border.gif") no-repeat left bottom;
+}
+.dialog_noshadow.dialog .dialog_box .br {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_border.gif") no-repeat right bottom;
+}
+.dialog_noshadow.dialog .dialog_box .tc {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_hline.gif") repeat-x left 0px;
+}
+.dialog_noshadow.dialog .dialog_box .bc {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_hline.gif") repeat-x left bottom;
+}
+.dialog_noshadow.dialog .dialog_box .cl {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_vline.gif") repeat-y left 0px;
+}
+.dialog_noshadow.dialog .dialog_box .cr {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_vline.gif") repeat-y right 0px;
+}
+.dialog_noshadow.dialog .dialog_handle {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_header.gif");
+}
+.dialog_noshadow.dialog .dialog_close {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_close.gif") no-repeat left 0px;
+}
+.dialog_noshadow.dialog .dialog_arrow {
+	width: auto; height: 11px; position: absolute; z-index: 1001; background-repeat: no-repeat;
+}
+.dialog_noshadow.dialog .arrow_bl.dialog_arrow {
+	bottom: -11px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_b.gif");
+}
+.dialog_noshadow.dialog .arrow_bc.dialog_arrow {
+	bottom: -11px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_b.gif");
+}
+.dialog_noshadow.dialog .arrow_br.dialog_arrow {
+	bottom: -11px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_b.gif");
+}
+.dialog_noshadow.dialog .arrow_tl.dialog_arrow {
+	top: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_t.gif");
+}
+.dialog_noshadow.dialog .arrow_tc.dialog_arrow {
+	top: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_t.gif");
+}
+.dialog_noshadow.dialog .arrow_tr.dialog_arrow {
+	top: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_t.gif");
+}
+.dialog_noshadow.dialog .arrow_bl.dialog_arrow {
+	background-position: 20% 0px;
+}
+.dialog_noshadow.dialog .arrow_tl.dialog_arrow {
+	background-position: 20% 0px;
+}
+.dialog_noshadow.dialog .arrow_br.dialog_arrow {
+	background-position: 80% 0px;
+}
+.dialog_noshadow.dialog .arrow_tr.dialog_arrow {
+	background-position: 80% 0px;
+}
+.dialog_noshadow.dialog .arrow_bc.dialog_arrow {
+	background-position: center 0px;
+}
+.dialog_noshadow.dialog .arrow_tc.dialog_arrow {
+	background-position: center 0px;
+}
+.dialog_noshadow.dialog .arrow_lt.dialog_arrow {
+	top: 0px; width: 11px; height: auto;
+}
+.dialog_noshadow.dialog .arrow_lc.dialog_arrow {
+	top: 0px; width: 11px; height: auto;
+}
+.dialog_noshadow.dialog .arrow_lb.dialog_arrow {
+	top: 0px; width: 11px; height: auto;
+}
+.dialog_noshadow.dialog .arrow_rt.dialog_arrow {
+	top: 0px; width: 11px; height: auto;
+}
+.dialog_noshadow.dialog .arrow_rc.dialog_arrow {
+	top: 0px; width: 11px; height: auto;
+}
+.dialog_noshadow.dialog .arrow_rb.dialog_arrow {
+	top: 0px; width: 11px; height: auto;
+}
+.dialog_noshadow.dialog .arrow_lt.dialog_arrow {
+	left: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_l.gif");
+}
+.dialog_noshadow.dialog .arrow_lc.dialog_arrow {
+	left: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_l.gif");
+}
+.dialog_noshadow.dialog .arrow_lb.dialog_arrow {
+	left: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_l.gif");
+}
+.dialog_noshadow.dialog .arrow_rt.dialog_arrow {
+	right: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_r.gif");
+}
+.dialog_noshadow.dialog .arrow_rc.dialog_arrow {
+	right: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_r.gif");
+}
+.dialog_noshadow.dialog .arrow_rb.dialog_arrow {
+	right: -7px; background-image: url("http://img04.xesimg.com/dialog/gif/dialog_arrow_r.gif");
+}
+.dialog_noshadow.dialog .arrow_lt.dialog_arrow {
+	background-position: 0px 15%;
+}
+.dialog_noshadow.dialog .arrow_rt.dialog_arrow {
+	background-position: 0px 15%;
+}
+.dialog_noshadow.dialog .arrow_lb.dialog_arrow {
+	background-position: 0px 85%;
+}
+.dialog_noshadow.dialog .arrow_rb.dialog_arrow {
+	background-position: 0px 85%;
+}
+.dialog_noshadow.dialog .arrow_lc.dialog_arrow {
+	background-position: 0px;
+}
+.dialog_noshadow.dialog .arrow_rc.dialog_arrow {
+	background-position: 0px;
+}
+.dialog_mask {
+	left: 0px; top: 0px; width: 100%; height: 100%; filter: alpha(opacity=30); position: fixed; z-index: 999; opacity: 0.3; background-color: rgb(0, 0, 0); _position: absolute;
+}
+.mask_bg.dialog_mask {
+	background: url("http://img04.xesimg.com/dialog/dialog_mask.png") left 0px;
+}
+.img_preview {
+	position: absolute;
+}
+.img_preview .arrow_tl.dialog_arrow {
+	background-position: 10% 0px;
+}
+.img_preview .dialog_content {
+	padding: 10px;
+}
+.ui_loading {
+	background: url("http://img04.xesimg.com/loading.gif") no-repeat center; width: 100%; height: 50px; text-indent: -3000px; overflow: hidden; display: block;
+}
+.coures_content {
+	background: rgb(246, 246, 246); height: auto; overflow: hidden; padding-bottom: 20px;
+}
+.coures_content h2 {
+	margin: 0px auto; width: 970px; height: 47px; color: rgb(51, 51, 51); line-height: 47px; overflow: hidden; padding-left: 10px; font-family: "Microsoft YaHei"; font-size: 16px; font-weight: normal;
+}
+.coures_content h2 strong {
+	font-size: 14px;
+}
+.coures_content .content_player {
+	background: rgb(255, 255, 255); margin: 0px auto; border-radius: 2px; width: 980px; height: 535px; box-shadow: 3px 3px 5px #dcdcdc, -3px -3px 5px #dcdcdc;
+}
+.coures_content .content_player .player_list {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; width: 230px; height: 465px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid; float: right;
+}
+.coures_content .content_player .player_list .list_shop_meoney {
+	background-position: 0px -331px; height: 73px; position: relative; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .btn_apply {
+	background: url("http://img04.xesimg.com/scroll/btn_apply.png") no-repeat; top: 22px; width: 109px; height: 48px; right: -7px; text-indent: -9999em; display: block; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_shop_meoney .unsaleable {
+	background: url("http://img04.xesimg.com/scroll/unsaleable.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .haltsale {
+	background: url("http://img04.xesimg.com/scroll/haltsale.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .btn_limit {
+	background: url("http://img04.xesimg.com/scroll/limit_btn.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .btn_apply_no {
+	background: url("http://img04.xesimg.com/scroll/btn_apply_no.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .limit_end {
+	background: url("http://img04.xesimg.com/scroll/limit_end.png") no-repeat; top: 5px; width: 144px; height: 84px; right: -10px; text-indent: -9999em; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_shop_meoney .limit_time {
+	background: url("http://img04.xesimg.com/scroll/limit_time.png") no-repeat; top: 22px; width: 108px; height: 45px; right: -7px; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_shop_meoney .limit_time span {
+	top: 19px; width: 100px; height: 25px; right: -8px; color: rgb(255, 255, 255); display: block; position: absolute; z-index: 20;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_num {
+	padding: 5px 0px 0px 15px; text-align: left; float: left;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_num p {
+	color: rgb(204, 0, 0); font-size: 30px;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_num del {
+	color: rgb(153, 153, 153); display: block;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_all {
+	padding: 5px 0px 0px 15px;
+}
+.coures_content .content_player .player_list .player_buy_limit {
+	background: url("http://img04.xesimg.com/scroll/limit.png") no-repeat; height: 65px; text-align: center; color: rgb(153, 153, 153); line-height: 65px; overflow: hidden; font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px;
+}
+.coures_content .content_player .player_list .buy_limit_item {
+	line-height: 30px;
+}
+.coures_content .content_player .player_list .buy_limit_item span {
+	display: block;
+}
+.coures_content .content_player .player_list .player_buy_limit_infor {
+	height: 55px; color: rgb(51, 51, 51); line-height: 180%; padding-top: 10px; font-size: 12px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.coures_content .content_player .player_list .dialog_assign {
+	background: url("http://img04.xesimg.com/layer/layer_l.png") no-repeat; top: 65px; width: 222px; height: 49px; right: -69px; display: none; position: absolute; z-index: 10000;
+}
+.coures_content .content_player .player_list .dialog_assign .icon_shop {
+	background: url("http://img04.xesimg.com/icon/icon_sm.jpg") no-repeat 0px 1px; margin: 20px 0px 0px 50px; padding-left: 25px; float: left; display: inline;
+}
+.coures_content .content_player .player_list .dialog_assign .icon_shop_no {
+	background: url("http://img04.xesimg.com/icon/icon_in.jpg") no-repeat 0px 1px;
+}
+.coures_content .content_player .player_list .list_title {
+	background-position: 0px -239px; height: 38px; line-height: 38px; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.coures_content .content_player .player_list .list_title_info {
+	background: url("http://img04.xesimg.com/scroll/tab_title_bg_03.jpg") no-repeat; height: 37px; line-height: 37px; overflow: hidden; position: relative;
+}
+.coures_content .content_player .player_list .list_title_info .title_info {
+	text-align: center; color: rgb(102, 102, 102); font-size: 14px;
+}
+.coures_content .content_player .player_list .list_title_info ul {
+	margin: 1px auto 0px; width: 230px; height: 36px; line-height: 36px; overflow: hidden;
+}
+.coures_content .content_player .player_list .list_title_info ul li {
+	width: 115px; text-align: center; overflow: hidden; float: left; display: inline;
+}
+.coures_content .content_player .player_list .list_title_info ul li a {
+	width: 115px; text-align: center; color: rgb(51, 51, 51); font-size: 14px; text-decoration: none; float: left;
+}
+.coures_content .content_player .player_list .list_title_info ul li .directory {
+	background: url("http://img04.xesimg.com/scroll/tab_02.jpg") no-repeat 0px 0px;
+}
+.coures_content .content_player .player_list .list_title_info ul li .audition {
+	background: url("http://img04.xesimg.com/scroll/tab_01.jpg") no-repeat 115px 0px;
+}
+.coures_content .content_player .player_list .list_title_info ul li a.liveCoachInfo {
+	background: url("http://img04.xesimg.com/icon/live_02.png") no-repeat; top: 10px; width: 17px; height: 17px; right: 10px; text-indent: -99999em; display: block; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_title_info ul li a.liveImg {
+	background: url("http://img04.xesimg.com/icon/live_03.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_title_info ul .current a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.coures_content .content_player .player_list .list_title_info ul .current .directory {
+	background: url("http://img04.xesimg.com/scroll/tab_01.jpg") no-repeat 0px 0px;
+}
+.coures_content .content_player .player_list .list_title_info ul .current .audition {
+	background: url("http://img04.xesimg.com/scroll/tab_02.jpg") no-repeat -115px 0px;
+}
+.coures_content .content_player .player_live {
+	width: 745px; height: 465px; float: left;
+}
+.coures_content .content_player .player_live #VideoPlay {
+	margin: 12px 0px 0px 10px; width: 730px; height: 453px; overflow: hidden;
+}
+.coures_content .content_player .player_live .class_test {
+	margin: 12px 0px 0px 10px; width: 730px; height: 453px; overflow: hidden;
+}
+.coures_content .content_player .player_info {
+	width: 980px; height: 69px; line-height: 69px; overflow: hidden; float: left; position: relative;
+}
+.coures_content .content_player .player_info dl {
+	color: rgb(102, 102, 102); font-size: 14px; margin-left: 20px; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dt {
+	float: left;
+}
+.coures_content .content_player .player_info dl dd {
+	float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .star {
+	background: url("http://img04.xesimg.com/star.jpg") repeat-x; height: 20px; text-indent: -9999em; margin-top: 25px;
+}
+.coures_content .content_player .player_info dl dd .star1 {
+	width: 20px;
+}
+.coures_content .content_player .player_info dl dd .star2 {
+	width: 40px;
+}
+.coures_content .content_player .player_info dl dd .star3 {
+	width: 60px;
+}
+.coures_content .content_player .player_info dl dd .star4 {
+	width: 80px;
+}
+.coures_content .content_player .player_info dl dd .star5 {
+	width: 100px;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con {
+	overflow: hidden; margin-top: 10px;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .ui_avatar {
+	overflow: hidden; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .ui_avatar .avatar_items li {
+	_width: 50px; _overflow: hidden;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .prev {
+	margin: 12px 7px 0px 0px; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .none.prev .icon_chevron_left {
+	background-position: -75px -200px;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .next {
+	margin: 12px 0px 0px 7px; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .none.next .icon_chevron_right {
+	background-position: -75px -252px;
+}
+.coures_content .content_player .player_info .listen_num {
+	top: 0px; right: 45px; color: rgb(102, 102, 102); padding-right: 20px; font-family: "Microsoft YaHei"; font-size: 18px; position: absolute; z-index: 1;
+}
+.coures_content .content_player .player_info .listen_num strong {
+	padding: 1px 5px 0px 0px; font-family: "Arial"; font-size: 28px; float: left;
+}
+.coures_content .content_player .player_info .listen_num span {
+	padding-right: 10px; float: left;
+}
+.coures_content .content_player .player_info .collect {
+	width: 25px; height: 68px; padding-right: 16px; float: right;
+}
+.coures_content .content_player .player_info .collect a {
+	background: url("http://img04.xesimg.com/scroll/collect.gif") no-repeat; width: 25px; height: 68px; text-indent: -9999em; display: block;
+}
+.coures_content .content_player .player_info .collect a.collect_current {
+	background: url("http://img04.xesimg.com/scroll/collect_current.gif") no-repeat; cursor: default;
+}
+.ui_scrolls {
+	width: 230px; overflow: hidden;
+}
+.ui_scrolls .scrolls_item {
+	width: 100%; height: 355px; overflow: auto;
+}
+.ui_scrolls .scrolls_item .scrolls_con {
+	overflow: hidden;
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam {
+	padding: 5px 0px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam p {
+	color: rgb(102, 102, 102); line-height: 22px; overflow: hidden; padding-left: 15px;
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_title {
+	color: rgb(51, 51, 51);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_title .blue {
+	color: rgb(0, 118, 179);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_title .orange {
+	color: rgb(255, 165, 0);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_state {
+	color: rgb(153, 153, 153);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learning_live_more {
+	height: 30px; text-align: center; color: rgb(153, 153, 153); line-height: 30px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul {
+	background: url("http://img04.xesimg.com/scroll/scroll_ul.jpg") repeat-y 22px 0px; width: 230px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li {
+	background: url("http://img04.xesimg.com/scroll/scroll_li.jpg") no-repeat 28px 20px; color: rgb(51, 51, 51); line-height: 43px; overflow: hidden; padding-left: 42px; font-size: 14px; position: relative;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .gray a {
+	color: rgb(102, 102, 102);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .gray .red {
+	color: rgb(204, 0, 0);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li a {
+	color: rgb(102, 102, 102);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .red {
+	color: rgb(204, 0, 0); padding-left: 20px; font-size: 12px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .icon_blue_sign {
+	background: url("http://img04.xesimg.com/scroll/icon_07_white.gif") no-repeat; top: 15px; width: 15px; height: 14px; right: 25px; display: block; position: absolute;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .gray {
+	color: rgb(153, 153, 153); text-decoration: none; cursor: default;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .scrolls_title {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; height: 41px; overflow: hidden; padding-left: 20px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .scrolls_title_item {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; height: 41px; overflow: hidden; padding-left: 20px; border-top-color: rgb(233, 233, 233); border-top-width: 1px; border-top-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .scrolls_title_item a {
+	font-size: 12px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .last {
+	background: url("http://img04.xesimg.com/scroll/last.jpg") no-repeat 22px 1px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .current {
+	background: url("http://img04.xesimg.com/scroll/scroll_current.jpg") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .current a {
+	color: rgb(255, 255, 255);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .current .icon_blue_sign {
+	background: url("http://img04.xesimg.com/scroll/icon_07_blue.gif") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li p {
+	overflow: hidden;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_03.png") no-repeat 1px 2px; width: 20px; height: 20px; text-align: center; text-indent: -9999em; margin-top: 12px; vertical-align: top; float: left;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li a {
+	float: left;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li.current {
+	background: url("http://img04.xesimg.com/scroll/scroll_current.jpg") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li.current .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_04.gif") no-repeat 1px 2px;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; height: 42px; line-height: 42px; overflow: hidden; padding-left: 25px; font-size: 12px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li p {
+	color: rgb(153, 153, 153); cursor: default;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li a {
+	width: 145px; text-decoration: none; float: left; display: inline;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .icon_corner {
+	background: url("http://img04.xesimg.com/scroll/icon_03_white.gif") no-repeat; left: 10px; top: 16px; width: 10px; height: 11px; display: block; position: absolute; z-index: 100;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_03.png") no-repeat; left: 190px; top: 3px; width: 14px; height: 14px; display: block; position: absolute; z-index: 100;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .icon_white_clock {
+	margin: 15px 0px 0px 7px; float: right; display: inline;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .gray {
+	color: rgb(153, 153, 153); cursor: default;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li.current .icon_corner {
+	background: url("http://img04.xesimg.com/scroll/icon_03_blue.gif") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li.current .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_04.gif") no-repeat;
+}
+.ui_scrolls .scrolls_item .wh_180 ul li a {
+	width: 180px;
+}
+.ui_scrolls_limit .scrolls_item {
+	height: 290px;
+}
+.ui_scrolls_assign .scrolls_item {
+	height: 225px;
+}
+.coures_content_item {
+	height: 560px;
+}
+.coures_content_item .content_player {
+	height: 478px;
+}
+.coures_content_item .content_player .player_list {
+	height: 478px;
+}
+.coures_content_item .content_player .player_list .ui_scrolls .scrolls_item {
+	height: 440px;
+}
+.icon_corner {
+	background-position: -129px -24px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.icon_tests {
+	background-position: -129px -98px; margin-top: 12px; float: left; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.icon_live_gary {
+	background-position: -129px -72px; margin-top: 12px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.current .icon_live_gary {
+	background-position: -129px -50px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.current .icon_corner {
+	background-position: -129px 1px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.scrolls_free .scrolls_item {
+	height: 387px;
+}
+.document_download {
+	background: url("http://img04.xesimg.com/gradual_gray.jpg") no-repeat; width: 231px; height: 40px; text-align: center; line-height: 40px; text-decoration: none; display: block;
+}
+.gray.document_download {
+	color: rgb(153, 153, 153);
+}
+a.document_download:hover {
+	text-decoration: none;
+}
+.layerShopTips .dialog_content {
+	padding: 0px;
+}
+.layerShopTips .layer_shop_tips {
+	width: 420px; height: 167px;
+}
+.layerShopTips .layer_shop_tips .btn_shop_tips {
+	width: 81px; height: 35px; margin-top: 115px; margin-right: 10px; float: right; display: inline;
+}
+.layerShopTips .buyTpis_1.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_001.jpg") no-repeat;
+}
+.layerShopTips .buyTpis_2.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_002.jpg") no-repeat;
+}
+.layerShopTips .buyTpis_3.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_003.jpg") no-repeat;
+}
+.layerShopTips .buyTpis_4.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_004.jpg") no-repeat;
+}
+.leave-box {
+	display: none;
+}
+.leave-html {
+	background: url("http://img04.xesimg.com/pic_leave.gif") no-repeat left 56px; margin: 0px 10px; padding: 0px; height: 270px;
+}
+.leave-title {
+	padding: 10px 0px 0px;
+}
+.leave-title em {
+	padding: 0px 5px; font-size: 18px; font-weight: bold;
+}
+.leave-calendar {
+	margin: 10px 0px 0px 187px; width: 209px; height: 210px; float: left; display: inline;
+}
+.leave-calendar-title {
+	line-height: 30px;
+}
+.leave-calendar-box {
+	padding: 2px; border: 1px solid rgb(204, 204, 204); height: auto; overflow: hidden;
+}
+.leave-calendar-head {
+	text-align: center; line-height: 30px;
+}
+.leave-calendar-week {
+	overflow: hidden; clear: both; float: none;
+}
+.leave-calendar-week li {
+	width: 28px; height: 25px; text-align: center; line-height: 25px; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; float: left; display: inline;
+}
+.leave-calendar-list li {
+	width: 28px; height: 25px; text-align: center; line-height: 25px; border-right-color: rgb(255, 255, 255); border-right-width: 1px; border-right-style: solid; float: left; display: inline;
+}
+.leave-calendar-week li {
+	background-color: rgb(244, 245, 250);
+}
+.leave-calendar-list li.onChange {
+	color: rgb(255, 255, 255); background-color: rgb(126, 177, 245);
+}
+.leave-calendar-list li.onHover {
+	color: rgb(255, 255, 255); background-color: rgb(157, 203, 244);
+}
+.leave-calendar-list li.onStartDay {
+	color: rgb(255, 255, 255); background-color: rgb(126, 177, 245);
+}
+.leave-calendar-list li.onEndDay {
+	color: rgb(255, 255, 255); background-color: rgb(126, 177, 245);
+}
+.leave-calendar-list .isCan span {
+	color: rgb(51, 153, 255); cursor: pointer;
+}
+.leave-calendar-box .NextMonth {
+	margin: 0px 10px 0px 0px; float: right;
+}
+.leave-calendar-box .LastMonth {
+	margin: 0px 0px 0px 10px; float: left;
+}
+.leave-calendar-box .leave-calendar-list .today {
+	color: rgb(204, 0, 0); font-weight: bold;
+}
+.nextMonthDate {
+	color: rgb(204, 204, 204);
+}
+.lastMonthDate {
+	color: rgb(204, 204, 204);
+}
+.unClickDate {
+	color: rgb(204, 204, 204);
+}
+.leave-form {
+	margin: 40px 0px 10px; width: 170px; height: 210px; line-height: 20px; float: right;
+}
+.leave-form input {
+	width: 160px; height: 20px; line-height: 20px;
+}
+.leave-form label {
+	diaplay: block;
+}
+.leave-form button {
+	margin: 5px 5px 5px 0px; width: 75px; height: 25px; cursor: pointer;
+}
+.leave-tips {
+	margin: 5px 0px; padding: 5px; width: 150px; line-height: 18px; background-color: rgb(244, 244, 244);
+}
+.leave-tips dt {
+	font-weight: bold;
+}
+.rightResearch {
+	width: 67px; height: 192px; right: 0px; bottom: 10px; position: fixed; z-index: 119; _top: 300px;
+}
+.rightResearch li {
+	overflow: hidden;
+}
+.rightResearch li a {
+	width: 67px; height: 64px; display: block; background-image: url("http://img04.xesimg.com/feedback.gif"); background-repeat: no-repeat;
+}
+.rightResearch li #r_copyright {
+	
+}
+.rightResearch li .current#r_copyright {
+	background-position: 0px -192px;
+}
+.rightResearch li #r_copyright:hover {
+	background-position: 0px -192px;
+}
+.rightResearch li #r_feedBack {
+	background-position: 0px -64px;
+}
+.rightResearch li #r_feedBack:hover {
+	background-position: 0px -256px;
+}
+.rightResearch li #r_toTop {
+	background-position: 0px -129px; height: 63px;
+}
+.rightResearch li #r_toTop:hover {
+	background-position: 0px -321px;
+}
+#copy_notice {
+	background: rgb(255, 255, 255); padding: 5px 10px; border: 1px solid rgb(51, 153, 204); width: 155px; height: 116px; text-align: center; right: 67px; bottom: 74px; overflow: hidden; display: none; position: fixed;
+}
+#copy_notice p {
+	font: 14px/normal "Microsoft YaHei", SimHei, arial; color: rgb(51, 153, 204); overflow: hidden; font-size-adjust: none; font-stretch: normal;
+}
+#copy_notice p.copy_notice_num {
+	font-size: 24px;
+}
+#copy_notice p.group_join {
+	margin-top: 3px;
+}
+#copy_notice p.group_join a {
+	width: auto; height: auto; margin-right: 3px; display: inline-block;
+}
+#copy_notice p.group_join a img {
+	vertical-align: middle;
+}
+.layer_feedback {
+	width: 530px; height: 165px; overflow: hidden;
+}
+.layer_feedback .feedback_icon {
+	background: url("http://img04.xesimg.com/icon/32x32/check-64.png") no-repeat 0px 3px; margin: 35px 0px 0px 70px; height: 90px; color: rgb(51, 51, 51); line-height: 40px; overflow: hidden; padding-left: 40px; font-family: "Microsoft YaHei"; font-size: 16px;
+}
+.layer_feedback .feedback_time {
+	height: 30px; text-align: right; color: rgb(153, 153, 153); line-height: 30px; padding-right: 30px;
+}
+.task_five .task_con {
+	background: url("http://img04.xesimg.com/task.jpg") no-repeat; width: 81px; height: 65px; text-align: center; overflow: hidden; cursor: pointer;
+}
+.task_five .task_con p {
+	color: rgb(0, 139, 206);
+}
+.task_five .task_con .task_days {
+	background: url("http://img04.xesimg.com/task_days.jpg") no-repeat; margin: 8px auto; width: 21px; height: 26px; text-align: center; color: rgb(255, 255, 255); line-height: 26px; font-family: "Microsoft YaHei"; font-size: 16px; display: block;
+}
+.task_five .task_con a.task_days_btn {
+	background: url("http://img04.xesimg.com/task_days_btn.jpg") no-repeat; margin: 10px auto 5px; width: 69px; height: 25px; text-indent: -9999em;
+}
+.task_five .task_con .task_finish {
+	background: url("http://img04.xesimg.com/task_days_fin.jpg") no-repeat; margin: 8px auto 6px; width: 23px; height: 28px; text-indent: -9999em; display: block;
+}
+.home_task.task_five {
+	background: url("http://img04.xesimg.com/task_days_bg_top.png") no-repeat left top; top: 39px; width: 85px; height: 65px; right: 0px; overflow: hidden; position: absolute; z-index: 10; box-shadow: 0px 1px 1px #bbc8d1;
+}
+.home_task.task_five .task_con {
+	background: url("http://img04.xesimg.com/task_days_bg_con.jpg") no-repeat left top; width: 85px; height: 36px; overflow: hidden; margin-top: 29px;
+}
+.home_task.task_five .task_con p {
+	display: none;
+}
+.home_task.task_five .task_con .task_days {
+	text-align: center; color: rgb(255, 255, 255); line-height: 18px; font-family: Tahoma; font-size: 24px; font-weight: bold; display: block;
+}
+.home_task.task_five .task_con a.task_days_btn {
+	background: url("http://img04.xesimg.com/task_days_btn_con.jpg") no-repeat; margin: 6px auto 0px; width: 69px; height: 25px; text-indent: -99999em; display: block;
+}
+.home_task.task_five .task_con .task_finish {
+	background: url("http://img04.xesimg.com/task_days_btn_con1.jpg") no-repeat; margin: 6px auto 0px; width: 69px; height: 25px; text-indent: -99999em; display: block;
+}
+.home_task.task_five .finish_ed.task_con {
+	background: url("http://img04.xesimg.com/task_days_bg_con_gray.jpg") no-repeat;
+}
+.tips_add_gold {
+	background: url("http://img04.xesimg.com/add_gold.jpg") no-repeat center 8px rgb(255, 250, 226); border: 1px solid rgb(204, 204, 204); left: 90px; width: 128px; height: 84px; bottom: 0px; position: absolute; z-index: 200; opacity: 0;
+}
+.tips_add_gold p {
+	height: 20px; text-align: center; color: rgb(102, 102, 102); margin-top: 60px;
+}
+.home_teacher_info {
+	text-align: center;
+}
+.content_box .feed_detail {
+	width: 660px;
+}
+.content_box .ui_feed {
+	border-bottom-color: rgb(237, 237, 237); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.layout .main_header {
+	margin-bottom: 10px;
+}
+.courses_repeat {
+	background: rgb(252, 252, 252); border: 1px solid rgb(237, 237, 237); margin-bottom: 10px;
+}
+.courses_repeat .course_item {
+	margin: 0px; border: 0px currentColor;
+}
+.courses_repeat .course_detail .course_func span {
+	margin: 0px;
+}
+.courses_repeat .course_detail .course_func span.btn_disable {
+	margin-right: 20px;
+}
+.courses_repeat .course_detail .course_func span.buyCourse {
+	background: url("http://img04.xesimg.com/icon/news.png") no-repeat right 6px; padding-right: 15px;
+}
+.courses_repeat .course_detail .course_func span.buyCourse a.course_icon {
+	color: rgb(204, 0, 0);
+}
+#xuebox_extendCourse .dialog_content {
+	padding: 10px 20px;
+}
+.dialog_buyCourse {
+	width: 640px;
+}
+.dialog_buyCourse .buyCourse_tips {
+	background: rgb(255, 239, 195); padding: 10px; border: 1px solid rgb(229, 213, 164); color: rgb(102, 102, 102); line-height: 180%; overflow: hidden; margin-bottom: 5px;
+}
+.dialog_buyCourse .buyCourse_tips .tips_icon {
+	background: url("http://img04.xesimg.com/icon/14x14/bonus.gif") no-repeat; width: 15px; text-indent: -9999999em; padding-right: 5px; margin-top: 3px; float: left; display: inline;
+}
+.dialog_buyCourse .buyCourse_tips p {
+	width: 590px; overflow: hidden; float: left; display: inline;
+}
+.dialog_buyCourse .buyCourse_con {
+	width: 650px; overflow: hidden;
+}
+.dialog_buyCourse .buyCourse_con .course_item {
+	width: 312px; height: 85px; margin-top: 5px; margin-right: 10px; float: left; display: inline;
+}
+.dialog_buyCourse .buyCourse_con .course_item .ui_avatar {
+	margin: 10px 10px 0px; float: left; display: inline; position: static;
+}
+.dialog_buyCourse .buyCourse_con .course_item .ui_avatar ul.avatar_items {
+	height: 50px;
+}
+.dialog_buyCourse .buyCourse_con .course_item .ui_avatar ul.avatar_items li a.username {
+	display: none;
+}
+.dialog_buyCourse .buyCourse_con .course_item .course_detail {
+	width: 240px; float: left; display: inline;
+}
+.dialog_buyCourse .buyCourse_con .course_item .course_detail .course_title {
+	height: 46px; overflow: hidden;
+}
+.dialog_buyCourse .buyCourse_con .course_item .course_detail .course_info a {
+	margin: 0px; color: rgb(51, 51, 51);
+}
+.dialog_buyCourse .buyCourse_con .course_item .course_detail .course_info .num_videos {
+	margin-left: 10px; display: inline-block;
+}
+.dialog_buyCourse .buyCourse_con .course_item .course_detail .course_info .num_videos strong {
+	color: rgb(255, 103, 0); font-family: arial; font-size: 14px;
+}
+.main_tabs_con {
+	overflow: hidden;
+}
+.main_tabs_con .nav_pills {
+	float: left; display: inline;
+}
+.main_tabs_con .current_class {
+	margin-bottom: 10px; float: right; display: inline;
+}
+.joint_list {
+	background: rgb(255, 255, 255); padding: 15px 0px 10px; overflow: hidden; border-top-color: rgb(223, 223, 223); border-top-width: 1px; border-top-style: solid;
+}
+.joint_list li {
+	width: 320px; height: 25px; color: rgb(51, 51, 51); line-height: 25px; overflow: hidden; padding-left: 20px; margin-right: 20px; float: left; display: inline;
+}
+.joint_list li a {
+	color: rgb(51, 51, 51); overflow: hidden; float: left; display: inline; max-width: 300px;
+}
+.joint_list li em {
+	float: left;
+}
+.joint_list .gray a {
+	color: rgb(153, 153, 153); max-width: 220px;
+}
+.joint_list .gray .notOnline {
+	max-width: 200px;
+}
+.joint_list .gray span {
+	color: rgb(153, 153, 153); margin-right: 5px; float: left; display: inline;
+}
+.side_nav_box {
+	margin-top: 130px;
+}
+.home_side_nav {
+	background: url("http://img04.xesimg.com/sida_nav.jpg") no-repeat; overflow: hidden; padding-top: 20px;
+}
+.home_side_nav li {
+	height: 29px; line-height: 32px; padding-left: 13px; font-size: 14px; display: block;
+}
+.home_side_nav li .icon_new {
+	margin: 6px 0px 0px -2px;
+}
+.home_side_nav li a {
+	color: rgb(51, 51, 51); padding-left: 28px; display: inline-block;
+}
+.home_side_nav li a strong {
+	color: rgb(0, 118, 179);
+}
+.home_side_nav li a strong.red {
+	color: rgb(204, 0, 0);
+}
+.home_side_nav li a.icon_home {
+	background: url("http://img04.xesimg.com/icon/icon_01.jpg") no-repeat 0px 5px; text-decoration: none;
+}
+.home_side_nav li a.icon_star {
+	background: url("http://img04.xesimg.com/icon/icon_02.jpg") no-repeat 0px 7px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_heart {
+	background: url("http://img04.xesimg.com/icon/icon_03.jpg") no-repeat 0px 10px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_th {
+	background: url("http://img04.xesimg.com/icon/icon_04.jpg") no-repeat 3px 8px; padding-left: 25px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_diamond {
+	background: url("http://img04.xesimg.com/icon/icon_05.jpg") no-repeat 3px 8px; padding-left: 27px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_video {
+	background: url("http://img04.xesimg.com/icon/icon_07.jpg") no-repeat 0px 7px; padding-left: 25px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_exam {
+	background: url("http://img04.xesimg.com/icon/icon_06.jpg") no-repeat 2px 7px; padding-left: 25px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_note {
+	background: url("http://img04.xesimg.com/icon/icon_08.jpg") no-repeat 2px 6px; padding-left: 29px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav li a.icon_mention {
+	background: url("http://img04.xesimg.com/icon/icon_09.jpg") no-repeat 0px 6px; padding-left: 29px; font-size: 14px; text-decoration: none;
+}
+.home_side_nav .nav_header {
+	width: 203px; text-align: center; color: rgb(153, 153, 153); padding-right: 10px; margin-bottom: 20px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.home_side_nav .nav_header span {
+	background: rgb(238, 238, 238); padding: 0px 10px; top: 12px; font-size: 12px; font-weight: bold; display: inline-block; position: relative; z-index: 10;
+}
+.home_side_nav .current {
+	background: url("http://img04.xesimg.com/sida_nva_current.jpg") no-repeat;
+}
+.home_side_nav .current a {
+	color: rgb(255, 255, 255);
+}
+.home_side_nav .current a strong {
+	color: rgb(255, 255, 255);
+}
+.home_side_nav .current a strong.red {
+	color: rgb(255, 255, 255);
+}
+.home_side_nav .current a.icon_home {
+	background: url("http://img04.xesimg.com/icon/icon_current_01.jpg") no-repeat 0px 5px;
+}
+.home_side_nav .current a.icon_star {
+	background: url("http://img04.xesimg.com/icon/icon_current_03.jpg") no-repeat 0px 6px;
+}
+.home_side_nav .current a.icon_heart {
+	background: url("http://img04.xesimg.com/icon/icon_current_02.jpg") no-repeat 0px 10px;
+}
+.home_side_nav .current a.icon_th {
+	background: url("http://img04.xesimg.com/icon/icon_current_04.jpg") no-repeat 4px 8px;
+}
+.home_side_nav .current a.icon_video {
+	background: url("http://img04.xesimg.com/icon/icon_current_07.jpg") no-repeat 0px 6px;
+}
+.home_side_nav .current a.icon_exam {
+	background: url("http://img04.xesimg.com/icon/icon_current_06.jpg") no-repeat 2px 6px;
+}
+.home_side_nav .current a.icon_diamond {
+	background: url("http://img04.xesimg.com/icon/icon_current_05.jpg") no-repeat -1px 5px; padding-left: 27px;
+}
+.home_side_nav .current a.icon_note {
+	background: url("http://img04.xesimg.com/icon/icon_current_08.jpg") no-repeat 2px 6px;
+}
+.home_side_nav .current a.icon_mention {
+	background: url("http://img04.xesimg.com/icon/icon_current_09.jpg") no-repeat 0px 6px;
+}
+.system_inform {
+	overflow: hidden;
+}
+.system_inform .inform_item {
+	padding: 10px; overflow: hidden; border-bottom-color: rgb(237, 237, 237); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.system_inform .inform_item .inform_con {
+	line-height: 180%; overflow: hidden;
+}
+.system_inform .inform_item .inform_con span {
+	float: left; display: inline;
+}
+.system_inform .inform_item .inform_con .title {
+	width: 90px; font-size: 16px; font-weight: bold;
+}
+.system_inform .inform_item .inform_con .text {
+	width: 650px; color: rgb(102, 102, 102);
+}
+.system_inform .inform_item .inform_time {
+	text-align: right; color: rgb(153, 153, 153); line-height: 25px;
+}
+.system_inform .inform_item .inform_time a {
+	padding-left: 15px; cursor: pointer;
+}
+.attention_box {
+	overflow: hidden;
+}
+.attention_box .feed_detail {
+	width: 675px; position: relative;
+}
+.attention_box .feed_detail .course_info {
+	height: 35px; color: rgb(153, 153, 153); line-height: 35px; font-size: 14px;
+}
+.attention_box .feed_detail .course_info strong {
+	font-weight: bold;
+}
+.attention_box .feed_detail .feed_text {
+	color: rgb(51, 51, 51);
+}
+.attention_box .feed_detail .feed_bar {
+	top: 60px; right: 10px; position: absolute; z-index: 10;
+}
+.attention_box .feed_detail .ui_follow {
+	top: 5px; right: 10px; position: absolute; z-index: 10;
+}
+.ui_comment_event {
+	background: rgb(252, 252, 252); border: 1px solid rgb(237, 237, 237);
+}
+.ui_comment_event .comment_form {
+	margin: 10px auto; width: 720px;
+}
+.ui_comment_event .comment_form .comment_title {
+	display: block;
+}
+.all_comment .feed_detail {
+	width: 720px;
+}
+.all_comment .feed_detail .feed_text {
+	font-size: 14px;
+}
+.all_comment .feed_comment .ui_comment {
+	width: 700px;
+}
+.all_comment .feed_comment .ui_comment .feed_text {
+	font-size: 12px;
+}
+.myexam_info .btn {
+	color: rgb(50, 155, 202);
+}
+#order_process {
+	background: url("http://img04.xesimg.com/order_status.gif") no-repeat top; margin: 0px auto 10px; width: 550px; line-height: 20px; min-height: 100px;
+}
+#order_process li {
+	text-align: center; float: left; display: inline;
+}
+#order_process li span {
+	width: 110px; height: 20px; color: rgb(0, 0, 0); padding-top: 60px; display: block;
+}
+.order_process_r1 {
+	background: url("http://img04.xesimg.com/order_status_r1.gif") no-repeat;
+}
+.order_process_r2 {
+	background: url("http://img04.xesimg.com/order_status_r2.gif") no-repeat;
+}
+.order_process_r3 {
+	background: url("http://img04.xesimg.com/order_status_r3.gif") no-repeat;
+}
+.order_process_r4 {
+	background: url("http://img04.xesimg.com/order_status_r4.gif") no-repeat;
+}
+.order_process_r5 {
+	background: url("http://img04.xesimg.com/order_status_r5.gif") no-repeat;
+}
+.order_process_title {
+	width: 550px; border-top-color: rgb(204, 204, 204); border-top-width: 1px; border-top-style: dotted;
+}
+.order_process_title em {
+	color: rgb(204, 0, 0);
+}
+.order_number p {
+	width: 210px; margin-right: 30px; float: right;
+}
+.wrong_header {
+	border-color: rgb(234, 234, 234); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wrong_header .header_info {
+	margin: 0px auto; width: 980px; height: 55px; line-height: 55px;
+}
+.wrong_header .header_info .logo {
+	width: 665px; height: 55px; overflow: hidden; margin-right: 20px; float: left;
+}
+.wrong_header .header_info h1 {
+	width: 665px; height: 55px; overflow: hidden; margin-right: 20px; float: left;
+}
+.wrong_header .header_info .logo a {
+	font-size: 12px; margin-left: 5px;
+}
+.wrong_header .header_info h1 a {
+	font-size: 12px; margin-left: 5px;
+}
+.wrong_header .header_info .logo {
+	background: url("http://bcs.duapp.com/lvyou01/logo.png") no-repeat center; width: 235px; height: 55px; display: block;
+}
+.wrong_header .header_info h1 {
+	font-family: "Microsoft YaHei"; font-size: 20px; font-weight: normal;
+}
+.wrong_header .header_info ul {
+	color: rgb(153, 153, 153); float: right;
+}
+.wrong_header .header_info ul li {
+	margin-left: 50px; float: left;
+}
+.wrong_header .header_info ul li > span {
+	color: rgb(102, 102, 102);
+}
+.wrong_overview {
+	padding: 15px 50px; width: 880px; overflow: hidden; background-color: rgb(252, 252, 252);
+}
+.wrong_overview .wrong_container {
+	margin: 0px auto; width: 978px;
+}
+.wrong_overview .l {
+	padding-right: 20px; border-right-color: rgb(234, 234, 234); border-right-width: 1px; border-right-style: solid; float: left;
+}
+.wrong_overview .l strong {
+	color: rgb(39, 136, 201); font-size: 120px;
+}
+.wrong_overview .r {
+	padding-left: 20px; font-size: 14px; float: left;
+}
+.wrong_overview .r dl {
+	margin: 15px 0px; width: 625px; line-height: 24px; overflow: hidden; clear: both;
+}
+.wrong_overview .r dl dd {
+	margin-right: 20px; float: left;
+}
+.wrong_overview .r dl dd span {
+	padding: 0px 10px 0px 3px;
+}
+.wrong_overview .r dl dd .point {
+	color: rgb(207, 35, 32);
+}
+.wrong_overview .r dl dt {
+	font-weight: bold;
+}
+.wrong_container {
+	margin: 0px auto; width: 980px;
+}
+.wrong_win.wrong_container {
+	width: 745px;
+}
+.wrong_win.wrong_container .test_button {
+	text-align: right;
+}
+.wrong_win.wrong_container .test_button .btn {
+	padding: 5px 20px;
+}
+.wrong_container .nav {
+	overflow: hidden; clear: both; margin-bottom: 20px; border-bottom-color: rgb(0, 118, 179); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.wrong_container .nav li {
+	margin-left: 0px; cursor: pointer;
+}
+.wrong_container .nav .current {
+	background: rgb(75, 160, 218); color: rgb(255, 255, 255);
+}
+.wrong_container .orangeborder {
+	border-color: rgb(249, 223, 169);
+}
+.wrong_title {
+	background: rgb(251, 251, 251); border: 1px solid rgb(231, 231, 231); overflow: hidden; margin-bottom: 10px;
+}
+.wrong_title .subhead {
+	color: rgb(102, 102, 102); line-height: 30px; padding-left: 15px;
+}
+.wrong_title .title {
+	height: 35px; line-height: 35px; overflow: hidden; border-bottom-color: rgb(231, 231, 231); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.wrong_title .title .name {
+	width: 550px; color: rgb(102, 102, 102); padding-left: 15px; float: left;
+}
+.wrong_title .title .times {
+	color: rgb(153, 153, 153); padding-right: 15px; float: right;
+}
+.wrong_title .tabsWrong {
+	overflow: hidden; padding-left: 15px; float: left; display: inline;
+}
+.wrong_title .num_bulist {
+	display: inline;
+}
+.wrong_title .num_bulist li {
+	color: rgb(153, 153, 153); font-size: 12px; margin-left: 20px; float: left;
+}
+.wrong_title .num_bulist li strong {
+	color: rgb(51, 51, 51);
+}
+.wrong_title .wrong_info {
+	height: 40px;
+}
+.wrong_title .wrong_info .wrong_btn {
+	background: rgb(51, 153, 204); padding: 5px 10px; color: rgb(255, 255, 255); line-height: 15px; text-decoration: none; margin-top: 8px; margin-left: 10px; float: left;
+}
+.wrong_list_new {
+	border: 1px solid rgb(238, 238, 238); margin-bottom: 20px;
+}
+.wrong_list_new p {
+	margin: 5px 20px; width: 938px; line-height: 30px; overflow: hidden;
+}
+.wrong_list_new .wrong_list_anwser strong {
+	color: rgb(0, 0, 0);
+}
+.wrong_list_new .wrong_list_anwser .red {
+	color: rgb(204, 0, 0);
+}
+.wrong_list_new .wrong_list_knowledge {
+	background: url("http://img04.xesimg.com/wrong_icon_knowledge.png") no-repeat left 0px; padding: 0px 0px 0px 70px; width: 868px; overflow: hidden;
+}
+.wrong_list_new .wrong_list_analysis {
+	background: url("http://img04.xesimg.com/wrong_icon_analysis.png") no-repeat left 0px; padding: 0px 0px 0px 70px; width: 868px; overflow: hidden;
+}
+.wrong_overview .overview {
+	height: 40px; line-height: 40px; margin-bottom: 20px;
+}
+.wrong_overview .overview li {
+	margin-right: 50px; float: left; display: inline;
+}
+.student_overview {
+	margin: 0px auto 20px; width: 980px; height: 40px; color: rgb(51, 51, 51); line-height: 40px;
+}
+.student_overview li {
+	margin-right: 50px; float: left;
+}
+.wrong_info_empty {
+	width: 100%; height: 42px;
+}
+.wrong_info {
+	background: rgb(239, 239, 239); color: rgb(51, 51, 51); border-top-color: rgb(231, 231, 231); border-top-width: 1px; border-top-style: solid;
+}
+.wrong_info ul {
+	margin: 0px auto; width: 980px; height: 40px; line-height: 40px;
+}
+.wrong_info ul li {
+	margin-right: 50px; float: left;
+}
+.wrong_info ul li .pro_bar {
+	background: rgb(255, 255, 255); border: 1px solid rgb(34, 205, 16); width: 200px; height: 10px; color: rgb(34, 205, 16); line-height: 10px; overflow: hidden; vertical-align: middle; display: inline-block; position: relative;
+}
+.wrong_info ul li .pro_bar .pro_bar_text {
+	width: 200px; text-align: center; color: rgb(85, 85, 85); font-size: 10px; display: inline-block; position: absolute; z-index: 12;
+}
+.wrong_info ul li .pro_bar .pro_bar_bg {
+	background: rgb(34, 205, 16); border: 1px solid rgb(255, 255, 255); width: 10%; height: 8px; line-height: 8px; display: inline-block; position: absolute; z-index: 11;
+}
+.wrong_info ul .wrong_sub {
+	margin-right: 0px; float: right;
+}
+.wrong_info ul .wrong_sub a {
+	background: rgb(51, 153, 204); padding: 10px 20px; border-radius: 3px; border: 0px currentColor; text-align: center; color: rgb(255, 255, 255); line-height: 15px; font-size: 14px; text-decoration: none; display: inline-block; cursor: pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.wrong_info ul .wrong_sub a:hover {
+	color: rgb(255, 255, 255);
+}
+.test_list_new {
+	padding: 10px 0px 0px; border: 1px solid rgb(239, 239, 239); margin-bottom: 0px;
+}
+.testcon {
+	padding: 10px 0px 0px; border: 1px solid rgb(239, 239, 239); margin-bottom: 0px;
+}
+.test_list_new p {
+	padding: 5px 30px; vertical-align: top;
+}
+.testcon p {
+	padding: 5px 30px; vertical-align: top;
+}
+.test_list_new .answer {
+	height: 55px; line-height: 55px;
+}
+.testcon .answer {
+	height: 55px; line-height: 55px;
+}
+.test_list_new .answer span {
+	float: right; display: block;
+}
+.testcon .answer span {
+	float: right; display: block;
+}
+.test_list_new .answer span a {
+	background: rgb(243, 243, 243); padding: 3px 15px; border-radius: 3px; border: 0px currentColor; text-align: center; color: rgb(51, 51, 51); line-height: 15px; text-decoration: none; display: inline-block; cursor: pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-shadow: 1px;
+}
+.testcon .answer span a {
+	background: rgb(243, 243, 243); padding: 3px 15px; border-radius: 3px; border: 0px currentColor; text-align: center; color: rgb(51, 51, 51); line-height: 15px; text-decoration: none; display: inline-block; cursor: pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px; text-shadow: 1px;
+}
+.test_list_new .answer span .current {
+	background: rgb(51, 153, 204); border-radius: 3px; border: 0px currentColor; text-align: center; color: rgb(255, 255, 255); text-decoration: none; display: inline-block; cursor: pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.testcon .answer span .current {
+	background: rgb(51, 153, 204); border-radius: 3px; border: 0px currentColor; text-align: center; color: rgb(255, 255, 255); text-decoration: none; display: inline-block; cursor: pointer; -moz-border-radius: 3px; -webkit-border-radius: 3px;
+}
+.test_list_new .answer label {
+	text-align: left;
+}
+.testcon .answer label {
+	text-align: left;
+}
+.test_list_new .c {
+	text-align: center; line-height: 32px;
+}
+.testcon .c {
+	text-align: center; line-height: 32px;
+}
+.test_list_new .wrong_answer {
+	text-align: center; line-height: 32px;
+}
+.testcon .wrong_answer {
+	text-align: center; line-height: 32px;
+}
+.test_list_new .wrong_answer {
+	background: url("http://img04.xesimg.com/icon/32x32/close_delete.png") no-repeat 225px 4px; font-size: 14px;
+}
+.testcon .wrong_answer {
+	background: url("http://img04.xesimg.com/icon/32x32/close_delete.png") no-repeat 225px 4px; font-size: 14px;
+}
+.test_analysis {
+	margin: 0px auto 5px; padding: 10px; border: 1px solid rgb(180, 195, 230); position: relative;
+}
+.test_analysis .testcon {
+	border: 0px currentColor;
+}
+.test_analysis .testcon p {
+	padding: 0px; line-height: 24px;
+}
+.test_analysis .testcon label {
+	float: left;
+}
+.test_analysis i {
+	left: 35px; top: -13px; width: 13px; height: 8px; display: block; position: absolute;
+}
+.test_analysis .more_video {
+	float: right;
+}
+.my_exam {
+	overflow: hidden; margin-bottom: 10px;
+}
+.my_exam .myexam_th {
+	color: rgb(51, 51, 51); line-height: 40px; font-weight: bold; background-color: rgb(243, 243, 243);
+}
+.my_exam .myexam_th .l {
+	padding-left: 20px; font-size: 14px;
+}
+.my_exam .myexam_th .r {
+	padding-right: 20px; font-weight: normal; float: right;
+}
+.my_exam .myexam_th .red {
+	font-weight: normal;
+}
+.my_exam .myexam_body {
+	overflow: hidden;
+}
+.my_exam .myexam_info {
+	line-height: 50px;
+}
+.my_exam .myexam_info .red {
+	color: rgb(204, 0, 0); margin-right: 5px;
+}
+.dl_info {
+	background: rgb(252, 252, 252); margin: 10px 15px; width: 730px; overflow: hidden; border-left-color: rgb(213, 213, 213); border-left-width: 1px; border-left-style: solid;
+}
+.dl_down {
+	background: rgb(252, 252, 252); margin: 10px 15px; width: 730px; overflow: hidden; border-left-color: rgb(213, 213, 213); border-left-width: 1px; border-left-style: solid;
+}
+.dl_info dl {
+	width: 364px;
+}
+.dl_down dl {
+	width: 364px;
+}
+.dl_info dl {
+	overflow: hidden; border-right-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.dl_down dl {
+	overflow: hidden; border-right-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.dl_info .dl_rar {
+	overflow: hidden; border-right-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.dl_down .dl_rar {
+	overflow: hidden; border-right-color: rgb(213, 213, 213); border-bottom-color: rgb(213, 213, 213); border-right-width: 1px; border-bottom-width: 1px; border-right-style: solid; border-bottom-style: solid; float: left;
+}
+.dl_info dl dt {
+	width: 325px; text-align: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -moz-binding: url(ellipsis.xml#ellipsis); -o-text-overflow: ellipsis;
+}
+.dl_down dl dt {
+	width: 325px; text-align: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -moz-binding: url(ellipsis.xml#ellipsis); -o-text-overflow: ellipsis;
+}
+.dl_info .dl_rar dt {
+	width: 325px; text-align: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -moz-binding: url(ellipsis.xml#ellipsis); -o-text-overflow: ellipsis;
+}
+.dl_down .dl_rar dt {
+	width: 325px; text-align: left; overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -moz-binding: url(ellipsis.xml#ellipsis); -o-text-overflow: ellipsis;
+}
+.dl_info dl dd {
+	padding: 10px 19px; float: left;
+}
+.dl_down dl dd {
+	padding: 10px 19px; float: left;
+}
+.dl_info .dl_rar dd {
+	padding: 10px 19px; float: left;
+}
+.dl_down .dl_rar dd {
+	padding: 10px 19px; float: left;
+}
+.dl_info dl dt {
+	padding: 10px 19px; float: left;
+}
+.dl_down dl dt {
+	padding: 10px 19px; float: left;
+}
+.dl_info .dl_rar dt {
+	padding: 10px 19px; float: left;
+}
+.dl_down .dl_rar dt {
+	padding: 10px 19px; float: left;
+}
+.dl_info dl dd {
+	margin-right: 25px; border-right-color: rgb(252, 252, 252); border-right-width: 1px; border-right-style: solid;
+}
+.dl_down dl dd {
+	margin-right: 25px; border-right-color: rgb(252, 252, 252); border-right-width: 1px; border-right-style: solid;
+}
+.dl_info .dl_rar dd {
+	margin-right: 25px; border-right-color: rgb(252, 252, 252); border-right-width: 1px; border-right-style: solid;
+}
+.dl_down .dl_rar dd {
+	margin-right: 25px; border-right-color: rgb(252, 252, 252); border-right-width: 1px; border-right-style: solid;
+}
+.dl_info dl dd.gray {
+	color: rgb(156, 156, 156);
+}
+.dl_down dl dd.gray {
+	color: rgb(156, 156, 156);
+}
+.dl_info .dl_rar dd.gray {
+	color: rgb(156, 156, 156);
+}
+.dl_down .dl_rar dd.gray {
+	color: rgb(156, 156, 156);
+}
+.dl_info .dl_rar_special {
+	border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.dl_down .dl_rar_special {
+	border-top-color: rgb(213, 213, 213); border-top-width: 1px; border-top-style: solid;
+}
+.dl_down {
+	background: rgb(255, 255, 255); overflow: hidden;
+}
+.dl_data .myexam_th {
+	font-weight: normal;
+}
+.dl_data .myexam_th a {
+	color: rgb(51, 51, 51); text-decoration: none; margin-left: 15px; display: inline-block;
+}
+.dl_data .myexam_th a.btn_small {
+	color: rgb(255, 255, 255);
+}
+.dl_data .btn {
+	margin: 0px 10px; height: 20px; color: rgb(255, 255, 255); line-height: 20px; font-size: 12px;
+}
+.dl_data .btn:hover {
+	color: rgb(255, 255, 255);
+}
+.dl_data .dl_rar {
+	padding: 15px 10px; width: 344px; overflow: hidden; float: left; display: inline;
+}
+.dl_data .dl_rar img {
+	margin-right: 15px; float: left;
+}
+.dl_data .dl_rar strong {
+	color: rgb(51, 51, 51); margin-bottom: 5px; display: block;
+}
+.dl_data .dl_rar .btn {
+	padding: 0px 1px;
+}
+.full-content {
+	margin: 50px auto; width: 350px;
+}
+.full-content #active_gift53 {
+	margin-left: 48px;
+}
+.setting_menu {
+	height: 50px; color: rgb(153, 153, 153); line-height: 50px; overflow: hidden; border-bottom-color: rgb(204, 204, 204); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+.setting_menu span {
+	float: left;
+}
+.setting_menu .r {
+	float: right;
+}
+.setting_menu span strong {
+	font-size: 20px;
+}
+.setting_menu a {
+	line-height: 24px; text-decoration: none; margin-top: 10px; float: right; hieght: 24px;
+}
+.setting_menu a:link {
+	color: rgb(255, 255, 255);
+}
+.setting_menu a:visited {
+	color: rgb(255, 255, 255);
+}
+.setting_menu a:hover {
+	color: rgb(255, 255, 255);
+}
+.setting_menu .btn {
+	padding: 0px 5px; color: rgb(255, 255, 255);
+}
+.setting_menu .btn:hover {
+	color: rgb(255, 255, 255);
+}
+.setting_search {
+	margin: 30px 0px 10px; height: 30px; color: rgb(102, 102, 102); line-height: 30px; overflow: hidden;
+}
+.setting_search p {
+	float: right;
+}
+.setting_search p a {
+	padding: 1px 5px; width: 30px; height: 19px; text-align: center; color: rgb(255, 255, 255); line-height: 19px; font-size: 10px; vertical-align: middle;
+}
+.setting_search p input {
+	vertical-align: middle;
+}
+.nav_setting li {
+	text-align: center;
+}
+.nav_setting li.current {
+	background: rgb(51, 153, 204);
+}
+.nav_setting li.current a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.right-content .helper {
+	color: rgb(153, 153, 153); margin-top: 30px;
+}
+.order_state .helper {
+	color: rgb(153, 153, 153); margin-top: 30px;
+}
+.right-content .order_info {
+	margin-bottom: 20px;
+}
+.order_state .order_info {
+	margin-bottom: 20px;
+}
+.right-content .order_info p {
+	height: 28px; line-height: 28px;
+}
+.order_state .order_info p {
+	height: 28px; line-height: 28px;
+}
+.right-content .default_address {
+	margin-left: 108px;
+}
+.order_state .default_address {
+	margin-left: 108px;
+}
+.right-content #active_gift {
+	margin-left: 40px;
+}
+.order_state #active_gift {
+	margin-left: 40px;
+}
+.right-content #courseCardForms .btn_blue {
+	margin-left: 42px;
+}
+.order_state #courseCardForms .btn_blue {
+	margin-left: 42px;
+}
+.right-content #verificationImg {
+	vertical-align: middle;
+}
+.order_state #verificationImg {
+	vertical-align: middle;
+}
+.right-content table > tfoot > tr > td {
+	text-align: right;
+}
+.order_state table > tfoot > tr > td {
+	text-align: right;
+}
+.right-content table > tfoot > tr > td span {
+	font-size: 20px;
+}
+.order_state table > tfoot > tr > td span {
+	font-size: 20px;
+}
+.right-content .order_button > a {
+	padding: 5px 10px 3px; height: 22px; color: rgb(255, 255, 255); line-height: 22px; font-size: 14px; float: right;
+}
+.order_state .order_button > a {
+	padding: 5px 10px 3px; height: 22px; color: rgb(255, 255, 255); line-height: 22px; font-size: 14px; float: right;
+}
+.right-content .order_button > a:hover {
+	color: rgb(255, 255, 255);
+}
+.order_state .order_button > a:hover {
+	color: rgb(255, 255, 255);
+}
+.order_state .order_info {
+	padding: 0px 20px;
+}
+.order_state .order_account {
+	color: rgb(204, 0, 0);
+}
+.right-content {
+	padding: 20px 30px 10px; position: relative;
+}
+.right-content p {
+	line-height: 30px;
+}
+.right-content div {
+	margin: 10px 0px;
+}
+.right-content div label {
+	width: 60px; color: rgb(128, 128, 128); margin-right: 10px; vertical-align: middle; float: left;
+}
+.right-content div span {
+	color: rgb(128, 128, 128); margin-right: 10px; display: inline-block;
+}
+.right-content div label.tit {
+	width: 60px; height: 23px; color: rgb(128, 128, 128); line-height: 23px; margin-right: 18px; vertical-align: middle; float: left;
+}
+.right-content div label.inline {
+	width: auto; color: rgb(51, 51, 51);
+}
+.right-content div input {
+	padding: 2px 3px; width: 155px; height: 22px; vertical-align: middle;
+}
+.right-content button {
+	padding: 0px 15px; height: 24px; line-height: 24px; margin-right: 10px; margin-left: 70px; vertical-align: middle;
+}
+.right-content a {
+	color: rgb(0, 102, 153);
+}
+.user_profile p {
+	height: 40px; color: rgb(51, 51, 51);
+}
+.user_profile p label {
+	width: 60px; text-align: right; color: rgb(128, 128, 128); margin-right: 5px; vertical-align: middle; float: left;
+}
+.user_profile p input[type='radio'] {
+	width: 20px;
+}
+.user_profile p input[type='text'] {
+	padding: 2px 3px; width: 155px; height: 20px; margin-right: 5px; vertical-align: middle;
+}
+.user_profile p input[type='checkbox'] {
+	margin: 0px 5px 0px 3px; vertical-align: middle;
+}
+.user_profile p select {
+	margin-right: 5px;
+}
+.user_profile p .checkbox {
+	text-align: left;
+}
+.user_profile div {
+	overflow: hidden;
+}
+.user_profile div .labelgroup {
+	margin: 2px 0px; width: 220px; float: left; display: inline;
+}
+.user_profile div .labelgroup label {
+	margin: 0px 20px 6px 0px; float: left; display: inline;
+}
+.user_profile div .labelgroup label input {
+	width: 20px;
+}
+.user_profile div .labelgroup label span {
+	color: rgb(51, 51, 51); margin-right: 0px;
+}
+.user_profile form button {
+	margin-left: 80px;
+}
+.user_profile form .btn_gray {
+	margin-left: 10px;
+}
+.user_address {
+	margin-bottom: 20px;
+}
+.user_address .nwe_user {
+	line-height: 50px;
+}
+.user_address b {
+	line-height: 50px;
+}
+.user_address .address_sh {
+	width: 280px; text-align: left; display: inline-block; white-space: normal; word-break: break-all;
+}
+.user_address p label {
+	width: 90px; text-align: right; float: left;
+}
+.user_address button {
+	margin-left: 110px;
+}
+.password_change p {
+	margin: 10px 0px; height: 40px; line-height: 40px;
+}
+.password_change p label {
+	vertical-align: middle;
+}
+.password_change p input {
+	padding: 3px 4px; width: 153px; height: 20px; margin-right: 10px; vertical-align: middle;
+}
+.password_change p span {
+	vertical-align: middle;
+}
+.password_change span {
+	color: rgb(213, 213, 213); line-height: 40px;
+}
+.password_change .cancel {
+	color: rgb(51, 51, 51); margin-left: 10px;
+}
+.password_change p.validate_tips {
+	margin: 2px 0px; height: auto;
+}
+.password_change p span.tips {
+	display: none;
+}
+.password_change p span.error.tips {
+	height: 14px; line-height: 14px; overflow: hidden; padding-left: 20px; margin-left: 80px; vertical-align: middle; display: inline-block;
+}
+.password_change p span.success.tips {
+	height: 14px; line-height: 14px; overflow: hidden; padding-left: 20px; margin-left: 80px; vertical-align: middle; display: inline-block;
+}
+.password_change p span.error.tips {
+	background: url("http://img04.xesimg.com/icon/14x14/bonus.png") no-repeat left; color: rgb(204, 0, 0);
+}
+.password_change p span.success.tips {
+	background: url("http://img04.xesimg.com/icon/14x14/check.png") no-repeat left; color: rgb(153, 153, 153);
+}
+.deal-item {
+	margin: 10px 28px; color: rgb(153, 153, 153); line-height: 24px; float: left; display: inline;
+}
+.deal-item img {
+	border: 1px solid rgb(242, 242, 242); width: 185px; height: 120px; display: block;
+}
+.deal-item span {
+	color: rgb(51, 51, 51);
+}
+.gift_menu_hd {
+	height: 20px; margin-top: 10px;
+}
+.gift_menu_hd .nav {
+	left: 40px; bottom: 20px; position: relative;
+}
+.deal_items {
+	overflow: hidden;
+}
+.gift-item {
+	margin: 15px 10px; padding: 20px; width: 186px; text-align: center; line-height: 20px; float: left; display: inline; position: relative; background-color: rgb(244, 245, 247);
+}
+.gift-item a {
+	cursor: pointer;
+}
+.gift-item a span {
+	width: 186px; height: 21px; overflow: hidden; display: block;
+}
+.gift-item a img {
+	width: 185px; height: 120px; display: block;
+}
+.gift-item .coin_num em {
+	background-position: -22px -25px; width: 20px; height: 20px; text-align: center; line-height: 20px; text-indent: -9999em; vertical-align: top; display: inline-block; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.gift-item .gift_num span {
+	color: rgb(255, 0, 0);
+}
+.gift-item .btn_disable {
+	padding: 2px 5px; color: rgb(255, 255, 255);
+}
+.gift-item .btn_blue {
+	padding: 2px 5px; color: rgb(255, 255, 255);
+}
+.biggift {
+	background: rgb(255, 255, 255); padding: 10px; width: 330px; line-height: 24px;
+}
+.biggift dd {
+	text-align: left; color: rgb(61, 61, 61); word-break: break-all;
+}
+.biggift dd span {
+	color: rgb(153, 153, 153);
+}
+.biggift dt img {
+	width: 330px; height: 250px; display: block;
+}
+.biggift dt span {
+	width: 330px; text-align: center; color: rgb(0, 118, 179); font-weight: bold; border-bottom-color: rgb(228, 228, 228); border-bottom-width: 1px; border-bottom-style: dotted; display: block;
+}
+.theme_list {
+	border-color: rgb(216, 216, 216); padding: 20px 10px; overflow: hidden; border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.theme_list a {
+	margin: 0px 10px 10px 0px; border: 1px solid rgb(0, 120, 176); float: left; position: relative; cursor: pointer;
+}
+.theme_list a span {
+	background: rgb(0, 0, 0); padding: 2px 0px; left: 1px; width: 120px; height: auto; text-align: center; bottom: 1px; color: rgb(255, 255, 255); line-height: 18px; position: absolute; opacity: 0.5;
+}
+.theme_list a img {
+	width: 120px; height: 75px; display: block;
+}
+.apibinding {
+	color: rgb(153, 153, 153); overflow: hidden; clear: both; margin-bottom: 10px;
+}
+.apibinding img {
+	width: 61px; height: 61px; margin-right: 10px; float: left;
+}
+.gift_card_info {
+	line-height: 40px; overflow: hidden;
+}
+.gift_card_info a {
+	margin-right: 10px; float: right; cursor: pointer;
+}
+.gift_card_info .current {
+	display: block;
+}
+.start-study-btn {
+	padding-left: 70px;
+}
+.start-study-btn input {
+	padding: 3px 15px;
+}
+.gift_card_details {
+	background: rgb(255, 255, 255); margin-bottom: 15px; position: relative; z-index: 10;
+}
+.gift_card_details p {
+	background: rgb(255, 255, 255); padding: 5px 10px; border: 1px solid rgb(0, 120, 176); left: 0px; top: 0px; width: 718px; overflow: hidden; display: none; position: absolute;
+}
+.gift_card_promt {
+	background: rgb(241, 245, 246); padding: 10px 15px; line-height: 180%; overflow: hidden;
+}
+.gift_card_promt strong {
+	font-weight: bold;
+}
+#page_list td a {
+	color: rgb(0, 102, 153);
+}
+.pastPayment_btn .btn_orange {
+	padding: 0px 20px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; font-weight: bold; margin-left: 133px;
+}
+.formPastPayment .btn_orange {
+	margin: 20px 0px 0px 50px; padding: 0px 15px; height: 30px; line-height: 30px; font-size: 14px; font-weight: bold;
+}
+#paybox_2 .payment_bank {
+	display: none;
+}
+#paybox_2 .payment_bank .paylists h6 {
+	font-weight: normal; margin-top: 15px; margin-left: 50px;
+}
+#paybox_2 .payment_bank .paylists .bank_list li {
+	margin: 0px 7px 10px 0px; padding: 5px 10px; border: 1px solid rgb(222, 222, 213); background-color: rgb(255, 255, 255);
+}
+#paybox_2 .payment_bank .paylists .bank_list .current {
+	border: 1px solid rgb(62, 154, 224);
+}
+.ui_up_avatar {
+	margin: 30px 0px 0px 50px; overflow: hidden;
+}
+.ui_up_avatar .up_avatar_btn {
+	overflow: hidden; position: relative;
+}
+.ui_up_avatar .up_avatar_btn .btn_up {
+	background: url("http://img04.xesimg.com/button_avatar.jpg") no-repeat; width: 110px; height: 28px; text-indent: -9999em;
+}
+.ui_up_avatar .up_avatar_btn p {
+	color: rgb(153, 153, 153); line-height: 30px;
+}
+.ui_up_avatar .up_avatar_btn input.input_file {
+	left: 0px; top: 0px; width: 110px; height: 28px; filter: alpha(opacity=0); position: absolute; z-index: 1; cursor: pointer; opacity: 0; -moz-opacity: 0;
+}
+.ui_up_avatar .up_avatar_content {
+	overflow: hidden; margin-top: 30px; margin-bottom: 20px; position: relative;
+}
+.ui_up_avatar .up_avatar_content .avatar_box {
+	width: 330px; overflow: hidden; border-right-color: rgb(241, 241, 241); border-right-width: 1px; border-right-style: dashed;
+}
+.ui_up_avatar .up_avatar_content .avatar_box .up_avatar {
+	background: url("http://img04.xesimg.com/avatar.jpg") no-repeat; border: 1px solid rgb(204, 204, 204); width: 299px; height: 299px; text-align: center; overflow: hidden; vertical-align: middle; display: table-cell !important; position: static !important; _font-size: 0;
+}
+.ui_up_avatar .up_avatar_content .avatar_box .up_avatar span {
+	margin: 0px auto; left: 50%; top: 50%; width: 299px; display: table-cell !important; position: static !important;
+}
+.ui_up_avatar .up_avatar_content .avatar_box .up_avatar img {
+	left: auto !important; top: auto !important; position: static !important; max-height: 299px; max-width: 299px;
+}
+.ui_up_avatar .up_avatar_content .avatar_box .up_avatar div {
+	left: auto !important; top: auto !important; position: static !important; max-height: 299px; max-width: 299px;
+}
+.ui_up_avatar .up_avatar_content .avatar_big {
+	top: 80px; width: 145px; text-align: center; right: 172px; overflow: hidden; position: absolute; z-index: 10;
+}
+.ui_up_avatar .up_avatar_content .avatar_big .big_pic {
+	border: 1px solid rgb(204, 204, 204); width: 134px; height: 134px; text-align: center; overflow: hidden; vertical-align: middle; display: table-cell !important; position: static !important; _font-size: 0;
+}
+.ui_up_avatar .up_avatar_content .avatar_big .big_pic span {
+	margin: 0px auto; left: 50%; top: 50%; width: 134px; display: table-cell !important; position: static !important;
+}
+.ui_up_avatar .up_avatar_content .avatar_big .big_pic img {
+	left: auto !important; top: auto !important; position: static !important; max-height: 134px; max-width: 134px;
+}
+.ui_up_avatar .up_avatar_content .avatar_big .big_pic div {
+	left: auto !important; top: auto !important; position: static !important; max-height: 134px; max-width: 134px;
+}
+.ui_up_avatar .up_avatar_content .avatar_big p {
+	text-align: left; color: rgb(153, 153, 153); line-height: 30px;
+}
+.ui_up_avatar .up_avatar_content .avatar_small {
+	top: 80px; width: 75px; text-align: center; right: 50px; overflow: hidden; position: absolute; z-index: 10;
+}
+.ui_up_avatar .up_avatar_content .avatar_small .small_pic {
+	border: 1px solid rgb(204, 204, 204); width: 50px; height: 50px; text-align: center; overflow: hidden; vertical-align: middle; display: table-cell !important; position: static !important; _font-size: 0;
+}
+.ui_up_avatar .up_avatar_content .avatar_small .small_pic span {
+	margin: 0px auto; left: 50%; top: 50%; width: 50px; display: table-cell !important; position: static !important;
+}
+.ui_up_avatar .up_avatar_content .avatar_small .small_pic img {
+	left: auto !important; top: auto !important; position: static !important; max-height: 50px; max-width: 50px;
+}
+.ui_up_avatar .up_avatar_content .avatar_small .small_pic div {
+	left: auto !important; top: auto !important; position: static !important; max-height: 50px; max-width: 50px;
+}
+.ui_up_avatar .up_avatar_content .avatar_small p {
+	text-align: left; color: rgb(153, 153, 153); line-height: 150%; margin-top: 5px;
+}
+.ui_up_avatar .up_avatar_content .info_text {
+	top: 5px; width: 230px; right: 90px; color: rgb(205, 101, 1); line-height: 180%; position: absolute; z-index: 10;
+}
+.class_test h4 {
+	height: 30px; line-height: 30px; padding-left: 15px; background-color: rgb(243, 243, 243);
+}
+.class_test .btn {
+	margin-bottom: 15px;
+}
+.class_test .class_test_sum {
+	background: rgb(253, 240, 240); height: 50px; line-height: 50px; overflow: hidden; padding-left: 10px; margin-top: 3px;
+}
+.class_test .class_test_sum span {
+	float: left; display: inline;
+}
+.class_test .class_test_sum .test_more {
+	margin-right: 25px; float: right; display: inline;
+}
+.class_test .class_test_sum .test_more li {
+	float: left;
+}
+.class_test .class_test_sum .test_more li > a {
+	float: left;
+}
+.class_test .class_test_sum .test_more li > a {
+	margin-left: 15px;
+}
+.class_test .selected_answer {
+	background: rgb(253, 240, 240); overflow: hidden;
+}
+.class_test .testcon {
+	padding: 20px 40px; border: 0px currentColor; width: 720px; color: rgb(204, 0, 0); overflow: hidden;
+}
+.class_test .testcon .answer {
+	border: 0px currentColor;
+}
+.class_test .testcon .answer span {
+	float: none;
+}
+.class_test .testcon .answer input {
+	width: 50px;
+}
+.class_test .testcon p {
+	padding: 0px;
+}
+.class_test .testcon ol span {
+	color: rgb(51, 51, 51); margin-left: 10px;
+}
+.class_test .testcon .testcon_title {
+	color: rgb(153, 153, 153); font-size: 14px;
+}
+.class_test .close {
+	padding: 5px 10px 0px 0px; float: right;
+}
+.class_test .btn {
+	color: rgb(255, 255, 255); text-decoration: none; margin-top: 10px; margin-right: 15px; float: right;
+}
+.class_answer .wrong_list_new {
+	border: 0px currentColor;
+}
+.class_answer .wrong_list_new p {
+	width: 700px;
+}
+.class_answer .wrong_list_new span {
+	margin: 0px 20px; font-size: 14px;
+}
+.deal_address {
+	width: 530px;
+}
+.deal_address .deal_item {
+	text-align: center; font-size: 14px; margin-bottom: 25px;
+}
+.deal_address .deal_item img {
+	margin: 0px auto; width: 185px; height: 120px; display: block;
+}
+.deal_address .deal_info {
+	background: rgb(249, 249, 249); padding: 15px 0px; overflow: hidden;
+}
+.deal_address .deal_info label {
+	width: 80px;
+}
+.deal_address .btn {
+	margin: 20px 0px 0px 180px; padding: 3px 15px; font-weight: bold;
+}
+.sub_answer {
+	width: 580px; overflow: auto;
+}
+.sub_answer .answer {
+	line-height: 24px; float: left;
+}
+.sub_answer .btn {
+	margin: 0px 15px 0px 0px; padding: 3px 10px; color: rgb(255, 255, 255); clear: both; float: left;
+}
+.sub_answer .btn:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.sub_answer .right_answer {
+	background: url("http://img04.xesimg.com/icon/32x32/check.png") no-repeat 10px 2px; margin: 20px auto 0px; width: 160px; text-align: center; line-height: 26px; font-size: 14px;
+}
+.sub_answer .right_answer p {
+	text-align: center;
+}
+.update_succeed {
+	background: rgb(255, 242, 242); margin: 10px auto; border: 1px solid rgb(255, 204, 204); height: 30px; color: rgb(204, 0, 0); line-height: 30px; padding-left: 20px; font-size: 14px; font-weight: bold;
+}
+.layer_content_item {
+	margin: 0px auto; width: 700px; overflow: hidden;
+}
+.layer_content_item .form_layer_content {
+	margin: 0px auto; width: 500px; overflow: hidden;
+}
+.layer_content_item .form_layer_content .tips_info {
+	background: rgb(255, 245, 218); margin: 10px 0px 15px; padding: 6px 12px; border: 1px solid rgb(229, 213, 162); color: rgb(51, 51, 51); line-height: 24px; font-size: 12px;
+}
+.layer_content_item .form_layer_content .f1 {
+	height: 45px; overflow: hidden;
+}
+.layer_content_item .form_layer_content .f1 label {
+	width: 100px; text-align: right; font-size: 14px; float: left; display: inline;
+}
+.layer_content_item .form_layer_content .f1 p {
+	float: left; display: inline;
+}
+.layer_content_item .form_layer_content .f1 p .input_text {
+	border: 1px solid rgb(204, 204, 204); width: 190px; height: 25px;
+}
+.layer_content_item .form_layer_content .f1 p .errTips {
+	color: rgb(204, 0, 0);
+}
+.layer_content_item .form_layer_content .f1 p .btn_orange {
+	width: 100px; height: 27px; color: rgb(255, 255, 255); font-size: 14px; font-weight: bold; margin-left: 100px;
+}
+.layer_bg {
+	background: url("http://img04.xesimg.com/layer_bg.jpg") no-repeat;
+}
+.fun_follow_title {
+	background: url("http://img04.xesimg.com/dialog/gif/dialog_t.gif") repeat-x 0px 11px; height: 30px; color: rgb(102, 102, 102); line-height: 30px; overflow: hidden; margin-bottom: 10px;
+}
+.fun_follow_title span {
+	background: rgb(255, 255, 255); padding: 0px 10px; width: 220px; margin-left: 40px; display: block;
+}
+.fun_follow_title span strong {
+	font-weight: bold;
+}
+.fun_follow_title .btn_link {
+	background: rgb(244, 244, 244); border: 1px solid rgb(218, 218, 218); top: 12px; width: 60px; height: 20px; text-align: center; right: 30px; color: rgb(51, 51, 51); line-height: 20px; text-decoration: none; display: block; position: absolute; z-index: 10;
+}
+.fun_follow_title .btn_follow {
+	width: 85px; right: 95px;
+}
+.fun_follow_title .btn_follow em {
+	color: rgb(255, 158, 43); padding-right: 5px; font-size: 14px; font-weight: bold;
+}
+.fun_follow_item .follow_list {
+	margin: 10px 0px 0px 20px; border: 1px solid rgb(240, 240, 240); width: 200px; height: 110px; overflow: hidden; float: left; display: inline;
+}
+.fun_follow_item .follow_list .ui_avatar {
+	margin: 12px; overflow: hidden; float: left; display: inline; position: static;
+}
+.fun_follow_item .follow_list .follow_con_fun {
+	width: 125px; overflow: hidden; margin-top: 10px; float: left; display: inline;
+}
+.fun_follow_item .follow_list .follow_con_fun .fun_username {
+	color: rgb(51, 51, 51);
+}
+.fun_follow_item .follow_list .follow_con_fun .fun_username .icon_bverify {
+	background: url("http://img04.xesimg.com/icon_bverify.gif") no-repeat 0px 1px;
+}
+.fun_follow_item .follow_list .follow_con_fun .fun_username .icon_yverify {
+	background: url("http://img04.xesimg.com/icon_yverify.gif") no-repeat 0px 1px;
+}
+.fun_follow_item .follow_list .follow_con_fun .fun_usres {
+	height: 25px; color: rgb(153, 153, 153); line-height: 25px; overflow: hidden;
+}
+.fun_follow_item .follow_list .follow_con_fun .ui_follow {
+	text-align: center;
+}
+.fun_follow_item .follow_list .follow_con_info {
+	width: 100%; height: 25px; color: rgb(153, 153, 153); line-height: 25px; overflow: hidden; padding-left: 12px; float: left; display: inline;
+}
+.fun_follow_item .follow_hover.follow_list {
+	border: 1px solid rgb(254, 169, 53);
+}
+.fun_follow_btn {
+	padding: 10px; text-align: center; overflow: hidden; margin-top: 10px; border-top-color: rgb(240, 240, 240); border-top-width: 1px; border-top-style: solid;
+}
+.fun_follow_btn .btn_orange {
+	width: 85px; height: 27px; line-height: 27px; font-size: 14px; font-weight: bold;
+}
+#home_err_content {
+	background: rgb(252, 252, 252); width: 100%; overflow: hidden;
+}
+#home_err_content .home_err_tips {
+	background: url("http://img04.xesimg.com/err_tips_bg.jpg") no-repeat; margin: 60px auto; width: 746px; height: 312px; position: relative;
+}
+#home_err_content .home_err_tips p {
+	left: 140px; top: 80px; color: rgb(102, 102, 102); line-height: 180%; font-size: 16px; position: absolute; z-index: 10;
+}
+.current_class {
+	background: url("http://img04.xesimg.com/current_class.jpg") no-repeat; width: 95px; height: 24px; line-height: 24px;
+}
+.current_class a {
+	padding: 0px 10px; text-align: center; overflow: hidden; text-decoration: none; vertical-align: 10%; float: left; display: inline-block;
+}
+.current_class a b {
+	height: 100%;
+}
+.current_class a.current {
+	color: rgb(51, 51, 51); font-weight: bold;
+}
+.pop_userinfo {
+	width: 340px; overflow: hidden;
+}
+.pop_userinfo .ui_avatar {
+	margin: 10px 0px 10px 10px; width: 115px; float: left; display: inline;
+}
+.pop_userinfo .ui_avatar img {
+	border: 1px solid rgb(204, 204, 204); width: 100px; height: 100px;
+}
+.pop_userinfo .userinfo_follow {
+	margin: 10px 0px; width: 215px; float: left; display: inline;
+}
+.pop_userinfo .userinfo_follow .f_red {
+	margin: 0px 10px 0px 3px; color: rgb(247, 116, 3); font-size: 14px;
+}
+.pop_userinfo .userinfo_follow .ui_username {
+	padding-top: 5px;
+}
+.pop_userinfo .userinfo_follow .icon {
+	margin-top: 6px;
+}
+.pop_userinfo .userinfo_follow .fun_usres {
+	color: rgb(153, 153, 153); line-height: 150%; padding-top: 5px;
+}
+.pop_userinfo .userinfo_follow .fun_satis {
+	color: rgb(153, 153, 153); line-height: 25px;
+}
+.pop_userinfo .userinfo_follow .fun_satis a {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.pop_userinfo .userinfo_follow .user_statistics {
+	color: rgb(153, 153, 153); line-height: 25px;
+}
+.pop_userinfo .userinfo_follow .ui_follow {
+	margin-top: 10px; float: right;
+}
+.pop_userinfo .userinfo_follow .ui_follow em {
+	background-position: -46px -152px;
+}
+.pop_userinfo .userinfo_follow .add {
+	text-align: center;
+}
+.pop_userinfo_temp {
+	display: none;
+}
+.pop_userinfo_wrap {
+	overflow: hidden;
+}
+.pop_userinfo_wrap .teacherMedal {
+	background: rgb(246, 246, 246); padding: 0px 5px; width: 100%; height: 35px; overflow: hidden; margin-bottom: 10px;
+}
+.pop_userinfo_wrap .teacherMedal li {
+	margin: 5px 5px 0px; float: left; display: inline;
+}
+.pop_userinfo_wrap .teacherFollow {
+	width: 100%; height: 33px; overflow: hidden;
+}
+.pop_userinfo_wrap .teacherFollow .ui_follow {
+	margin-right: 10px; margin-bottom: 10px; float: right;
+}
+.pop_studentinfo .ui_avatar {
+	margin: 10px; border: 1px solid rgb(204, 204, 204); width: 102px; height: 100px; text-align: center;
+}
+.pop_studentinfo .ui_avatar img {
+	padding: 0px; border: 0px currentColor; width: auto; height: 100px;
+}
+.pop_studentinfo .userinfo_follow {
+	width: 185px; overflow: hidden;
+}
+.pop_studentinfo .userinfo_follow .user_name {
+	height: 25px; color: rgb(51, 51, 51); line-height: 25px; font-family: "Microsoft YaHei"; font-size: 16px;
+}
+.pop_studentinfo .userinfo_follow .user_name .gender_0 {
+	background: url("http://img04.xesimg.com/girl.png") no-repeat right -2px; padding-right: 25px; display: inline-block;
+}
+.pop_studentinfo .userinfo_follow .user_name .gender_1 {
+	background: url("http://img04.xesimg.com/boy.png") no-repeat right 5px; padding-right: 20px; display: inline-block;
+}
+.pop_studentinfo .userinfo_follow .fun_usres {
+	line-height: 150%; padding-top: 0px;
+}
+.pop_studentinfo .userinfo_follow .user_statistics a {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.pop_studentinfo .userinfo_follow .user_level {
+	color: rgb(153, 153, 153);
+}
+.pop_studentinfo .userinfo_follow .user_level span {
+	width: 50px; float: left; display: inline;
+}
+.pop_studentinfo .userinfo_follow .user_level span a {
+	color: rgb(153, 153, 153); text-decoration: none;
+}
+.pop_studentinfo .userinfo_follow .user_level .icon_level {
+	width: 135px;
+}
+.pop_studentinfo .studentMedal {
+	background: rgb(246, 246, 246); padding: 0px 5px; width: 100%; height: 35px; overflow: hidden;
+}
+.pop_studentinfo .studentMedal li {
+	margin: 5px 5px 0px; float: left; display: inline;
+}
+.pop_studentinfo .studentFollow {
+	padding: 0px 10px 10px; width: 100%; height: 25px; color: rgb(153, 153, 153); line-height: 35px;
+}
+.progress_bar {
+	line-height: 14px; overflow: hidden;
+}
+.progress_bar span {
+	float: left; display: inline;
+}
+.progress_bar span.pro_laber {
+	width: 55px; color: rgb(102, 102, 102);
+}
+.progress_bar div.pro_content {
+	background: url("http://img04.xesimg.com/bar/bar_1.png") no-repeat -2px 0px; width: 140px; height: 12px; overflow: hidden; margin-top: 3px; float: left; display: inline;
+}
+.progress_bar div.pro_content span.proWidth {
+	background: url("http://img04.xesimg.com/bar/bar_2.png") no-repeat -2px 0px; height: 12px; overflow: hidden;
+}
+.progress_bar div.pro_content span.proBar {
+	background: url("http://img04.xesimg.com/bar/bar_3.png") no-repeat 0px 1px; width: 3px; height: 12px;
+}
+.study_pro_bar {
+	margin-top: 7px; margin-right: 10px; float: left; display: inline;
+}
+.study_pro_bar span.pro_laber {
+	display: none;
+}
+.study_pro_bar div.pro_content {
+	background: url("http://img04.xesimg.com/bar/bar_1_1.png") no-repeat -2px 0px;
+}
+.study_pro_bar div.pro_content span.proWidth {
+	background: url("http://img04.xesimg.com/bar/bar_1_2.png") no-repeat -2px 0px;
+}
+.study_pro_bar div.pro_content span.proBar {
+	background: url("http://img04.xesimg.com/bar/bar_1_3.png") no-repeat 0px 1px;
+}
+.setting_target {
+	margin: 20px 0px; border: 1px solid rgb(245, 221, 177); height: 150px; overflow: hidden; background-color: rgb(254, 250, 238);
+}
+.setting_target .target_pic {
+	margin: 15px; width: 185px; height: 120px; float: left; display: inline;
+}
+.setting_target .target_pic img {
+	border: 1px solid rgb(204, 204, 204); width: 185px; height: 120px;
+}
+.setting_target .target_con {
+	width: 500px; float: left; display: inline;
+}
+.setting_target .target_con .default_tar {
+	color: rgb(204, 0, 0); line-height: 40px; font-family: "Microsoft YaHei"; font-size: 16px; margin-top: 30px;
+}
+.setting_target .target_con .info_tar {
+	color: rgb(102, 102, 102); line-height: 180%;
+}
+.finish_target {
+	background-position: right top; background-image: url("http://img04.xesimg.com/bar/finish.jpg"); background-repeat: no-repeat;
+}
+.finish_target .target_con .target_con_title {
+	color: rgb(51, 51, 51); line-height: 40px; font-family: "Microsoft YaHei"; font-size: 16px; margin-top: 7px;
+}
+.finish_target .target_con .target_con_num {
+	color: rgb(204, 0, 0);
+}
+.finish_target .target_con .target_con_num em {
+	background: url("http://img04.xesimg.com/icon.png") no-repeat -22px -25px; width: 20px; height: 20px; line-height: 20px; vertical-align: top; display: inline-block;
+}
+.finish_target .target_con .target_con_bar {
+	overflow: hidden; margin-bottom: 5px; _width: 100%;
+}
+.finish_target .target_con .target_con_bar .progress_bar {
+	margin: 10px 20px 0px 0px; float: left;
+}
+.finish_target .target_con .target_con_bar .btn {
+	width: 100px; height: 30px; color: rgb(139, 36, 17); line-height: 30px; font-size: 14px; font-weight: bold; float: left;
+}
+.set_tar_rain {
+	overflow: hidden; _width: 100%; _height: 35px;
+}
+.set_tar_rain .allGift {
+	line-height: 20px; font-size: 14px; font-weight: bold; margin-top: 10px; float: left; display: inline;
+}
+.set_tar_rain .gift_menu_hd {
+	width: 255px; float: right; display: inline;
+}
+.examset .gray {
+	color: rgb(102, 102, 102);
+}
+.examset p {
+	line-height: 35px;
+}
+.examset table tr > th {
+	font-size: 12px; font-weight: normal;
+}
+.examset .exclamation {
+	background: url("http://img04.xesimg.com/icon/exclamationpoint.jpg") no-repeat 0px -2px rgb(255, 255, 255); border: 0px currentColor; text-align: left; line-height: 45px; padding-left: 50px; margin-left: 205px;
+}
+#container .classcard {
+	color: rgb(255, 255, 255);
+}
+.classcard {
+	background: url("http://img04.xesimg.com/signcard.png") 0px 0px; padding: 21px 0px 0px 43px; width: 64px; height: 20px; right: 0px; bottom: 103px; color: rgb(255, 255, 255); position: absolute; cursor: pointer;
+}
+.classcard:link {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.classcard:visited {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.classcard:hover {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.classcard:active {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.hoverclass {
+	background: url("http://img04.xesimg.com/signcard.png") 0px 80px;
+}
+.classdisable {
+	background: url("http://img04.xesimg.com/signcard.png") 0px 40px;
+}
+#xuebox_signTips .dialog_content {
+	background: rgb(255, 250, 225); padding: 5px 15px; color: rgb(116, 116, 116); line-height: 24px;
+}
+.signTips .dialog_content {
+	background: rgb(255, 250, 225); padding: 5px 15px; color: rgb(116, 116, 116); line-height: 24px;
+}
+#xuebox_signTips .arrow_tc.dialog_arrow {
+	background: url("http://img04.xesimg.com/dialog/xuebox_signTips.png") no-repeat center 0px; top: -6px;
+}
+.signTips .arrow_tc.dialog_arrow {
+	background: url("http://img04.xesimg.com/dialog/xuebox_signTips.png") no-repeat center 0px; top: -6px;
+}
+#xuebox_extraclass_content {
+	padding: 0px;
+}
+#xuebox_extraclass_content .joint_list {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+#xuebox_extraclass_content .nav_extra {
+	top: 1px;
+}
+#xuebox_extraclass_content .dialog_title {
+	font-size: 12px; margin-bottom: 5px;
+}
+#xuebox_extraclass_content .dialog_content {
+	padding: 0px;
+}
+#xuebox_extraclass_content .extratans {
+	background: rgb(253, 253, 253); margin-top: 2px; border-bottom-color: rgb(237, 237, 237); border-bottom-width: 1px; border-bottom-style: solid;
+}
+#xuebox_extraclass_content .extra_list {
+	border-top-color: currentColor; border-top-width: medium; border-top-style: none;
+}
+#xuebox_dlClass {
+	border: 1px solid rgb(204, 204, 204);
+}
+#xuebox_dlClass .dialog_content {
+	padding: 0px;
+}
+#xuebox_dlClass .myexam_th {
+	height: 29px; padding-top: 13px; border-bottom-color: rgb(205, 205, 205); border-bottom-width: 1px; border-bottom-style: solid; zoom: 1;
+}
+#xuebox_dlClass .nav_tabs {
+	height: 29px; margin-left: 12px;
+}
+#xuebox_dlClass .nav_tabs li {
+	background: url("http://img04.xesimg.com/dl-bg.png") repeat-x left top; width: auto; margin-left: 0px; border-top-color: rgb(214, 214, 214); border-right-color: rgb(214, 214, 214); border-top-width: 1px; border-right-width: 1px; border-top-style: solid; border-right-style: solid;
+}
+#xuebox_dlClass .nav_tabs li a {
+	padding: 0px 20px; line-height: 28px;
+}
+#xuebox_dlClass .nav_tabs li.current a {
+	background: 0px 0px rgb(255, 255, 255);
+}
+#xuebox_dlClass .dl_data .myexam_th a {
+	margin: 0px;
+}
+#xuebox_dlClass .dl_rar_special a {
+	padding: 0px;
+}
+#xuebox_dlClass .dl_data .dl_rar a.btn {
+	padding: 2px 5px;
+}
+.userheadpic_con {
+	margin: 20px 0px; border: 1px solid rgb(228, 228, 228); overflow: hidden; _width: 100%;
+}
+.userheadpic_con .user_default_pic {
+	background: rgb(247, 247, 247); width: 175px; height: 215px; text-align: center; float: left; display: inline;
+}
+.userheadpic_con .user_default_pic .default_info {
+	line-height: 40px; font-size: 14px;
+}
+.userheadpic_con .notCourse {
+	margin: 0px; border: 0px currentColor;
+}
+.userheadpic_con .userheadpic_tabs {
+	background: rgb(247, 247, 247); height: 31px; line-height: 31px;
+}
+.userheadpic_con .userheadpic_tabs li {
+	width: 122px; text-align: center; font-size: 14px; float: left; display: inline; position: relative; cursor: pointer;
+}
+.userheadpic_con .userheadpic_tabs li em {
+	background: url("http://img04.xesimg.com/ie_project/tabs3.jpg") no-repeat; left: 55px; top: 31px; width: 11px; height: 6px; display: none; position: absolute; z-index: 100;
+}
+.userheadpic_con .userheadpic_tabs li .news {
+	background: url("http://img04.xesimg.com/new.gif") no-repeat; left: 100px; top: 2px; width: 16px; height: 13px; position: absolute; z-index: 100;
+}
+.userheadpic_con .userheadpic_tabs .current {
+	background: rgb(59, 150, 197); color: rgb(255, 255, 255); font-weight: bold;
+}
+.userheadpic_con .userheadpic_tabs .current em {
+	display: block;
+}
+.userheadpic_con .userheadpic_item {
+	padding: 0px 0px 10px 35px; overflow: hidden; display: none; _width: 100%;
+}
+.userheadpic_con .userheadpic_item .exchange_pic {
+	margin: 30px 25px 15px 0px; border: 1px solid rgb(225, 225, 225); width: 88px; height: 120px; text-align: center; float: left; display: inline; position: relative; cursor: pointer;
+}
+.userheadpic_con .userheadpic_item .exchange_pic .user_name {
+	height: 25px; line-height: 25px;
+}
+.userheadpic_con .userheadpic_item .exchange_pic .user_num {
+	background: rgb(246, 246, 246); color: rgb(255, 168, 52); line-height: 26px; font-weight: bold;
+}
+.userheadpic_con .userheadpic_item .exchange_pic .exchange {
+	background: url("http://img04.xesimg.com/exchange_pic.png") no-repeat; left: 0px; top: 0px; width: 88px; height: 68px; display: none; position: absolute; z-index: 100;
+}
+.userheadpic_con .userheadpic_item .hover_exchange {
+	border: 1px solid rgb(158, 198, 237);
+}
+.userheadpic_con .userheadpic_item .hover_exchange .exchange {
+	display: block;
+}
+.userheadpic_con .userheadpic_item .ui_pages {
+	clear: both;
+}
+#avatarList {
+	width: 555px; height: 215px; overflow: hidden; float: left; display: inline;
+}
+#avatarList div#avatars {
+	width: 493px; height: 215px; overflow: hidden; float: left; display: inline; position: relative;
+}
+#avatars p {
+	height: 30px; text-align: center; color: rgb(102, 102, 102); line-height: 30px;
+}
+#avatarList div#avatars_list {
+	width: 4000px; position: absolute;
+}
+#avatarList dl {
+	margin: 0px 12px; width: 140px; float: left; display: inline;
+}
+#avatarList dl dt {
+	text-align: center;
+}
+#avatarList dl dt img {
+	padding: 0px 23px; border: 1px solid rgb(237, 237, 237); width: 92px; height: 136px; margin-bottom: 5px;
+}
+#avatarList dl dt a {
+	width: 80px; height: 18px; color: rgb(255, 255, 255); overflow: hidden; font-size: 14px; text-decoration: none;
+}
+#avatarList dl dd {
+	text-align: center;
+}
+#avatarList span.prev {
+	background: url("http://img04.xesimg.com/arrow_slide.png") no-repeat; margin: 90px 3px 0px; width: 23px; height: 35px; float: left; display: inline; cursor: pointer;
+}
+#avatarList span.prevdisable {
+	background: url("http://img04.xesimg.com/arrow_slide.png") no-repeat; margin: 90px 3px 0px; width: 23px; height: 35px; float: left; display: inline; cursor: pointer;
+}
+#avatarList span.next {
+	background: url("http://img04.xesimg.com/arrow_slide.png") no-repeat; margin: 90px 3px 0px; width: 23px; height: 35px; float: left; display: inline; cursor: pointer;
+}
+#avatarList span.nextdisable {
+	background: url("http://img04.xesimg.com/arrow_slide.png") no-repeat; margin: 90px 3px 0px; width: 23px; height: 35px; float: left; display: inline; cursor: pointer;
+}
+#avatarList span.prev {
+	float: left;
+}
+#avatarList span.prevdisable {
+	float: left;
+}
+#avatarList span.next {
+	float: right; display: inline;
+}
+#avatarList span.nextdisable {
+	float: right; display: inline;
+}
+#avatarList span.prev {
+	background-position: 0px -35px;
+}
+#avatarList span.prevdisable {
+	
+}
+#avatarList span.next {
+	background-position: 0px -105px;
+}
+#avatarList span.nextdisable {
+	background-position: 0px -70px;
+}
+.guidance_wrap {
+	left: 0px; top: 0px; width: 100%; height: 1979px; overflow: hidden; position: absolute; z-index: 200;
+}
+.guidance_wrap .guidance_bg {
+	background: url("http://img04.xesimg.com/guidance/index.jpg") no-repeat; margin: 0px auto; width: 985px; height: 1979px; overflow: hidden;
+}
+.guidance_wrap .guidance_mask {
+	background: rgb(0, 0, 0); left: 0px; top: -1px; width: 100%; height: 1979px; filter: alpha(opacity=60); position: absolute; z-index: 250; opacity: 0.6;
+}
+.guidance_wrap .guidance_step {
+	left: 0px; top: 0px; width: 100%; height: 1979px; position: absolute; z-index: 300;
+}
+.guidance_wrap .guidance_step .step_con {
+	margin: 0px auto; width: 980px; position: relative;
+}
+.guidance_wrap .guidance_step .step_con .step_item {
+	overflow: hidden; display: none; position: absolute;
+}
+.guidance_wrap .guidance_step .step_con .step_item .btns_next {
+	background: url("http://img04.xesimg.com/guidance/btn_next.gif") no-repeat; width: 62px; height: 23px; right: 80px; bottom: 20px; text-indent: -9999em; display: block; position: absolute;
+}
+.guidance_wrap .guidance_step .step_con .step_item .btns_exit {
+	width: 62px; height: 23px; text-align: center; right: 15px; bottom: 20px; color: rgb(154, 173, 180); line-height: 23px; display: block; position: absolute;
+}
+.guidance_wrap .guidance_step .step_con .step_item .btns_finish {
+	background: url("http://img04.xesimg.com/guidance/btn_finish.gif") no-repeat; width: 125px; height: 23px; right: 25px; bottom: 20px; text-indent: -9999em; display: block; position: absolute;
+}
+.guidance_wrap .guidance_step .step_con .step_item_1 {
+	background: url("http://img04.xesimg.com/guidance/step_1.gif") no-repeat; left: 0px; top: 40px; width: 417px; height: 280px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_2 {
+	background: url("http://img04.xesimg.com/guidance/step_2.gif") no-repeat; left: 0px; top: 318px; width: 610px; height: 150px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_3 {
+	background: url("http://img04.xesimg.com/guidance/step_3.gif") no-repeat; left: 0px; top: 500px; width: 609px; height: 150px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_4 {
+	background: url("http://img04.xesimg.com/guidance/step_4.gif") no-repeat; left: 0px; top: 505px; width: 609px; height: 152px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_5 {
+	background: url("http://img04.xesimg.com/guidance/step_5.gif") no-repeat; top: -2px; width: 388px; height: 260px; right: 30px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_5 .btns_next {
+	left: 250px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_5 .btns_exit {
+	left: 315px;
+}
+.guidance_wrap .guidance_step .step_con .step_item_6 {
+	background: url("http://img04.xesimg.com/guidance/step_6.gif") no-repeat; top: -7px; width: 388px; height: 280px; right: 89px;
+}
+#xuebox_welcome_content .gender_0 {
+	background: url("http://img04.xesimg.com/girl.png") no-repeat right -5px; width: 5px; height: 20px; padding-right: 23px; display: inline-block;
+}
+#xuebox_welcome_content .gender_1 {
+	background: url("http://img04.xesimg.com/boy.png") no-repeat right 2px; width: 5px; height: 17px; padding-right: 15px; margin-right: 15px; display: inline-block;
+}
+#xuebox_welcome .dialog_content {
+	padding: 0px;
+}
+.qqgroup {
+	overflow: hidden;
+}
+.qqgroup .qqgroup-headline {
+	font: bold 16px/29px "Microsoft YaHei", SimHei, arial; margin: 10px 0px 0px 20px; width: 640px; overflow: hidden; font-size-adjust: none; font-stretch: normal;
+}
+.qqgroup .qqgroup-headline img {
+	width: 55px; height: 58px; margin-right: 5px; vertical-align: middle; float: left;
+}
+.qqgroup .qqgroup-headline strong {
+	font-weight: bold;
+}
+.qqgroup .qqgroup-headline .copy_btn {
+	padding-left: 10px; font-size: 12px; font-weight: 500; margin-right: 10px;
+}
+.qqgroup .qqgroup-headline a {
+	text-decoration: none;
+}
+.qqgroup .qqgroup-headline a img {
+	width: 63px; height: 20px; float: none;
+}
+.qqgroup dl {
+	background: rgb(243, 243, 243); margin: 5px 20px; padding: 15px 10px; width: 290px; color: rgb(51, 51, 51); line-height: 20px; overflow: hidden; float: left; display: inline;
+}
+.qqgroup dl dt {
+	font-weight: bold;
+}
+.feed_mention {
+	background: rgb(247, 247, 247); padding: 10px 20px; border: 1px solid rgb(237, 237, 237); overflow: hidden;
+}
+.feed_mention .mention_con {
+	overflow: hidden; margin-bottom: 5px;
+}
+.feed_mention .feed_index_list {
+	font-size: 12px;
+}
+.feed_mention .feed_text {
+	font-size: 14px; margin-bottom: 5px;
+}
+.feed_mention .feed_bar {
+	top: 0px; text-align: left; font-size: 12px; margin-top: 10px; position: static;
+}
+.feed_mention .feed_bar .S_time {
+	width: auto; color: rgb(153, 153, 153); margin-right: 5px;
+}
+.feed_mention .feed_media_expand {
+	width: 97%;
+}
+.feed_mention .feed_media_expand .media_expand_box img {
+	max-width: 600px;
+}
+.mention_comment {
+	background: rgb(241, 241, 241); border: 1px solid rgb(224, 224, 224); overflow: hidden;
+}
+.mention_comment .mention_textarea {
+	margin: 10px auto; width: 97%; overflow: hidden;
+}
+.mention_comment .mention_textarea textarea {
+	padding: 5px; border: 1px solid rgb(204, 204, 204); width: 97%; height: 20px;
+}
+.mention_comment .mention_func {
+	overflow: hidden; margin-bottom: 10px;
+}
+.mention_comment .mention_func .comment_tips {
+	color: rgb(204, 0, 0); margin-left: 10px; float: left; display: inline;
+}
+.mention_comment .mention_func .comment_button {
+	float: right; display: inline;
+}
+.mention_comment .mention_func .comment_button .btn_submit {
+	width: 50px; height: 23px; line-height: 23px; font-size: 12px; margin-right: 15px;
+}
+.feed_media_extend {
+	margin: 10px 0px 0px; overflow: hidden;
+}
+.feed_media_extend .extend_img_small {
+	width: 122px; overflow: hidden; position: relative; cursor: url(http://img04.xesimg.com/big.cur), auto !important; min-height: 50px;
+}
+.feed_media_extend .extend_img_small .ExtendShow {
+	background: url("http://img04.xesimg.com/Extend_1.gif") no-repeat; top: 1px; width: 41px; height: 41px; right: 1px; display: block; position: absolute; z-index: 10;
+}
+.feed_media_extend .extend_img_small .ExtendRight_small {
+	background: url("http://img04.xesimg.com/Extend_3.gif") no-repeat;
+}
+.feed_media_extend .extend_img_small .ExtendError_small {
+	background: url("http://img04.xesimg.com/Extend_2.gif") no-repeat;
+}
+.feed_media_extend .extend_img_small img {
+	border: 1px solid rgb(230, 230, 230); width: 120px;
+}
+.feed_media_extend .extend_img_big {
+	padding: 10px; border: 1px solid rgb(230, 230, 230); width: 638px; overflow: hidden; position: relative; cursor: url(http://img04.xesimg.com/small.cur), auto !important;
+}
+.feed_media_extend .extend_img_big img {
+	max-width: 640px;
+}
+.feed_media_extend .extend_img_big .ExtendShow {
+	top: 1px; width: 41px; height: 41px; right: 1px; display: block; position: absolute; z-index: 10;
+}
+.feed_media_extend .extend_img_big .ExtendRight {
+	background: url("http://img04.xesimg.com/Extend_3.gif") no-repeat;
+}
+.feed_media_extend .extend_img_big .ExtendError {
+	background: url("http://img04.xesimg.com/Extend_2.gif") no-repeat;
+}
+.feed_media_extend .extend_img_big .big_answer {
+	overflow: hidden; padding-left: 10px;
+}
+.feed_media_extend .extend_img_big .big_answer a {
+	background: rgb(243, 243, 243); padding: 3px 15px; border-radius: 3px; text-align: center; color: rgb(51, 51, 51); line-height: 15px; text-decoration: none; display: inline-block;
+}
+.feed_media_extend .extend_img_big .big_answer a:hover {
+	background: rgb(51, 153, 204); color: rgb(255, 255, 255);
+}
+.feed_media_extend .extend_img_big .big_answer .current {
+	background: rgb(51, 153, 204); color: rgb(255, 255, 255);
+}
+.feed_media_extend .extend_img_big .big_answer a.submited:hover {
+	background: rgb(243, 243, 243); color: rgb(51, 51, 51);
+}
+.feed_media_extend .extend_img_big .big_analysis strong {
+	color: rgb(51, 51, 51); line-height: 40px; padding-left: 10px; font-weight: bold; display: block;
+}
+.feed_media_extend .extend_img_big .Extend_add_gold {
+	background: url("http://img04.xesimg.com/add_gold.jpg") no-repeat center 8px rgb(255, 250, 226); border: 1px solid rgb(204, 204, 204); left: 250px; width: 128px; height: 84px; bottom: 0px; position: absolute; opacity: 0;
+}
+.feed_media_extend .extend_img_big .Extend_add_gold p {
+	height: 20px; text-align: center; color: rgb(102, 102, 102); margin-top: 60px;
+}
+.group_tips {
+	display: none;
+}
+.group_tip {
+	display: none;
+}
+.group_tips .parents_code {
+	background: url("http://img04.xesimg.com/parents_group.jpg") no-repeat bottom; width: 295px; height: 87px; padding-top: 10px; margin-top: 10px; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+.group_tip .parents_code {
+	background: url("http://img04.xesimg.com/parents_group.jpg") no-repeat bottom; width: 295px; height: 87px; padding-top: 10px; margin-top: 10px; border-top-color: rgb(229, 229, 229); border-top-width: 1px; border-top-style: solid;
+}
+.group_tips .parents_code a.app_download {
+	background: url("http://img04.xesimg.com/icon/parents_app_download.png") no-repeat; margin: 75px 0px 0px 5px; width: 94px; height: 16px; display: block;
+}
+.group_tip .parents_code a.app_download {
+	background: url("http://img04.xesimg.com/icon/parents_app_download.png") no-repeat; margin: 75px 0px 0px 5px; width: 94px; height: 16px; display: block;
+}
+#xuebox_groupTips {
+	position: absolute;
+}
+#xuebox_examTips {
+	position: absolute;
+}
+#xuebox_groupTips .dialog_content {
+	padding: 15px;
+}
+#xuebox_examTips .dialog_content {
+	padding: 15px;
+}
+#xuebox_groupTips .dialog_content .group_tips {
+	color: rgb(51, 51, 51); overflow: hidden; display: block;
+}
+#xuebox_examTips .dialog_content .group_tips {
+	color: rgb(51, 51, 51); overflow: hidden; display: block;
+}
+#xuebox_groupTips .dialog_content .group_tip {
+	color: rgb(51, 51, 51); overflow: hidden; display: block;
+}
+#xuebox_examTips .dialog_content .group_tip {
+	color: rgb(51, 51, 51); overflow: hidden; display: block;
+}
+#xuebox_groupTips .dialog_content .group_tips .notice {
+	color: rgb(102, 102, 102);
+}
+#xuebox_examTips .dialog_content .group_tips .notice {
+	color: rgb(102, 102, 102);
+}
+#xuebox_groupTips .dialog_content .group_tip .notice {
+	color: rgb(102, 102, 102);
+}
+#xuebox_examTips .dialog_content .group_tip .notice {
+	color: rgb(102, 102, 102);
+}
+.page_404 {
+	margin: 40px auto; width: 440px; overflow: hidden;
+}
+.page_404 .page_404_tips {
+	background: url("http://img04.xesimg.com/404.jpg") no-repeat; height: 247px; text-indent: -9999em;
+}
+.page_404 .page_404_time {
+	display: none;
+}
+.page_404 .page_404_button {
+	line-height: 30px; overflow: hidden;
+}
+.page_404 .page_404_button a {
+	background-position: -132px -121px; color: rgb(0, 102, 153); padding-left: 15px; font-size: 14px; font-weight: bold; float: left; display: inline; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.page_404 .page_404_button .up {
+	margin-left: 30px;
+}
+.page_404 .page_404_info li {
+	color: rgb(102, 102, 102); line-height: 25px; padding-left: 3px;
+}
+.page_404 .page_404_info li i {
+	background-position: 0px -215px; width: 0px; height: 20px; text-align: center; line-height: 20px; text-indent: -9999em; padding-right: 10px; font-size: 18px; vertical-align: top; display: inline-block; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.hitballs {
+	width: 200px; height: 350px; right: 0px; bottom: 178px; overflow: hidden; position: fixed; z-index: 110;
+}
+.uptop {
+	background: url("http://img04.xesimg.com/uptop.jpg") no-repeat left 4px; padding-left: 21px;
+}
+.qrcode {
+	background: url("http://img04.xesimg.com/first_download.png") no-repeat right; top: 30%; width: 164px; height: 98px; right: 0px; position: fixed; z-index: 200; cursor: pointer;
+}
+.hit_qrcode {
+	background: url("http://img04.xesimg.com/jzh_qcode2.png") no-repeat center 10px rgb(255, 255, 255); border: 1px solid rgb(204, 204, 204); left: 28px; top: -20px; width: 134px; height: 152px; display: none; position: absolute; z-index: 300; cursor: default;
+}
+.hit_qrcode .qrcode_url {
+	margin: 120px auto 0px; text-align: center; color: rgb(78, 166, 210); font-size: 12px; display: block;
+}
+.hit_qrcode .close {
+	background: url("http://img04.xesimg.com/qrcode_close.jpg") no-repeat 0px; top: 0px; width: 15px; height: 15px; right: 1px; display: none; position: absolute;
+}
+.minions {
+	background: url("http://img04.xesimg.com/minions.png") no-repeat 0px; left: 50%; top: 152px; width: 230px; height: 320px; overflow: hidden; margin-left: 220px; display: none; position: absolute; z-index: 99;
+}
+.timelimited {
+	top: 35px; width: 455px; text-align: left; right: 0px; color: rgb(102, 102, 102); position: absolute;
+}
+.timelimited .red {
+	color: rgb(204, 0, 0); font-size: 18px; font-weight: bold;
+}
+.timelimited span {
+	font-size: 14px; font-weight: bold; margin-right: 0px;
+}
+.listtimelimited {
+	text-align: center; color: rgb(204, 0, 0); display: block;
+}
+.feed_line_infor {
+	height: 20px; margin-bottom: 30px; border-bottom-color: rgb(237, 237, 237); border-bottom-width: 1px; border-bottom-style: solid; position: relative;
+}
+.feed_line_infor span {
+	background: rgb(247, 247, 247); left: 37%; top: 10px; width: 200px; height: 25px; text-align: center; color: rgb(153, 153, 153); line-height: 25px; display: block; position: absolute; z-index: 10;
+}
+.feed_line_infor span strong {
+	font-weight: bold;
+}
+#containerItem {
+	background: rgb(245, 245, 245); padding: 25px 0px;
+}
+#containerItem .apply_container {
+	background: rgb(245, 245, 245); margin: 0px auto; border: 1px solid rgb(221, 219, 216); width: 980px; overflow: hidden;
+}
+#containerItem .apply_container .overview {
+	background: rgb(255, 255, 255); margin: 12px auto; width: 956px; border-right-color: rgb(224, 224, 224); border-bottom-color: rgb(181, 181, 181); border-left-color: rgb(224, 224, 224); border-right-width: 1px; border-bottom-width: 1px; border-left-width: 1px; border-right-style: solid; border-bottom-style: solid; border-left-style: solid;
+}
+#containerItem .apply_container .overview .settime {
+	background: url("http://img04.xesimg.com/clock.jpg") no-repeat 325px 0px; margin: 30px 0px; height: 30px; text-align: center; color: rgb(187, 187, 187); line-height: 30px; padding-left: 40px; font-family: "Microsoft YaHei"; font-size: 20px; font-weight: 700;
+}
+#containerItem .apply_container .overview .overview_con {
+	margin: 0px auto; padding: 20px 0px; width: 936px; overflow: hidden; font-size: 14px; border-bottom-color: rgb(203, 203, 203); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+#containerItem .apply_container .overview .overview_con p {
+	margin-top: 5px;
+}
+#containerItem .apply_container .overview .overview_con .con_content {
+	margin: 30px 0px 30px 15px;
+}
+#containerItem .apply_container .overview .overview_con .con_content .content_title {
+	font-weight: 700;
+}
+#containerItem .apply_container .overview .overview_con .con_content li {
+	margin-top: 10px;
+}
+#containerItem .apply_container .overview .applyinfo {
+	background: rgb(255, 255, 255); margin: 0px auto; width: 936px; text-align: center; line-height: 30px; font-weight: normal; position: relative;
+}
+#containerItem .apply_container .overview .applyinfo p.settime span {
+	margin: 0px 3px; color: rgb(204, 0, 0);
+}
+#containerItem .apply_container .overview .applyinfo p span {
+	margin: 0px 15px;
+}
+#containerItem .apply_container .overview .applyinfo p span b {
+	color: rgb(204, 0, 0);
+}
+#containerItem .apply_container .overview .applyinfo .baoming_times {
+	background: url("http://img04.xesimg.com/button/baoming_times.png") no-repeat; top: -79px; width: 192px; height: 152px; right: 100px; overflow: hidden; position: absolute; z-index: 100;
+}
+#containerItem .apply_container .overview .applyinfo .baoming_times span {
+	height: 30px; text-align: center; color: rgb(51, 51, 51); font-size: 22px; font-weight: bold; margin-top: 64px; display: inline-block;
+}
+#containerItem .apply_container .overview .applyinfo {
+	padding: 35px 0px;
+}
+#containerItem .apply_container .overview .application {
+	margin: 0px auto 10px; width: 288px; height: 62px; color: rgb(255, 255, 255) !important; line-height: 62px; font-family: "Microsoft YaHei"; font-size: 35px; font-weight: normal; text-decoration: none; display: block; text-shadow: #000000 -1px -2px 3px;
+}
+#containerItem .apply_container .overview .failapply {
+	cursor: default;
+}
+#containerItem .apply_container .overview a:link {
+	text-decoration: none;
+}
+#containerItem .apply_container .overview a:visited {
+	text-decoration: none;
+}
+#containerItem .apply_container .overview a:hover {
+	text-decoration: none;
+}
+#containerItem .apply_container .overview a:active {
+	text-decoration: none;
+}
+#containerItem .apply_container .overview .usersinfo {
+	background: rgb(255, 255, 255); padding: 30px 58px 10px 220px; width: 600px;
+}
+#containerItem .apply_container .overview .usersinfo p span {
+	margin: 0px 3px;
+}
+#containerItem .apply_container .overview .usersinfo p {
+	text-align: left; overflow: hidden; clear: both; margin-bottom: 22px;
+}
+#containerItem .apply_container .overview .usersinfo p span {
+	width: 300px; height: 32px; text-align: left; line-height: 32px; overflow: hidden; font-size: 14px; float: left; display: inline-block; white-space: nowrap; text-overflow: ellipsis; -o-text-overflow: ellipsis;
+}
+#containerItem .apply_container .overview .usersinfo p label {
+	width: 140px; height: 35px; text-align: right; color: rgb(51, 51, 51); line-height: 35px; font-size: 14px; margin-right: 10px; float: left; display: block;
+}
+#containerItem .apply_container .overview .usersinfo p input {
+	padding: 4px 0px 3px 5px; width: 221px; height: 25px; line-height: 25px; font-size: 14px; vertical-align: middle; float: left;
+}
+#containerItem .apply_container .overview .usersinfo p input.error {
+	border: 1px solid red;
+}
+#containerItem .apply_container .overview .usersinfo p span.sub-wrong {
+	border: 1px solid rgb(250, 222, 123); width: 195px; height: 32px; color: rgb(102, 102, 102); line-height: 32px; padding-left: 10px; float: left; display: inline; background-color: rgb(255, 250, 225); _margin-right: -3px;
+}
+#containerItem .apply_container .overview .prompt {
+	color: rgb(153, 153, 153); padding-left: 90px;
+}
+#containerItem .apply_container .overview .special {
+	display: none;
+}
+#apply_button {
+	background: url("http://img04.xesimg.com/ensurebtn.gif") no-repeat left 0px; width: 232px; height: 33px; margin-left: 60px; cursor: pointer;
+}
+#baoming_header {
+	height: 44px; position: relative; z-index: 100;
+}
+#baoming_header .baoming_menu {
+	margin: 0px auto; width: 980px; height: 38px; position: relative; z-index: 19;
+}
+#baoming_header h1.baoming_logo {
+	width: 220px; float: left; display: inline;
+}
+#baoming_header h1.baoming_logo a {
+	background: url("http://bcs.duapp.com/lvyou01/logo.png") no-repeat -17px 0px; height: 45px; text-indent: -9999em; display: block;
+}
+#baoming_header .xrs_info {
+	width: 200px; color: rgb(153, 153, 153); line-height: 45px; float: left; display: inline;
+}
+#baoming_header .xrs_info a {
+	color: rgb(51, 51, 51); text-decoration: none;
+}
+#baoming_header .phone_400 {
+	background: url("http://bcs.duapp.com/lvyou01/400800.jpg") no-repeat; width: 135px; height: 38px; float: right; display: inline;
+}
+#baoming_header ul.baoming_login {
+	width: 130px; float: right; display: inline;
+}
+#baoming_header ul.baoming_login li {
+	width: 45px; text-align: center; font-family: "SimSun"; margin-right: 5px; float: left; display: inline; cursor: pointer;
+}
+#baoming_header ul.baoming_login li p {
+	background: rgb(255, 255, 255); height: 38px; color: rgb(102, 102, 102); line-height: 38px; border-right-color: rgb(255, 255, 255); border-left-color: rgb(255, 255, 255); border-right-width: 1px; border-left-width: 1px; border-right-style: solid; border-left-style: solid; position: relative;
+}
+#baoming_header ul.baoming_login li p a {
+	color: rgb(102, 102, 102);
+}
+#baoming_header ul.baoming_login li span {
+	height: 38px; line-height: 38px; display: block; position: relative;
+}
+#baoming_header ul.baoming_login li span a {
+	color: rgb(102, 102, 102);
+}
+#baoming_header ul.baoming_login li .layer_head {
+	display: none;
+}
+#baoming_header ul.baoming_login li .icon_new {
+	top: 9px; right: -10px; vertical-align: baseline; position: absolute; z-index: 11;
+}
+#baoming_header ul.baoming_login .homes {
+	width: 60px;
+}
+#baoming_header ul.baoming_login .homes a {
+	color: rgb(204, 0, 0);
+}
+#baoming_header ul.baoming_login .register {
+	width: 35px;
+}
+#baoming_header ul.baoming_login .login {
+	width: 35px;
+}
+.pop_student_medal {
+	margin: 10px auto; padding: 0px 10px; width: 300px; overflow: hidden;
+}
+.pop_student_medal .student_medal_con {
+	height: 75px; overflow: hidden;
+}
+.pop_student_medal .student_medal_con .ui_medal_pic {
+	width: 75px; margin-right: 10px; float: left; display: inline;
+}
+.pop_student_medal .student_medal_con .ui_medal_pic img {
+	width: 75px; height: 75px;
+}
+.pop_student_medal .student_medal_con .medal_con {
+	width: 215px; color: rgb(51, 51, 51); float: left; display: inline;
+}
+.pop_student_medal .student_medal_con .medal_con p.name {
+	height: 25px; font-family: "Microsoft YaHei"; font-size: 16px;
+}
+.pop_student_medal .student_medal_con .medal_con p.info {
+	line-height: 160%;
+}
+.pop_student_medal .medal_info {
+	width: 100%; overflow: hidden; margin-top: 10px;
+}
+.pop_student_medal .medal_info span {
+	background: rgb(254, 243, 213); width: 100%; height: 20px; color: rgb(204, 0, 0); line-height: 20px; padding-left: 5px; float: left;
+}
+.pop_student_medal .medal_info span.green {
+	background: rgb(236, 249, 210); color: rgb(96, 155, 19);
+}
+.pop_student_medal .meadl_live {
+	height: 30px; color: rgb(153, 153, 153); line-height: 30px;
+}
+.pop_student_medal .medal_upgrade {
+	background: url("http://img04.xesimg.com/icon/bar_bg.png") no-repeat 55px 20px; height: 30px; overflow: hidden; margin-bottom: 5px; position: relative;
+}
+.pop_student_medal .medal_upgrade span {
+	float: left; display: inline;
+}
+.pop_student_medal .medal_upgrade .upgrade {
+	background: url("http://img04.xesimg.com/icon/up_icon.png") no-repeat; width: 40px; padding-left: 15px; margin-top: 15px;
+}
+.pop_student_medal .medal_upgrade .upgrade_number {
+	color: rgb(153, 153, 153); margin-right: 10px; float: right;
+}
+.pop_student_medal .medal_upgrade .upgrade_bar {
+	left: 55px; top: 20px; width: 236px; height: 9px; overflow: hidden; position: absolute; z-index: 10;
+}
+.pop_student_medal .medal_upgrade .upgrade_bar span {
+	background: url("http://img04.xesimg.com/icon/bar_cur.png") no-repeat; width: 236px; height: 9px;
+}
+.pop_student_medal .all_upgrade {
+	color: rgb(236, 128, 0); line-height: 25px;
+}
+.pop_student_medal .all_upgrade_info {
+	height: 20px; color: rgb(204, 0, 0);
+}
+#xuebox_studenTips .dialog_content {
+	padding: 0px;
+}
+#nav_module {
+	position: relative;
+}
+.live_coach_info {
+	top: 15px; width: 95px; height: 20px; right: 0px; line-height: 20px; position: absolute; z-index: 10;
+}
+.live_coach_info a {
+	background: url("http://img04.xesimg.com/icon/live_01.png") no-repeat right 2px; display: block;
+}

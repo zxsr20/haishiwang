@@ -1,0 +1,897 @@
+.mtop_10 {
+	margin-top: 10px;
+}
+.mtop_20 {
+	margin-top: 20px;
+}
+.mtop_30 {
+	margin-top: 30px;
+}
+.ptop_10 {
+	padding-top: 10px;
+}
+.ptop_20 {
+	padding-top: 20px;
+}
+.ptop_30 {
+	padding-top: 30px;
+}
+.bl {
+	clear: both;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.n {
+	font-style: normal; font-weight: normal;
+}
+.b {
+	font-weight: bold;
+}
+.tc {
+	text-align: center;
+}
+.tl {
+	text-align: left;
+}
+.tr {
+	text-align: right;
+}
+.red {
+	color: rgb(204, 0, 0);
+}
+.line {
+	padding: 0px 10px; color: rgb(153, 153, 153); display: inline-block;
+}
+.hidden {
+	display: none;
+}
+.show {
+	display: block;
+}
+.border_none {
+	border: 0px currentColor;
+}
+.text-overflow {
+	overflow: hidden; white-space: nowrap; text-overflow: ellipsis; -moz-binding: url(ellipsis.xml#ellipsis);
+}
+.icon {
+	background-position: 20px 20px; width: 20px; height: 20px; text-align: center; line-height: 20px; text-indent: -9999em; vertical-align: top; display: inline-block; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.icon_bbverify {
+	width: 23px;
+}
+.icon_byverify {
+	width: 23px;
+}
+.icon_lv {
+	width: 30px; height: 15px;
+}
+.icon_yellow_sign {
+	width: 35px; height: 17px;
+}
+.icon_coursecard {
+	width: 238px; height: 41px;
+}
+.icon_courseselect {
+	width: 238px; height: 41px;
+}
+.icon_guide {
+	width: 238px; height: 41px;
+}
+.icon_forward {
+	width: 150px; height: 36px;
+}
+.icon_follow_add {
+	width: 14px; height: 14px; opacity: 0.5;
+}
+.icon_dot {
+	width: 0px;
+}
+.icon_timer {
+	width: 30px; height: 30px; line-height: 30px;
+}
+.icon_arrow_up {
+	width: 12px; height: 17px;
+}
+.icon_arrow_down {
+	width: 12px; height: 17px;
+}
+.icon_new {
+	margin-left: -7px;
+}
+.icon_rmb {
+	width: 13px;
+}
+.icon_new {
+	
+}
+.icon_shopping {
+	background-position: -22px -75px;
+}
+.icon_messages {
+	background-position: -22px -270px;
+}
+.icon_settsings {
+	background-position: -22px -124px;
+}
+.icon_bverify {
+	background-position: -99px 2px;
+}
+.icon_bbverify {
+	background-position: -100px -50px;
+}
+.icon_yverify {
+	background-position: -100px -24px;
+}
+.icon_byverify {
+	background-position: -100px -75px;
+}
+.icon_home {
+	background-position: 0px -20px;
+}
+.icon_star {
+	background-position: 0px -50px;
+}
+.icon_heart {
+	background-position: 0px -75px;
+}
+.icon_th {
+	background-position: 0px -270px;
+}
+.icon_exam {
+	
+}
+.icon_report {
+	
+}
+.icon_schedule {
+	
+}
+.icon_user {
+	background-position: 8px -98px;
+}
+.icon_shield {
+	background-position: 0px -125px;
+}
+.icon_diamond {
+	background-position: 0px -145px;
+}
+.icon_lv {
+	background-position: -127px 0px;
+}
+.icon_orders {
+	background-position: -50px -125px;
+}
+.icon_coins {
+	background-position: -22px -25px;
+}
+.icon_card {
+	background-position: -22px -45px;
+}
+.icon_courses {
+	background-position: -18px -147px;
+}
+.icon_chevron_left {
+	background-position: -74px -276px;
+}
+.icon_chevron_right {
+	background-position: -76px -225px;
+}
+.icon_chevron_left_reverse {
+	background-position: -75px -200px;
+}
+.icon_chevron_right_reverse {
+	background-position: -75px -252px;
+}
+.icon_yellow_sign {
+	background-position: -127px -211px;
+}
+.icon_thumbs_up {
+	background-position: -69px -48px;
+}
+.icon_rmb {
+	background-position: -74px 3px;
+}
+.icon_gray_user {
+	background-position: -71px -24px;
+}
+.icon_clock {
+	background-position: -75px -75px;
+}
+.icon_word {
+	background-position: -75px -100px;
+}
+.icon_horn {
+	background-position: -75px -125px;
+}
+.icon_manuscript {
+	background-position: -75px -150px;
+}
+.icon_tv {
+	background-position: -75px -175px;
+}
+.icon_info_sign {
+	background-position: -75px -75px;
+}
+.icon_info_search {
+	background-position: -50px 0px;
+}
+.icon_follow_add {
+	background-position: -50px -177px;
+}
+.icon_coursecard {
+	background-position: -123px -375px;
+}
+.icon_guide {
+	background-position: -123px -420px;
+}
+.icon_courseselect {
+	background-position: -123px -466px;
+}
+.icon_forward {
+	background-position: -127px -366px;
+}
+.icon_arrow_up {
+	background-position: -104px -126px;
+}
+.icon_arrow_down {
+	background-position: -104px -100px;
+}
+.icon_arrow_right {
+	background-position: -43px -200px;
+}
+.icon_square_orange {
+	background-position: -47px -48px;
+}
+.icon_square_gray {
+	background-position: -47px -73px;
+}
+.icon_blue_sign {
+	background-position: -47px -145px;
+}
+.icon_dot {
+	background-position: 0px -215px;
+}
+.icon_star {
+	background-position: -50px -199px;
+}
+.icon_point {
+	background-position: -50px -22px;
+}
+.icon_live {
+	background-position: -45px -97px;
+}
+.icon_timer {
+	background-position: -17px -189px;
+}
+.icon_white_clock {
+	background-position: -129px -235px;
+}
+.icon_public_video {
+	background-position: -127px -258px;
+}
+.coures_content {
+	background: rgb(246, 246, 246); height: auto; overflow: hidden; padding-bottom: 20px;
+}
+.coures_content h2 {
+	margin: 0px auto; width: 970px; height: 47px; color: rgb(51, 51, 51); line-height: 47px; overflow: hidden; padding-left: 10px; font-family: "Microsoft YaHei"; font-size: 16px; font-weight: normal;
+}
+.coures_content h2 strong {
+	font-size: 14px;
+}
+.coures_content .content_player {
+	background: rgb(255, 255, 255); margin: 0px auto; border-radius: 2px; width: 980px; height: 535px; box-shadow: 3px 3px 5px #dcdcdc, -3px -3px 5px #dcdcdc;
+}
+.coures_content .content_player .player_list {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; width: 230px; height: 465px; border-bottom-color: rgb(239, 239, 239); border-bottom-width: 1px; border-bottom-style: solid; float: right;
+}
+.coures_content .content_player .player_list .list_shop_meoney {
+	background-position: 0px -331px; height: 73px; position: relative; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .btn_apply {
+	background: url("http://img04.xesimg.com/scroll/btn_apply.png") no-repeat; top: 22px; width: 109px; height: 48px; right: -7px; text-indent: -9999em; display: block; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_shop_meoney .unsaleable {
+	background: url("http://img04.xesimg.com/scroll/unsaleable.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .haltsale {
+	background: url("http://img04.xesimg.com/scroll/haltsale.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .btn_limit {
+	background: url("http://img04.xesimg.com/scroll/limit_btn.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .btn_apply_no {
+	background: url("http://img04.xesimg.com/scroll/btn_apply_no.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_shop_meoney .limit_end {
+	background: url("http://img04.xesimg.com/scroll/limit_end.png") no-repeat; top: 5px; width: 144px; height: 84px; right: -10px; text-indent: -9999em; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_shop_meoney .limit_time {
+	background: url("http://img04.xesimg.com/scroll/limit_time.png") no-repeat; top: 22px; width: 108px; height: 45px; right: -7px; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_shop_meoney .limit_time span {
+	top: 19px; width: 100px; height: 25px; right: -8px; color: rgb(255, 255, 255); display: block; position: absolute; z-index: 20;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_num {
+	padding: 5px 0px 0px 15px; text-align: left; float: left;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_num p {
+	color: rgb(204, 0, 0); font-size: 30px;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_num del {
+	color: rgb(153, 153, 153); display: block;
+}
+.coures_content .content_player .player_list .list_shop_meoney .money_all {
+	padding: 5px 0px 0px 15px;
+}
+.coures_content .content_player .player_list .player_buy_limit {
+	background: url("http://img04.xesimg.com/scroll/limit.png") no-repeat; height: 65px; text-align: center; color: rgb(153, 153, 153); line-height: 65px; overflow: hidden; font-family: "Î¢ÈíÑÅºÚ"; font-size: 18px;
+}
+.coures_content .content_player .player_list .buy_limit_item {
+	line-height: 30px;
+}
+.coures_content .content_player .player_list .buy_limit_item span {
+	display: block;
+}
+.coures_content .content_player .player_list .player_buy_limit_infor {
+	height: 55px; color: rgb(51, 51, 51); line-height: 180%; padding-top: 10px; font-size: 12px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.coures_content .content_player .player_list .dialog_assign {
+	background: url("http://img04.xesimg.com/layer/layer_l.png") no-repeat; top: 65px; width: 222px; height: 49px; right: -69px; display: none; position: absolute; z-index: 10000;
+}
+.coures_content .content_player .player_list .dialog_assign .icon_shop {
+	background: url("http://img04.xesimg.com/icon/icon_sm.jpg") no-repeat 0px 1px; margin: 20px 0px 0px 50px; padding-left: 25px; float: left; display: inline;
+}
+.coures_content .content_player .player_list .dialog_assign .icon_shop_no {
+	background: url("http://img04.xesimg.com/icon/icon_in.jpg") no-repeat 0px 1px;
+}
+.coures_content .content_player .player_list .list_title {
+	background-position: 0px -239px; height: 38px; line-height: 38px; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+.coures_content .content_player .player_list .list_title_info {
+	background: url("http://img04.xesimg.com/scroll/tab_title_bg_03.jpg") no-repeat; height: 37px; line-height: 37px; overflow: hidden; position: relative;
+}
+.coures_content .content_player .player_list .list_title_info .title_info {
+	text-align: center; color: rgb(102, 102, 102); font-size: 14px;
+}
+.coures_content .content_player .player_list .list_title_info ul {
+	margin: 1px auto 0px; width: 230px; height: 36px; line-height: 36px; overflow: hidden;
+}
+.coures_content .content_player .player_list .list_title_info ul li {
+	width: 115px; text-align: center; overflow: hidden; float: left; display: inline;
+}
+.coures_content .content_player .player_list .list_title_info ul li a {
+	width: 115px; text-align: center; color: rgb(51, 51, 51); font-size: 14px; text-decoration: none; float: left;
+}
+.coures_content .content_player .player_list .list_title_info ul li .directory {
+	background: url("http://img04.xesimg.com/scroll/tab_02.jpg") no-repeat 0px 0px;
+}
+.coures_content .content_player .player_list .list_title_info ul li .audition {
+	background: url("http://img04.xesimg.com/scroll/tab_01.jpg") no-repeat 115px 0px;
+}
+.coures_content .content_player .player_list .list_title_info ul li a.liveCoachInfo {
+	background: url("http://img04.xesimg.com/icon/live_02.png") no-repeat; top: 10px; width: 17px; height: 17px; right: 10px; text-indent: -99999em; display: block; position: absolute; z-index: 10;
+}
+.coures_content .content_player .player_list .list_title_info ul li a.liveImg {
+	background: url("http://img04.xesimg.com/icon/live_03.png") no-repeat;
+}
+.coures_content .content_player .player_list .list_title_info ul .current a {
+	color: rgb(255, 255, 255); text-decoration: none;
+}
+.coures_content .content_player .player_list .list_title_info ul .current .directory {
+	background: url("http://img04.xesimg.com/scroll/tab_01.jpg") no-repeat 0px 0px;
+}
+.coures_content .content_player .player_list .list_title_info ul .current .audition {
+	background: url("http://img04.xesimg.com/scroll/tab_02.jpg") no-repeat -115px 0px;
+}
+.coures_content .content_player .player_live {
+	width: 745px; height: 465px; float: left;
+}
+.coures_content .content_player .player_live #VideoPlay {
+	margin: 12px 0px 0px 10px; width: 730px; height: 453px; overflow: hidden;
+}
+.coures_content .content_player .player_live .class_test {
+	margin: 12px 0px 0px 10px; width: 730px; height: 453px; overflow: hidden;
+}
+.coures_content .content_player .player_info {
+	width: 980px; height: 69px; line-height: 69px; overflow: hidden; float: left; position: relative;
+}
+.coures_content .content_player .player_info dl {
+	color: rgb(102, 102, 102); font-size: 14px; margin-left: 20px; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dt {
+	float: left;
+}
+.coures_content .content_player .player_info dl dd {
+	float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .star {
+	background: url("http://img04.xesimg.com/star.jpg") repeat-x; height: 20px; text-indent: -9999em; margin-top: 25px;
+}
+.coures_content .content_player .player_info dl dd .star1 {
+	width: 20px;
+}
+.coures_content .content_player .player_info dl dd .star2 {
+	width: 40px;
+}
+.coures_content .content_player .player_info dl dd .star3 {
+	width: 60px;
+}
+.coures_content .content_player .player_info dl dd .star4 {
+	width: 80px;
+}
+.coures_content .content_player .player_info dl dd .star5 {
+	width: 100px;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con {
+	overflow: hidden; margin-top: 10px;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .ui_avatar {
+	overflow: hidden; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .ui_avatar .avatar_items li {
+	_width: 50px; _overflow: hidden;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .prev {
+	margin: 12px 7px 0px 0px; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .none.prev .icon_chevron_left {
+	background-position: -75px -200px;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .next {
+	margin: 12px 0px 0px 7px; float: left; display: inline;
+}
+.coures_content .content_player .player_info dl dd .ui_avatar_con .none.next .icon_chevron_right {
+	background-position: -75px -252px;
+}
+.coures_content .content_player .player_info .listen_num {
+	top: 0px; right: 45px; color: rgb(102, 102, 102); padding-right: 20px; font-family: "Microsoft YaHei"; font-size: 18px; position: absolute; z-index: 1;
+}
+.coures_content .content_player .player_info .listen_num strong {
+	padding: 1px 5px 0px 0px; font-family: "Arial"; font-size: 28px; float: left;
+}
+.coures_content .content_player .player_info .listen_num span {
+	padding-right: 10px; float: left;
+}
+.coures_content .content_player .player_info .collect {
+	width: 25px; height: 68px; padding-right: 16px; float: right;
+}
+.coures_content .content_player .player_info .collect a {
+	background: url("http://img04.xesimg.com/scroll/collect.gif") no-repeat; width: 25px; height: 68px; text-indent: -9999em; display: block;
+}
+.coures_content .content_player .player_info .collect a.collect_current {
+	background: url("http://img04.xesimg.com/scroll/collect_current.gif") no-repeat; cursor: default;
+}
+.ui_scrolls {
+	width: 230px; overflow: hidden;
+}
+.ui_scrolls .scrolls_item {
+	width: 100%; height: 355px; overflow: auto;
+}
+.ui_scrolls .scrolls_item .scrolls_con {
+	overflow: hidden;
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam {
+	padding: 5px 0px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam p {
+	color: rgb(102, 102, 102); line-height: 22px; overflow: hidden; padding-left: 15px;
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_title {
+	color: rgb(51, 51, 51);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_title .blue {
+	color: rgb(0, 118, 179);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_title .orange {
+	color: rgb(255, 165, 0);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learningTeam .team_state {
+	color: rgb(153, 153, 153);
+}
+.ui_scrolls .scrolls_item .scrolls_con .learning_live_more {
+	height: 30px; text-align: center; color: rgb(153, 153, 153); line-height: 30px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul {
+	background: url("http://img04.xesimg.com/scroll/scroll_ul.jpg") repeat-y 22px 0px; width: 230px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li {
+	background: url("http://img04.xesimg.com/scroll/scroll_li.jpg") no-repeat 28px 20px; color: rgb(51, 51, 51); line-height: 43px; overflow: hidden; padding-left: 42px; font-size: 14px; position: relative;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .gray a {
+	color: rgb(102, 102, 102);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .gray .red {
+	color: rgb(204, 0, 0);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li a {
+	color: rgb(102, 102, 102);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .red {
+	color: rgb(204, 0, 0); padding-left: 20px; font-size: 12px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .icon_blue_sign {
+	background: url("http://img04.xesimg.com/scroll/icon_07_white.gif") no-repeat; top: 15px; width: 15px; height: 14px; right: 25px; display: block; position: absolute;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul li .gray {
+	color: rgb(153, 153, 153); text-decoration: none; cursor: default;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .scrolls_title {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; height: 41px; overflow: hidden; padding-left: 20px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .scrolls_title_item {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; height: 41px; overflow: hidden; padding-left: 20px; border-top-color: rgb(233, 233, 233); border-top-width: 1px; border-top-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .scrolls_title_item a {
+	font-size: 12px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .last {
+	background: url("http://img04.xesimg.com/scroll/last.jpg") no-repeat 22px 1px;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .current {
+	background: url("http://img04.xesimg.com/scroll/scroll_current.jpg") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .current a {
+	color: rgb(255, 255, 255);
+}
+.ui_scrolls .scrolls_item .scrolls_con ul .current .icon_blue_sign {
+	background: url("http://img04.xesimg.com/scroll/icon_07_blue.gif") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li p {
+	overflow: hidden;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_03.png") no-repeat 1px 2px; width: 20px; height: 20px; text-align: center; text-indent: -9999em; margin-top: 12px; vertical-align: top; float: left;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li a {
+	float: left;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li.current {
+	background: url("http://img04.xesimg.com/scroll/scroll_current.jpg") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con .select_list li.current .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_04.gif") no-repeat 1px 2px;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li {
+	background: url("http://img04.xesimg.com/scroll/tingkeyebg.jpg") repeat-y; height: 42px; line-height: 42px; overflow: hidden; padding-left: 25px; font-size: 12px; border-bottom-color: rgb(233, 233, 233); border-bottom-width: 1px; border-bottom-style: solid;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li p {
+	color: rgb(153, 153, 153); cursor: default;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li a {
+	width: 145px; text-decoration: none; float: left; display: inline;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .icon_corner {
+	background: url("http://img04.xesimg.com/scroll/icon_03_white.gif") no-repeat; left: 10px; top: 16px; width: 10px; height: 11px; display: block; position: absolute; z-index: 100;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_03.png") no-repeat; left: 190px; top: 3px; width: 14px; height: 14px; display: block; position: absolute; z-index: 100;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .icon_white_clock {
+	margin: 15px 0px 0px 7px; float: right; display: inline;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li .gray {
+	color: rgb(153, 153, 153); cursor: default;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li.current .icon_corner {
+	background: url("http://img04.xesimg.com/scroll/icon_03_blue.gif") no-repeat;
+}
+.ui_scrolls .scrolls_item .scrolls_con_list ul li.current .icon_live_gary {
+	background: url("http://img04.xesimg.com/scroll/icon2_04.gif") no-repeat;
+}
+.ui_scrolls .scrolls_item .wh_180 ul li a {
+	width: 180px;
+}
+.ui_scrolls_limit .scrolls_item {
+	height: 290px;
+}
+.ui_scrolls_assign .scrolls_item {
+	height: 225px;
+}
+.coures_content_item {
+	height: 560px;
+}
+.coures_content_item .content_player {
+	height: 478px;
+}
+.coures_content_item .content_player .player_list {
+	height: 478px;
+}
+.coures_content_item .content_player .player_list .ui_scrolls .scrolls_item {
+	height: 440px;
+}
+.icon_corner {
+	background-position: -129px -24px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.icon_tests {
+	background-position: -129px -98px; margin-top: 12px; float: left; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.icon_live_gary {
+	background-position: -129px -72px; margin-top: 12px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.current .icon_live_gary {
+	background-position: -129px -50px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.current .icon_corner {
+	background-position: -129px 1px; background-image: url("http://img04.xesimg.com/icon.png"); background-repeat: no-repeat;
+}
+.scrolls_free .scrolls_item {
+	height: 387px;
+}
+.document_download {
+	background: url("http://img04.xesimg.com/gradual_gray.jpg") no-repeat; width: 231px; height: 40px; text-align: center; line-height: 40px; text-decoration: none; display: block;
+}
+.gray.document_download {
+	color: rgb(153, 153, 153);
+}
+a.document_download:hover {
+	text-decoration: none;
+}
+.layerShopTips .dialog_content {
+	padding: 0px;
+}
+.layerShopTips .layer_shop_tips {
+	width: 420px; height: 167px;
+}
+.layerShopTips .layer_shop_tips .btn_shop_tips {
+	width: 81px; height: 35px; margin-top: 115px; margin-right: 10px; float: right; display: inline;
+}
+.layerShopTips .buyTpis_1.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_001.jpg") no-repeat;
+}
+.layerShopTips .buyTpis_2.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_002.jpg") no-repeat;
+}
+.layerShopTips .buyTpis_3.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_003.jpg") no-repeat;
+}
+.layerShopTips .buyTpis_4.layer_shop_tips {
+	background: url("http://img04.xesimg.com/layer/layer_004.jpg") no-repeat;
+}
+.panel_listen {
+	overflow: hidden;
+}
+.panel_listen .listen_conten {
+	margin: 15px auto 0px; overflow: hidden;
+}
+.tabs_title_item {
+	overflow: hidden; background-image: url("http://img04.xesimg.com/hbg.png"); background-repeat: repeat-x;
+}
+.tabs_title_item li {
+	width: 180px; text-align: center; line-height: 37px; font-size: 14px; font-weight: bold; border-right-color: rgb(210, 210, 210); border-right-width: 1px; border-right-style: solid; float: left; cursor: pointer;
+}
+.tabs_title_item li span {
+	color: rgb(51, 51, 51);
+}
+.tabs_title_item .current {
+	background-position: -36px -199px; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: repeat-x;
+}
+.listen_cou {
+	overflow: hidden; padding-bottom: 5px; margin-bottom: 10px; border-bottom-color: rgb(230, 230, 230); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.listen_cou .ui_avatar {
+	margin: 3px 7px; width: 50px; float: left;
+}
+.listen_cou .ui_avatar img {
+	width: 50px; height: 50px;
+}
+.listen_cou .ui_avatar ul.avatar_items {
+	height: 50px;
+}
+.listen_cou .cou_detail {
+	width: 155px; float: left;
+}
+.listen_cou .cou_detail .cou_text {
+	line-height: 150%; margin-bottom: 5px;
+}
+.listen_cou .cou_detail .cou_text a {
+	color: rgb(51, 51, 51);
+}
+.listen_cou .cou_detail .cou_text_name {
+	line-height: 150%; margin-top: 18px;
+}
+.listen_cou .cou_detail .cou_info span {
+	color: rgb(153, 153, 153); line-height: 20px; font-size: 14px; margin-right: 10px; display: inline-block;
+}
+.listen_cou .cou_detail .donate {
+	background-position: -35px -30px; width: 42px; height: 25px; text-align: center; color: rgb(255, 255, 255); line-height: 25px; font-weight: bold; background-image: url("http://img04.xesimg.com/btn.png"); background-repeat: no-repeat;
+}
+#course_service {
+	width: 700px; overflow: hidden;
+}
+#course_service li {
+	width: 112px; height: 118px; text-align: center; float: left;
+}
+#course_service li .listen_cou {
+	border: 0px currentColor; width: 112px; height: 118px; padding-bottom: 0px; margin-right: 0px; margin-bottom: 0px; float: left;
+}
+#course_service li .listen_cou .ui_avatar {
+	margin: 3px 0px 3px 31px; width: 50px; height: 75px;
+}
+#course_service li .listen_cou .cou_detail {
+	width: 112px;
+}
+#course_service li .listen_cou .cou_detail .cou_text {
+	width: 100%; text-align: center; color: rgb(102, 102, 102);
+}
+#course_service li img {
+	width: 70px; height: 70px;
+}
+#course_service li .service_info {
+	width: 100%; color: rgb(102, 102, 102); margin-top: 5px;
+}
+.panel .panel_content .border_none {
+	border: 0px currentColor;
+}
+.listen_conten .border_none {
+	border: 0px currentColor;
+}
+.layout_body .listen_conten {
+	width: 700px;
+}
+.layout_body .listen_conten .listen_cou {
+	border: 0px currentColor; width: 200px; height: 85px; padding-bottom: 0px; margin-right: 30px; margin-bottom: 0px; float: left;
+}
+.layout_body .listen_conten .cou_detail {
+	width: 135px;
+}
+#course_info_box {
+	margin: 10px auto; overflow: hidden;
+}
+#course_info_box .course_detail {
+	width: 100%; overflow: hidden; float: none; display: none; word-wrap: break-word;
+}
+#course_info_box .course_detail dl {
+	padding: 10px 0px; overflow: hidden;
+}
+#course_info_box .course_detail dl dt {
+	color: rgb(51, 51, 51); padding-left: 10px; font-size: 14px; font-weight: bold; margin-bottom: 5px;
+}
+#course_info_box .course_detail dl dd {
+	color: rgb(102, 102, 102); line-height: 22px; padding-left: 10px; font-size: 12px;
+}
+#course_info_box .course_detail .detail_title {
+	padding: 10px 0px; color: rgb(204, 0, 0); font-size: 14px; border-bottom-color: rgb(189, 194, 200); border-bottom-width: 1px; border-bottom-style: dotted;
+}
+#course_info_box .course_detail .detail_login {
+	color: rgb(102, 102, 102); line-height: 20px; overflow: hidden; font-weight: bold;
+}
+#course_info_box .course_detail .detail_login a {
+	color: rgb(204, 0, 0); font-weight: bold;
+}
+#course_info_box .course_detail .ui_comment {
+	background: rgb(243, 243, 243); margin: 10px 0px;
+}
+#course_info_box .course_detail .ui_comment .comment_form {
+	padding: 10px 10px 0px;
+}
+#course_info_box .course_detail .ui_comment .comment_form .comment_func .comment_button .btn_sky {
+	width: 80px;
+}
+#course_info_box .course_detail .table_outline {
+	border: 0px currentColor; width: 100%;
+}
+#course_info_box .course_detail .table_outline tr:nth-child(2n+1) {
+	background: rgb(250, 250, 250);
+}
+#course_info_box .course_detail .table_outline tr:nth-child(2n) {
+	background: rgb(245, 245, 245);
+}
+#course_info_box .course_detail .table_outline td:nth-child(2n+1) {
+	width: 200px;
+}
+#course_info_box .course_detail .table_outline .get_line span {
+	margin: 0px 15px; border-radius: 9px; width: 50px; height: 18px; text-align: center; color: rgb(255, 255, 255); line-height: 18px; float: left; display: inline-block; _zoom: 1; _display: inline;
+}
+#course_info_box .course_detail .table_outline .get_line .goline {
+	background: rgb(255, 153, 0);
+}
+#course_info_box .course_detail .table_outline .get_line .not_goline {
+	background: rgb(204, 204, 204);
+}
+#course_info_box .course_detail .table_outline td {
+	padding: 0px; height: 38px; text-align: left; vertical-align: middle; border-top-color: currentColor; border-bottom-color: rgb(255, 255, 255); border-top-width: 0px; border-bottom-width: 1px; border-top-style: none; border-bottom-style: solid;
+}
+#course_info_box .course_detail .table_outline td a {
+	color: rgb(51, 51, 51);
+}
+#course_info_box .course_detail .table_outline .text_c {
+	width: 200px !important; text-align: left;
+}
+#course_info_box .course_detail .table_outline .text_l {
+	text-align: left; padding-left: 20px;
+}
+#course_info_box .course_detail .table_outline .text_l span {
+	padding-right: 10px;
+}
+#course_info_box .course_detail .table_outline .text_l .blue {
+	color: rgb(0, 118, 179);
+}
+#course_info_box .course_detail .table_outline .text_l .red {
+	font-weight: bold;
+}
+#course_info_box .course_detail .table_outline .text_l .orange {
+	color: orange;
+}
+#course_info_box .course_detail .table_outline .text_l .time {
+	font-weight: bold;
+}
+.cou_com_detail {
+	overflow: hidden;
+}
+.cou_com_detail .comment_detail_list {
+	overflow: hidden; margin-bottom: 10px; _width: 100%;
+}
+.cou_com_detail .comment_detail_list .user_pic {
+	margin: 10px; width: 50px; text-align: center; float: left; display: inline;
+}
+.cou_com_detail .comment_detail_list .user_pic .pic img {
+	width: 50px; height: 50px;
+}
+.cou_com_detail .comment_detail_list .user_pic .name {
+	height: 20px; color: rgb(51, 51, 51); line-height: 20px; overflow: hidden;
+}
+.cou_com_detail .comment_detail_list .user_pic .site {
+	height: 20px; color: rgb(153, 153, 153); line-height: 20px; overflow: hidden;
+}
+.cou_com_detail .comment_detail_list .user_text_box {
+	background: rgb(252, 252, 252); padding: 20px; border: 1px solid rgb(237, 237, 237); width: 600px; float: right; display: inline; position: relative;
+}
+.cou_com_detail .comment_detail_list .user_text_box .text {
+	color: rgb(102, 102, 102); padding-bottom: 20px; font-size: 14px;
+}
+.cou_com_detail .comment_detail_list .user_text_box .time {
+	color: rgb(153, 153, 153);
+}
+.cou_com_detail .comment_detail_list .user_text_box .corner_bg {
+	background: url("http://img04.xesimg.com/icon_33.jpg") no-repeat; left: -13px; top: 10px; width: 13px; height: 24px; display: block; position: absolute; z-index: 10;
+}
+.cou_com_detail .comment_detail_list .user_text_box .added_icon {
+	background: url("http://img04.xesimg.com/addeds.gif") no-repeat; top: 0px; width: 41px; height: 41px; right: 0px; display: block; position: absolute; z-index: 10;
+}
+.course_jzh_info {
+	background: white; margin: 10px auto 0px; padding: 15px; border-radius: 2px; width: 950px; overflow: hidden; position: relative; box-shadow: 3px 3px 5px #dcdcdc, -3px -3px 5px #dcdcdc;
+}
+.course_jzh_info .jzh_info_text {
+	width: 680px; float: left;
+}
+.course_jzh_info .jzh_info_text a.info_title {
+	width: 100%; color: rgb(49, 154, 231); overflow: hidden; font-family: "Microsoft YaHei"; font-size: 16px; text-decoration: none;
+}
+.course_jzh_info .jzh_info_text .info_vitality {
+	margin: 15px 0px; width: 100%; color: rgb(102, 102, 102); overflow: hidden; font-family: "NSimSun"; font-size: 14px;
+}
+.course_jzh_info .jzh_info_text .info_vitality .star {
+	width: 18px; height: 18px; vertical-align: sub; display: inline-block;
+}
+.course_jzh_info .jzh_info_text .info_vitality .full_star {
+	background: url("http://img04.xesimg.com/icon/full_star.png") no-repeat center;
+}
+.course_jzh_info .jzh_info_text .info_vitality .half_star {
+	background: url("http://img04.xesimg.com/icon/half_star.png") no-repeat center;
+}
+.course_jzh_info .jzh_info_text .info_vitality .empty_star {
+	background: url("http://img04.xesimg.com/icon/empty_star.png") no-repeat center;
+}
+.course_jzh_info .jzh_info_text .active_title {
+	color: rgb(51, 51, 51); font-family: "NSimSun"; font-size: 14px; font-weight: bold; margin-bottom: 5px;
+}
+.course_jzh_info .jzh_info_text .active_detial {
+	width: 100%; height: 55px; overflow: hidden;
+}
+.course_jzh_info .jzh_info_text .active_detial li {
+	width: 100%; height: 18px; color: rgb(51, 51, 51); overflow: hidden;
+}
+.course_jzh_info div.jzh_download {
+	background: url("http://img04.xesimg.com/course_jzh_qrcode.png") no-repeat 18px 0px; width: 270px; height: 102px; right: 15px; bottom: 15px; border-left-color: rgb(229, 229, 229); border-left-width: 1px; border-left-style: solid; display: block; position: absolute;
+}
+.course_jzh_info div.jzh_download a {
+	width: 92px; height: 12px; right: 50px; bottom: 0px; display: block; position: absolute;
+}
+.course_jzh_info a.close_info {
+	background: url("http://img04.xesimg.com/icon/close20.png") no-repeat center; top: 0px; width: 30px; height: 30px; right: 3px; display: block; position: absolute;
+}

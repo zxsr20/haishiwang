@@ -1,0 +1,339 @@
+.wasu-box {
+	width: 100%; margin-bottom: 5px;
+}
+.wasu-box .wasu-head {
+	height: 50px; line-height: 50px; position: relative;
+}
+.wasu-box .wasu-head .wasu-title {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-append {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-title {
+	color: rgb(255, 78, 0); margin-top: 6px; margin-left: 11px;
+}
+.wasu-box .wasu-head .wasu-title a {
+	color: rgb(255, 78, 0); padding-left: 3px; border-left-color: rgb(255, 78, 0); border-left-width: 3px; border-left-style: solid;
+}
+.wasu-box .wasu-head .wasu-title a:hover {
+	color: rgb(204, 51, 17);
+}
+.wasu-box .wasu-head .wasu-title a:visited {
+	color: rgb(255, 78, 0);
+}
+.wasu-box .wasu-head .wasu-append {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	right: 10px; bottom: 12px; position: absolute;
+}
+.wasu-box .wasu-head .wasu-extend a {
+	background: url("../images/wasu-extend.png") no-repeat; width: 20px; height: 20px; text-indent: -9999px; overflow: hidden; margin-right: 8px; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-extend .titlebar-agin {
+	
+}
+.wasu-box .wasu-head .wasu-extend .titlebar-more {
+	background-position: -20px;
+}
+.wasu-TitleBar .titlebar {
+	padding: 10px 0px; height: 20px;
+}
+.fixedBar.wasu-TitleBar {
+	left: 0px; top: 88px; width: 100%; height: 50px; position: fixed; z-index: 90;
+}
+.fixedBar.wasu-TitleBar .titlebar {
+	background: rgba(255, 255, 255, 0.7); margin: 0px auto; position: relative; min-width: 240px; max-width: 620px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-title {
+	margin-left: 11px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-extend {
+	right: 10px; bottom: 6px;
+}
+.wasu-body {
+	padding: 0px; width: 100%;
+}
+.wasu-body table {
+	width: 100%; margin-top: 20px;
+}
+.wasu-body td {
+	padding: 2px 4px 20px; width: 33.3%; font-size: 14px; vertical-align: top;
+}
+.wasu-body td a {
+	display: block;
+}
+.wasu-body td .taibiao {
+	border: 1px solid rgb(200, 200, 200); border-image: none; background-color: rgb(246, 246, 246);
+}
+.wasu-body td .taibiao .TVicon img {
+	border-bottom-color: rgb(200, 200, 200); border-bottom-width: 1px; border-bottom-style: dashed;
+}
+.wasu-body td img {
+	width: 100%;
+}
+.index-v td img {
+	border: 1px solid rgb(200, 200, 200); border-image: none;
+}
+.wasu-body td .v-update {
+	text-align: right; color: rgb(255, 255, 255); padding-right: 5px; font-weight: normal; margin-top: -20px; opacity: 0.5; background-color: rgb(0, 0, 0);
+}
+.wasu-body td h6 {
+	width: 85px; color: rgb(0, 0, 0); overflow: hidden; font-size: 14px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.wasu-body td p {
+	width: 85px; color: rgb(102, 102, 102); overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+@media screen and (max-width:400px) and (min-width:301px)
+{
+.index-recommend td h6 {
+	width: 145px;
+}
+.index-recommend td span {
+	width: 145px;
+}
+.index-v td h6 {
+	width: 90px;
+}
+.index-v td p {
+	width: 90px;
+}
+}
+@media screen and (min-width:401px)
+{
+.index-recommend td h6 {
+	width: 180px;
+}
+.index-recommend td span {
+	width: 180px;
+}
+.index-v td h6 {
+	width: 120px;
+}
+.index-v td p {
+	width: 120px;
+}
+}
+.index-recommend td h6 {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-recommend td span {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-v td h6 {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-v td p {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+@media screen and (min-width:480px)
+{
+.wasu-box {
+	width: 100%; margin-bottom: 5px;
+}
+.wasu-box .wasu-head {
+	height: 50px; line-height: 35px; margin-top: 10px; margin-bottom: 10px; position: relative;
+}
+.wasu-box .wasu-head .wasu-title {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-append {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-title {
+	color: rgb(255, 78, 0); margin-left: 11px;
+}
+.wasu-box .wasu-head .wasu-title a {
+	color: rgb(255, 78, 0); padding-left: 3px; border-left-color: rgb(255, 78, 0); border-left-width: 3px; border-left-style: solid;
+}
+.wasu-box .wasu-head .wasu-title a:hover {
+	color: rgb(204, 51, 17);
+}
+.wasu-box .wasu-head .wasu-title a:visited {
+	color: rgb(255, 78, 0);
+}
+.wasu-box .wasu-head .wasu-append {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	right: 10px; bottom: 10px; position: absolute;
+}
+.wasu-box .wasu-head .wasu-extend a {
+	margin-left: 20px;
+}
+.fixedBar.wasu-TitleBar {
+	left: 0px; top: 88px; width: 100%; height: 50px; position: fixed; z-index: 90;
+}
+.fixedBar.wasu-TitleBar .titlebar {
+	background: rgba(255, 255, 255, 0.7); margin: 0px auto; position: relative; min-width: 240px; max-width: 620px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-title {
+	margin-left: 11px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-extend {
+	right: 10px;
+}
+}
+.wasu-box {
+	width: 100%; margin-bottom: 5px;
+}
+.wasu-box .wasu-head {
+	height: 50px; line-height: 50px; position: relative;
+}
+.wasu-box .wasu-head .wasu-title {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-append {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-title {
+	color: rgb(255, 78, 0); margin-top: 6px; margin-left: 11px;
+}
+.wasu-box .wasu-head .wasu-title a {
+	color: rgb(255, 78, 0); padding-left: 3px; border-left-color: rgb(255, 78, 0); border-left-width: 3px; border-left-style: solid;
+}
+.wasu-box .wasu-head .wasu-title a:hover {
+	color: rgb(204, 51, 17);
+}
+.wasu-box .wasu-head .wasu-title a:visited {
+	color: rgb(255, 78, 0);
+}
+.wasu-box .wasu-head .wasu-append {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	right: 10px; bottom: 4px; position: absolute; background-size: 100%;
+}
+.wasu-box .wasu-head .wasu-extend a {
+	width: 20px; height: 20px; text-indent: -9999px; margin-right: 8px; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-extend .titlebar-agin {
+	background: url("../images/wasu-extendA.png") no-repeat 0% 0% / 100% 100%;
+}
+.wasu-box .wasu-head .wasu-extend .titlebar-more {
+	background: url("../images/wasu-extendM.png") no-repeat 0% 0% / 100% 100%;
+}
+.wasu-TitleBar .titlebar {
+	padding: 10px 0px; height: 20px;
+}
+.fixedBar.wasu-TitleBar {
+	left: 0px; top: 88px; width: 100%; height: 50px; overflow: hidden; position: fixed; z-index: 90;
+}
+.fixedBar.wasu-TitleBar .titlebar {
+	background: rgba(255, 255, 255, 0.8); margin: 0px auto; position: relative; min-width: 240px; max-width: 620px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-title {
+	margin-left: 11px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-extend {
+	right: 10px; bottom: 0px;
+}
+.wasu-body td h6 {
+	width: 85px; color: rgb(0, 0, 0); overflow: hidden; font-size: 14px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.wasu-body td p {
+	width: 85px; color: rgb(102, 102, 102); overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+@media screen and (max-width:400px) and (min-width:301px)
+{
+.index-recommend td h6 {
+	width: 145px;
+}
+.index-recommend td span {
+	width: 145px;
+}
+.index-v td h6 {
+	width: 90px;
+}
+.index-v td p {
+	width: 90px;
+}
+}
+@media screen and (min-width:401px)
+{
+.index-recommend td h6 {
+	width: 180px;
+}
+.index-recommend td span {
+	width: 180px;
+}
+.index-v td h6 {
+	width: 120px;
+}
+.index-v td p {
+	width: 120px;
+}
+}
+.index-recommend td h6 {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-recommend td span {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-v td h6 {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-v td p {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+@media screen and (min-width:480px)
+{
+.wasu-box {
+	width: 100%; margin-bottom: 5px;
+}
+.wasu-box .wasu-head {
+	height: 50px; line-height: 35px; margin-top: 10px; margin-bottom: 10px; position: relative;
+}
+.wasu-box .wasu-head .wasu-title {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-append {
+	font-family: "Microsoft YaHei"; font-size: 18px; vertical-align: bottom; display: inline-block;
+}
+.wasu-box .wasu-head .wasu-title {
+	color: rgb(255, 78, 0); margin-left: 11px;
+}
+.wasu-box .wasu-head .wasu-title a {
+	color: rgb(255, 78, 0); padding-left: 3px; border-left-color: rgb(255, 78, 0); border-left-width: 3px; border-left-style: solid;
+}
+.wasu-box .wasu-head .wasu-title a:hover {
+	color: rgb(204, 51, 17);
+}
+.wasu-box .wasu-head .wasu-title a:visited {
+	color: rgb(255, 78, 0);
+}
+.wasu-box .wasu-head .wasu-append {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	
+}
+.wasu-box .wasu-head .wasu-extend {
+	right: 10px; bottom: 10px; position: absolute;
+}
+.wasu-box .wasu-head .wasu-extend a {
+	margin-left: 20px;
+}
+.fixedBar.wasu-TitleBar {
+	left: 0px; width: 100%; height: 50px; position: fixed; z-index: 90;
+}
+.fixedBar.wasu-TitleBar .titlebar {
+	background: rgba(255, 255, 255, 0.7); margin: 0px auto; position: relative; min-width: 240px; max-width: 620px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-title {
+	margin-left: 11px;
+}
+.fixedBar.wasu-TitleBar .titlebar .wasu-extend {
+	right: 10px;
+}
+}

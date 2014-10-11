@@ -1,0 +1,209 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="scott.dao.shanxue.SxCourseDao" > 
+<!-- Result Map-->
+<resultMap id="BaseResultMap" type="scott.entity.shanxue.SxCourse" >
+	<result column="id" property="id"/>
+	<result column="name" property="name"/>
+	<result column="peak" property="peak"/>
+	<result column="tread" property="tread"/>
+	<result column="userid" property="userid"/>
+	<result column="teacher_name" property="teacher_name"/>
+	<result column="type_code" property="type_code"/>
+	<result column="description" property="description"/>
+	<result column="cost" property="cost"/>
+	<result column="cost_type" property="cost_type"/>
+	<result column="picture" property="picture"/>
+	<result column="picture_hen" property="picture_hen"/>
+	<result column="picture_hen_big" property="picture_hen_big"/>
+	<result column="create_by" property="create_by"/>
+	<result column="create_date" property="create_date"/>
+	<result column="update_by" property="update_by"/>
+	<result column="update_date" property="update_date"/>
+	<result column="delflag" property="delflag"/>
+	<result column="del_date" property="del_date"/>
+</resultMap>
+       
+<!-- sx_course table all fields -->
+<sql id="Base_Column_List" >
+	 id,name,peak,tread,userid,teacher_name,type_code,description,cost,cost_type,picture,picture_hen,picture_hen_big,create_by,create_date,update_by,update_date,delflag,del_date
+</sql>
+   
+   
+<!-- 查询条件 -->
+<sql id="Example_Where_Clause">
+where 1=1
+<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and id =  #{id}
+	</if>
+	<if test="name != null and name != ''" >
+	    and name =  #{name}
+	</if>
+	<if test="peak != null and peak != ''" >
+	    and peak =  #{peak}
+	</if>
+	<if test="tread != null and tread != ''" >
+	    and tread =  #{tread}
+	</if>
+	<if test="userid != null and userid != ''" >
+	    and userid =  #{userid}
+	</if>
+	<if test="teacher_name != null and teacher_name != ''" >
+	    and teacher_name =  #{teacher_name}
+	</if>
+	<if test="type_code != null and type_code != ''" >
+	    and type_code =  #{type_code}
+	</if>
+	<if test="description != null and description != ''" >
+	    and description =  #{description}
+	</if>
+	<if test="cost != null and cost != ''" >
+	    and cost =  #{cost}
+	</if>
+	<if test="cost_type != null and cost_type != ''" >
+	    and cost_type =  #{cost_type}
+	</if>
+	<if test="picture != null and picture != ''" >
+	    and picture =  #{picture}
+	</if>
+	<if test="create_by != null and create_by != ''" >
+	    and create_by =  #{create_by}
+	</if>
+	<if test="create_date != null and create_date != ''" >
+	    and create_date =  #{create_date}
+	</if>
+	<if test="update_by != null and update_by != ''" >
+	    and update_by =  #{update_by}
+	</if>
+	<if test="update_date != null and update_date != ''" >
+	    and update_date =  #{update_date}
+	</if>
+	<if test="delflag != null and delflag != ''" >
+	    and delflag =  #{delflag}
+	</if>
+	<if test="del_date != null and del_date != ''" >
+	    and del_date =  #{del_date}
+	</if>
+</trim>
+</sql>
+   
+
+<!-- 插入记录 -->
+<insert id="add" parameterType="Object" >
+<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+	SELECT LAST_INSERT_ID()
+  </selectKey>
+  insert into sx_course(id,name,peak,tread,userid,teacher_name,type_code,description,cost,cost_type,picture,create_by,create_date,update_by,update_date,delflag,del_date)
+ values(#{id},#{name},#{peak},#{tread},#{userid},#{teacher_name},#{type_code},#{description},#{cost},#{cost_type},#{picture},#{create_by},#{create_date},#{update_by},#{update_date},#{delflag},#{del_date})
+</insert>
+
+<!-- 根据id，修改记录-->  
+ <update id="update" parameterType="Object" >
+  update sx_course set name=#{name},peak=#{peak},tread=#{tread},userid=#{userid},teacher_name=#{teacher_name},type_code=#{type_code},description=#{description},cost=#{cost},cost_type=#{cost_type},picture=#{picture},create_by=#{create_by},create_date=#{create_date},update_by=#{update_by},update_date=#{update_date},delflag=#{delflag},del_date=#{del_date} where id=#{id}
+ </update>
+ 
+ <!-- 修改记录，只修改只不为空的字段 -->
+<update id="updateBySelective" parameterType="Object" >
+	update sx_course set 
+	<trim  suffixOverrides="," >
+	<if test="name != null  ">
+		name=#{name},
+	</if>
+	<if test="peak != null  ">
+		peak=#{peak},
+	</if>
+	<if test="tread != null  ">
+		tread=#{tread},
+	</if>
+	<if test="userid != null  ">
+		userid=#{userid},
+	</if>
+	<if test="teacher_name != null  ">
+		teacher_name=#{teacher_name},
+	</if>
+	<if test="type_code != null  ">
+		type_code=#{type_code},
+	</if>
+	<if test="description != null  ">
+		description=#{description},
+	</if>
+	<if test="cost != null  ">
+		cost=#{cost},
+	</if>
+	<if test="cost_type != null  ">
+		cost_type=#{cost_type},
+	</if>
+	<if test="picture != null  ">
+		picture=#{picture},
+	</if>
+	<if test="picture_hen != null  ">
+		picture_hen=#{picture_hen},
+	</if>
+	<if test="create_by != null  ">
+		create_by=#{create_by},
+	</if>
+	<if test="create_date != null  ">
+		create_date=#{create_date},
+	</if>
+	<if test="update_by != null  ">
+		update_by=#{update_by},
+	</if>
+	<if test="update_date != null  ">
+		update_date=#{update_date},
+	</if>
+	<if test="delflag != null  ">
+		delflag=#{delflag},
+	</if>
+	<if test="del_date != null  ">
+		del_date=#{del_date},
+	</if>
+	</trim> where id=#{id}
+</update>
+
+<!-- 删除记录 -->
+<delete id="delete" parameterType="Object">
+	delete 	 from sx_course where id = #{id}
+</delete>
+ 
+<!-- 根据id查询 课程表 -->
+<select id="queryById"  resultMap="BaseResultMap" parameterType="Object">
+	select <include refid="Base_Column_List" /> 
+	 from sx_course where id = #{id}
+</select>
+
+<!-- 课程表 列表总数-->
+<select id="queryByCount" resultType="java.lang.Integer"  parameterType="Object">
+	select count(1) from sx_course 
+	<include refid="Example_Where_Clause"/>
+</select>
+  	
+<!-- 查询课程表列表 -->
+<select id="queryByList" resultMap="BaseResultMap"  parameterType="Object">
+	select 
+	<include refid="Base_Column_List"/>
+	from sx_course 
+	<include refid="Example_Where_Clause"/>
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+  
+<select id="sx_recommendcourseList" resultMap="BaseResultMap"  parameterType="Object">
+	select 
+	a.id,a.name,a.peak,a.tread,a.userid,a.teacher_name,a.type_code,a.description,a.cost,a.cost_type,a.picture,a.picture_hen,a.picture_hen_big,a.create_by,a.create_date,a.update_by,a.update_date,a.delflag,a.del_date
+	from sx_course a,sx_recommend_course b where a.id=b.courseid
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+  	
+</mapper>   

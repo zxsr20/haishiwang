@@ -1,0 +1,549 @@
+.posterMovieMobile {
+	-ms-user-select: none; -webkit-tap-highlight-color: transparent; -webkit-user-select: none; -moz-user-select: none; -o-user-select: none; user-select: none;
+}
+.posterMovieMobile .pic {
+	overflow: hidden; position: relative;
+}
+.posterMovieMobile .pic img {
+	width: 100%; -ms-interpolation-mode: bicubic; -webkit-tap-highlight-color: transparent; -webkit-touch-callout: none;
+}
+.posterMovieMobile .pic ul {
+	background: url("../images/ico_loading_white@2x.gif") no-repeat center / 32px 32px; width: 100%; height: 100%; position: relative; z-index: 1; -webkit-background-size: 32px 32px; -moz-background-size: 32px 32px; -o-background-size: 32px 32px;
+}
+.posterMovieMobile .pic li {
+	width: 100%; height: 100%; z-index: 1;
+}
+.posterMovieMobile .pic li > a {
+	width: 100%; height: 100%; display: block;
+}
+.posterMovieMobile .pager {
+	height: 5px; text-align: right; line-height: 0; font-size: 0px; margin-top: -15px; margin-right: 8px; position: relative; z-index: 1;
+}
+.posterMovieMobile .pager li {
+	margin-right: 5px; display: inline-block;
+}
+.posterMovieMobile .pager li a {
+	background: rgb(255, 255, 255); border-radius: 5px; width: 5px; height: 5px; display: block; opacity: 0.6; -webkit-border-radius: 5px; -moz-border-radius: 5px;
+}
+.posterMovieMobile .pager li.current a {
+	background: rgb(255, 255, 255); opacity: 1;
+}
+.posterMovieMobile .pager li:last-child {
+	margin-right: 0px;
+}
+.index-recommend {
+	padding: 10px 4px 0px;
+}
+.index-recommend table {
+	width: 100%;
+}
+.index-recommend td {
+	padding: 2px 4px 6px; width: 50%;
+}
+.index-recommend td a {
+	width: 100%; display: block;
+}
+.index-recommend td img {
+	border: 1px solid rgb(200, 200, 200); border-image: none; width: 99%;
+}
+.index-recommend td h6 {
+	color: rgb(0, 0, 0); line-height: 18px; font-size: 14px;
+}
+.index-recommend td span {
+	color: rgb(85, 85, 85); line-height: 18px; font-size: 14px;
+}
+.recommend01 {
+	margin: 0px 7px;
+}
+.recommend01 a {
+	display: block;
+}
+.recommend01 img {
+	border: 1px solid rgb(192, 192, 192); border-image: none;
+}
+@media screen and (max-width:300px)
+{
+.index-recommend td h6 {
+	width: 130px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-recommend td span {
+	width: 130px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+}
+@media screen and (max-width:400px) and (min-width:301px)
+{
+.index-recommend td h6 {
+	width: 145px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-recommend td span {
+	width: 145px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+}
+@media screen and (min-width:401px)
+{
+.index-recommend td h6 {
+	width: 180px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.index-recommend td span {
+	width: 180px; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+}
+footer {
+	padding: 12px 0px;
+}
+footer h4 {
+	background: url("../images/index-footer-bg.jpg") repeat-x left top; margin: 0px 10px; height: 25px; text-align: center;
+}
+footer h4 span {
+	width: 100px; color: rgb(125, 125, 125); font-size: 18px; display: inline-block; background-color: rgb(255, 255, 255);
+}
+.footerTable table {
+	margin: 0px 6px;
+}
+.footerTable td {
+	padding: 4px; text-align: center;
+}
+.footerTable td a {
+	border: 1px solid rgb(200, 200, 200); border-image: none; display: block;
+}
+.footerTable td img {
+	width: 100%;
+}
+.footerLink {
+	text-align: center;
+}
+.footerLink ul {
+	margin: 0px auto; width: 240px;
+}
+.footerLink ul li {
+	float: left;
+}
+.footerLink ul li a {
+	font: 14px/18px "Microsoft Yahei"; margin: 2px; padding: 2px; color: rgb(85, 85, 85); display: block; font-size-adjust: none; font-stretch: normal;
+}
+.footerLink p {
+	font: 14px/18px "Microsoft Yahei"; color: rgb(85, 85, 85); font-size-adjust: none; font-stretch: normal;
+}
+.live {
+	padding: 0px 3px; width: 100%;
+}
+.live tr {
+	
+}
+.live td {
+	width: 50%; padding-top: 0px;
+}
+.live .TVicon {
+	width: 100%; text-align: center;
+}
+.live .TVicon img {
+	width: 98%;
+}
+.live .TVtit img {
+	border: currentColor; border-image: none; width: 12px; height: 12px; margin-top: 8px; float: left;
+}
+.live .TVtit {
+	font: 14px/28px "Microsoft Yahei"; width: 140px; height: 24px; color: rgb(0, 0, 0); overflow: hidden; padding-left: 4px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; font-size-adjust: none; font-stretch: normal;
+}
+.live .TVyugao {
+	width: 100%; height: 24px; padding-left: 4px;
+}
+.live .TVyugao span {
+	float: left;
+}
+.live .TVyugao span:first-child {
+	width: 25%; max-width: 3em;
+}
+.live .TVyugao span:nth-last-child(2) {
+	width: 55%; overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 10em;
+}
+.live .TVyugao span:last-child {
+	width: 20%; max-width: 3em;
+}
+.live .TVyugao td {
+	overflow: hidden; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+.live .TVyugao td.first-child {
+	width: 30%; min-width: 40px; max-width: 100px;
+}
+.live .TVyugao td.second-child {
+	width: 50%; min-width: 100px; max-width: 200px;
+}
+.live .TVyugao td.last-child {
+	width: 20%; min-width: 40px; max-width: 100px;
+}
+.videoPop {
+	width: 100%; height: 30px; color: rgb(255, 255, 255); overflow: hidden; display: none; position: fixed; z-index: 9; opacity: 0.8;
+}
+.videoPop p {
+	width: 600px; overflow: hidden; background-color: rgb(0, 0, 0);
+}
+.videoPop p a {
+	padding: 2px 10px;
+}
+.TVplayDetail_videoBox .TVplayDetail_videoTit {
+	height: 28px; color: rgb(255, 255, 255); line-height: 28px; font-size: 16px; display: none; background-color: rgb(255, 0, 0);
+}
+.TVplayDetail_videoBox .TVplayDetail_videoTit a img {
+	margin: -2px 6px 0px 16px; height: 16px;
+}
+.TVplayDetail_videoBox .TVplayDetail_videoTit span {
+	margin-left: 4px;
+}
+.TVplayDetail_videoBox .TVplayDetail_video a {
+	display: block;
+}
+.TVplayDetail_videoBox .TVplayDetail_video video {
+	width: 100%;
+}
+.share_Hidden {
+	background: url("../images/defaultDetail_shareBj.png") no-repeat center; top: 36px; width: 189px; height: 54px; right: 10px; color: rgb(255, 255, 255); display: none; position: absolute;
+}
+.share01 a {
+	width: 22px; height: 30px; padding-top: 10px; padding-right: 10px; margin-top: 12px; margin-left: 18px; float: left; background-color: rgb(0, 0, 0);
+}
+.share02 a {
+	width: 22px; height: 30px; padding-top: 10px; padding-right: 10px; margin-top: 12px; margin-left: 18px; float: left; background-color: rgb(0, 0, 0);
+}
+.share03 a {
+	width: 22px; height: 30px; padding-top: 10px; padding-right: 10px; margin-top: 12px; margin-left: 18px; float: left; background-color: rgb(0, 0, 0);
+}
+.share01 a {
+	background: url("../images/share01.png") no-repeat 6px 10px; color: rgb(34, 34, 34); padding-right: 0px; padding-left: 30px;
+}
+.share02 a {
+	background: url("../images/share02.png") no-repeat 6px 10px;
+}
+.share03 a {
+	background: url("../images/share03.png") no-repeat 6px 10px;
+}
+.share01 a.on {
+	background: url("../images/share01_on.png") no-repeat 8px 10px; color: rgb(255, 78, 0); padding-left: 30px;
+}
+.share02 a.on {
+	background: url("../images/share02_on.png") no-repeat 6px 10px;
+}
+.share03 a.on {
+	background: url("../images/share03_on.png") no-repeat 6px 10px;
+}
+#videoTabnav {
+	width: 100%; font-size: 18px; position: relative;
+}
+#videoTabnav #v_tabNav {
+	width: 100%; height: 45px; color: rgb(255, 78, 0); background-color: rgb(246, 246, 246);
+}
+#videoTabnav #v_tabNav td {
+	width: 25%; height: 100%; text-align: center; padding-top: 0px; font-size: 18px; cursor: pointer;
+}
+#videoTabnav #v_tabNav td.on {
+	width: 25%; height: 100%; padding-top: 0px; background-color: rgb(255, 255, 255);
+}
+#videoTabnav #v_tabNav td a {
+	color: rgb(255, 78, 0); display: block;
+}
+#videoTabnav #v_tabCon {
+	
+}
+#videoTabnav #v_tabCon div {
+	padding: 0px 10px; color: rgb(85, 85, 85); display: none;
+}
+#videoTabnav #v_tabCon div h3 {
+	color: rgb(0, 0, 0); font-size: 18px; margin-top: 20px;
+}
+#videoTabnav #v_tabCon div p {
+	line-height: 26px; font-size: 16px; margin-top: 18px;
+}
+#v_tabCon_2 table {
+	width: 100%; text-align: center;
+}
+#v_tabCon_2 table td {
+	width: 20%;
+}
+#v_tabCon_2 table td a {
+	color: rgb(0, 0, 0); font-size: 16px; display: inline-block; background-color: rgb(217, 217, 217);
+}
+#v_tabCon_2 table td a:hover {
+	color: rgb(255, 78, 0);
+}
+#v_tabCon_2 table td a.tabCon_cur {
+	color: rgb(255, 255, 255); background-color: rgb(255, 78, 0);
+}
+@media screen and (max-width:370px)
+{
+#v_tabCon_2 table td a {
+	margin: 2px auto; width: 46px; height: 46px; line-height: 46px;
+}
+}
+@media screen and (max-width:490px) and (min-width:371px)
+{
+#v_tabCon_2 table td a {
+	margin: 6px auto; width: 50px; height: 50px; line-height: 50px;
+}
+}
+@media screen and (max-width:630px) and (min-width:491px)
+{
+#v_tabCon_2 table td a {
+	margin: 12px auto; width: 100%; height: 60px; line-height: 60px;
+}
+}
+@media screen and (min-width:631px)
+{
+#v_tabCon_2 table td a {
+	margin: 12px auto; width: 500px; height: 60px; line-height: 60px;
+}
+}
+#videoTabnav #v_tabCon .gradeRed {
+	color: rgb(255, 0, 0);
+}
+#v_tabCon_2 .m_tabCon2 {
+	width: 280px; margin-top: 10px;
+}
+#v_tabCon_2 .m_tabCon2 td a {
+	margin: 2px auto; width: 70px; height: 48px; line-height: 46px;
+}
+#v_tabCon_2 .m_tabCon2 td .tabCon_cur {
+	color: rgb(255, 255, 255); background-color: rgb(255, 78, 0);
+}
+#videoTabnav #v_tabCon .creltion {
+	padding: 0px;
+}
+#videoTabnav #v_tabCon .creltion li {
+	padding: 12px 8px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#videoTabnav #v_tabCon .creltion li img {
+	border: 1px solid rgb(146, 146, 146); border-image: none; width: 100px; margin-right: 8px; float: left;
+}
+#videoTabnav #v_tabCon .creltion li a h4 {
+	color: rgb(0, 0, 0); overflow: hidden; font-size: 16px; margin-top: 2px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis;
+}
+#videoTabnav #v_tabCon .creltion li p {
+	color: rgb(146, 146, 146); font-size: 14px; margin-top: 20px;
+}
+#videoTabnav #v_tabCon .creltion li p .fl img {
+	border: currentColor; border-image: none; width: 16px; margin-top: 5px; margin-right: 3px; float: left;
+}
+#videoTabnav #v_tabCon .creltion li p .fr {
+	margin-right: 4px;
+}
+#liveTabnav {
+	font-size: 16px; position: relative;
+}
+#liveTabnav #l_tabNav {
+	height: 45px; color: rgb(255, 78, 0);
+}
+#liveTabnav #l_tabNav li {
+	width: 88px; height: 100%; text-align: center; color: rgb(150, 150, 150); padding-top: 0px; font-size: 16px; border-bottom-color: rgb(217, 217, 217); border-bottom-width: 2px; border-bottom-style: solid; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+#liveTabnav #l_tabNav li.current {
+	height: 100%; color: rgb(255, 78, 0); padding-top: 0px; border-bottom-color: rgb(255, 78, 0); border-bottom-width: 2px; border-bottom-style: solid;
+}
+#liveTabnav .wasu-nav .wasu-nav-list {
+	height: 48px; background-color: rgb(255, 255, 255);
+}
+#liveTabnav #l_tabCon {
+	background-color: rgb(255, 255, 255);
+}
+#liveTabnav #l_tabCon div {
+	display: none;
+}
+#liveTabnav #l_tabCon li.liveDetail_list a {
+	height: 44px; line-height: 44px; border-bottom-color: rgb(220, 220, 220); border-bottom-width: 1px; border-bottom-style: solid; display: block;
+}
+#liveTabnav #l_tabCon li.liveDetail_list a span {
+	margin-left: 10px; float: left;
+}
+#liveTabnav #l_tabCon li.liveDetail_list a span.liveDetail_time {
+	width: 46px; color: rgb(146, 146, 146); font-size: 16px; font-weight: 400;
+}
+#liveTabnav #l_tabCon li.liveDetail_list a p.liveDetail_name {
+	color: rgb(146, 146, 146); overflow: hidden; padding-top: 12px; padding-left: 6px; font-size: 16px; display: block; white-space: nowrap; -ms-text-overflow: ellipsis; max-width: 480px;
+}
+#liveTabnav #l_tabCon li.liveDetail_list a span.liveDetail_now {
+	width: 44px; float: right;
+}
+#liveTabnav #l_tabCon li.liveDetail_list a.liveDetail_listOn span.liveDetail_time {
+	color: rgb(218, 37, 29);
+}
+#liveTabnav #l_tabCon li.liveDetail_list a.liveDetail_listOn p.liveDetail_name {
+	color: rgb(0, 0, 0);
+}
+#liveTabnav #l_tabCon li.liveDetail_list a.liveDetail_listOn span.liveDetail_now {
+	background: url("../images/liveDetail_now.jpg"); margin-top: -1px;
+}
+.nav_select {
+	float: left;
+}
+.select_box {
+	width: 70px; height: 28px; text-align: left; color: rgb(68, 68, 68); line-height: 24px; font-size: 14px; margin-top: 8px; float: left; position: relative; cursor: pointer; background-color: rgb(255, 255, 255);
+}
+.select_txt {
+	width: 70px; height: 28px; color: rgb(255, 78, 0); line-height: 26px; overflow: hidden; display: inline-block; cursor: text;
+}
+.selet_open {
+	top: 0px; width: 20px; height: 12px; right: 0px; display: inline-block; position: absolute;
+}
+#videoTabnav #v_tabCon .option {
+	padding: 0px; border: 1px solid rgb(152, 152, 152); border-image: none; width: 80px; overflow: hidden; margin-top: -2px; margin-left: -6px; display: none;
+}
+.option a {
+	background: rgb(255, 255, 255); height: 30px; text-align: center; color: rgb(150, 150, 150); line-height: 30px; border-top-color: rgb(152, 152, 152); border-top-width: 1px; border-top-style: solid; display: block;
+}
+.option a:hover {
+	background: rgb(219, 219, 219); color: rgb(150, 150, 150);
+}
+.option a:first-child {
+	border-top-color: currentColor; border-top-width: 0px; border-top-style: none;
+}
+.loginNav {
+	margin: 12px auto 0px; width: 270px; text-align: center;
+}
+.loginNav td a {
+	width: 135px; height: 45px; color: rgb(0, 0, 0); line-height: 45px; font-size: 18px; display: block; background-color: rgb(217, 217, 217);
+}
+.loginNav td.loginNav_cur a {
+	width: 135px; height: 45px; color: rgb(255, 255, 255); line-height: 45px; font-size: 18px; display: block; background-color: rgb(255, 78, 0);
+}
+.loginCont {
+	margin: 0px auto; width: 100%; height: 184px; text-align: center; color: rgb(255, 255, 255); padding-top: 16px; background-color: rgb(255, 255, 255);
+}
+.loginCont h3 {
+	margin: 6px auto 0px; height: 24px; text-align: left; color: rgb(255, 78, 0); line-height: 24px; font-size: 18px; min-width: 320px; max-width: 320px;
+}
+.loginCont p {
+	height: 50px; color: rgb(85, 85, 85); line-height: 50px; font-size: 14px; margin-top: 12px;
+}
+.loginCont p.loginErro {
+	left: 50%; width: 320px; height: 12px; text-align: center; color: rgb(255, 0, 0); line-height: 12px; font-size: 12px; margin-top: 0px; margin-left: -160px; display: none; position: absolute;
+}
+.loginCont p span:first-child {
+	width: 72px; text-align: right; display: inline-block;
+}
+.loginCont p.loginName input {
+	margin: 0px 3px; padding: 5px 10px; border: 1px solid rgb(220, 220, 220); border-image: none; width: 160px; height: 22px; background-color: rgb(246, 246, 246);
+}
+.loginCont p.loginPsd input {
+	margin: 0px 3px; padding: 5px 10px; border: 1px solid rgb(220, 220, 220); border-image: none; width: 160px; height: 22px; background-color: rgb(246, 246, 246);
+}
+.loginCont p.loginBtn a {
+	margin: 0px auto; border-radius: 3px; border: 1px solid rgb(237, 95, 1); border-image: none; width: 70px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; display: block; background-color: rgb(233, 131, 30);
+}
+.loginCont p.loginBtn input[type='button'] {
+	border-radius: 3px; border: 1px solid rgb(237, 95, 1); border-image: none; width: 70px; height: 30px; color: rgb(255, 255, 255); margin-left: 20px; background-color: rgb(233, 131, 30);
+}
+.loginCont p.loginBtn .loginRed {
+	border-radius: 0px; border: currentColor; border-image: none; color: rgb(255, 0, 0); display: inline-block; background-color: rgb(255, 255, 255);
+}
+.loginRed:hover {
+	color: rgb(255, 0, 0); text-decoration: underline;
+}
+.yzm img {
+	border: 1px solid rgb(0, 0, 0); border-image: none; margin-right: 10px;
+}
+.yzm a {
+	color: rgb(255, 0, 0);
+}
+.loginRelevance {
+	margin-top: 20px;
+}
+.loginRelevance h4 {
+	margin: 0px auto 10px; width: 320px; text-align: left; color: rgb(85, 85, 85); padding-left: 10px; font-size: 16px;
+}
+.loginRelevance ul li {
+	margin: 20px auto 0px; border-radius: 3px; width: 280px; height: 60px; color: rgb(85, 85, 85); line-height: 60px; font-size: 16px; background-color: rgb(241, 241, 241);
+}
+.loginRelevance ul li a {
+	display: block;
+}
+.loginRelevance ul li a img {
+	margin-top: 6px; margin-right: 16px; margin-left: 8px;
+}
+.loginRelevance ul li a .relevanceBtn {
+	border-radius: 5px; border: 1px solid rgb(237, 95, 1); border-image: none; width: 80px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; margin-top: 15px; margin-right: 10px; background-color: rgb(255, 78, 0);
+}
+.loginRelevance ul li a .relevanceBtn {
+	border-radius: 5px; border: 1px solid rgb(237, 95, 1); border-image: none; width: 80px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; margin-top: 15px; margin-right: 10px; background-color: rgb(255, 78, 0);
+}
+.loginRelevance ul li a .unbinding_cur {
+	border: 1px solid rgb(245, 161, 0); border-image: none; background-color: rgb(245, 194, 0);
+}
+.searchResult {
+	padding: 8px 0px; background-color: rgb(248, 248, 248);
+}
+.searchResult_inputBox {
+	
+}
+.searchResult_inputBox a {
+	margin-top: 6px; margin-left: 15px; float: left;
+}
+.searchResult_inputBox input[type='text'] {
+	padding: 0px 6px; border: 1px solid rgb(220, 220, 220); border-image: none; width: 180px; height: 30px; color: rgb(150, 150, 150); line-height: 30px; font-size: 16px; margin-right: 0px;
+}
+.searchResult_inputBox a.searchResult_input {
+	border-radius: 3px; border: 1px solid rgb(255, 78, 0); border-image: none; width: 50px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 16px; margin-top: 0px; margin-right: 10px; float: right; background-color: rgb(255, 78, 0);
+}
+.searchResult_inputBox input[type='button'] {
+	border-radius: 3px; border: 1px solid rgb(255, 78, 0); border-image: none; width: 50px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 16px; margin-right: 10px; background-color: rgb(255, 78, 0);
+}
+.searchResult_nav {
+	width: 100%; height: 44px; text-align: center; color: rgb(150, 150, 150); line-height: 44px; font-size: 16px; margin-top: 8px; border-top-color: rgb(220, 220, 220); border-bottom-color: rgb(220, 220, 220); border-top-width: 1px; border-bottom-width: 1px; border-top-style: solid; border-bottom-style: solid;
+}
+.searchResult_nav td {
+	width: 33.3%; font-size: 16px; cursor: pointer;
+}
+.searchResult_nav td a {
+	height: 40px; line-height: 40px; display: block;
+}
+.searchResult_nav td a:hover {
+	color: rgb(255, 255, 255);
+}
+.searchResult_nav .searchResultNav_cur a {
+	color: rgb(255, 255, 255);
+}
+.searchResult_nav td:hover {
+	background-color: rgb(255, 78, 0);
+}
+.searchResult_nav .searchResultNav_cur {
+	background-color: rgb(255, 78, 0);
+}
+#sr_tabCon .live td {
+	padding-top: 10px;
+}
+.contact {
+	margin-top: 44px; border-top-color: rgb(255, 78, 0); border-top-width: 1px; border-top-style: solid;
+}
+.contact h5 {
+	height: 35px; color: rgb(255, 255, 255); line-height: 35px; padding-left: 10px; font-size: 18px; background-color: rgb(255, 78, 0);
+}
+.contact p {
+	padding: 6px 12px; color: rgb(150, 150, 150); line-height: 28px; text-indent: 2em; font-size: 14px;
+}
+.personal {
+	height: 170px; text-align: center; margin-bottom: 14px; border-bottom-color: rgb(225, 225, 225); border-bottom-width: 1px; border-bottom-style: solid; background-color: rgb(241, 241, 241);
+}
+.personal h5 {
+	padding-top: 20px;
+}
+.personal p {
+	color: rgb(85, 85, 85); line-height: 32px; font-size: 18px;
+}
+.personal table {
+	margin: 6px auto; width: 320px; text-align: center; color: rgb(255, 255, 255);
+}
+.personal table a {
+	margin: 0px auto; border-radius: 4px; border: 1px solid rgb(237, 95, 1); border-image: none; width: 80px; height: 30px; text-align: center; color: rgb(255, 255, 255); line-height: 30px; font-size: 14px; display: block; background-color: rgb(233, 131, 30);
+}
+.personal table a:hover {
+	background-color: rgb(255, 78, 0);
+}
+.personal table a.personalCur {
+	background-color: rgb(255, 78, 0);
+}
+.collect h5 {
+	color: rgb(255, 78, 0); font-size: 20px; margin-left: 12px;
+}
+.unbinding {
+	padding: 10px; border-radius: 10px; border: 1px solid rgb(0, 0, 0); border-image: none; left: 50%; top: 50%; width: 240px; height: 220px; text-align: center; line-height: 25px; font-size: 13px; font-weight: bold; margin-top: -160px !important; margin-left: -130px !important; display: none; position: fixed !important; z-index: 99; background-color: rgb(255, 255, 255);
+}
+.popClose a {
+	border-radius: 4px; border: 1px solid rgb(237, 95, 1); border-image: none; width: 80px; height: 30px; color: rgb(255, 255, 255); line-height: 30px; font-size: 12px; display: inline-block; background-color: rgb(233, 131, 30);
+}

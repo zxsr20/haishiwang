@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="scott.dao.shanxue.SxMyLetterDao" > 
+<!-- Result Map-->
+<resultMap id="BaseResultMap" type="scott.entity.shanxue.SxMyLetter" >
+	<result column="id" property="id"/>
+	<result column="userid" property="userid"/>
+	<result column="to_userid" property="to_userid"/>
+	<result column="content" property="content"/>
+	<result column="readed" property="readed"/>
+	<result column="create_by" property="create_by"/>
+	<result column="create_date" property="create_date"/>
+	<result column="update_by" property="update_by"/>
+	<result column="update_date" property="update_date"/>
+	<result column="delflag" property="delflag"/>
+	<result column="del_date" property="del_date"/>
+</resultMap>
+       
+<!-- sx_my_letter table all fields -->
+<sql id="Base_Column_List" >
+	 id,userid,to_userid,content,readed,create_by,create_date,update_by,update_date,delflag,del_date
+</sql>
+   
+   
+<!-- 查询条件 -->
+<sql id="Example_Where_Clause">
+where 1=1
+<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and id =  #{id}
+	</if>
+	<if test="userid != null and userid != ''" >
+	    and userid =  #{userid}
+	</if>
+	<if test="to_userid != null and to_userid != ''" >
+	    and to_userid =  #{to_userid}
+	</if>
+	<if test="content != null and content != ''" >
+	    and content =  #{content}
+	</if>
+	<if test="readed != null and readed != ''" >
+	    and readed =  #{readed}
+	</if>
+	<if test="create_by != null and create_by != ''" >
+	    and create_by =  #{create_by}
+	</if>
+	<if test="create_date != null and create_date != ''" >
+	    and create_date =  #{create_date}
+	</if>
+	<if test="update_by != null and update_by != ''" >
+	    and update_by =  #{update_by}
+	</if>
+	<if test="update_date != null and update_date != ''" >
+	    and update_date =  #{update_date}
+	</if>
+	<if test="delflag != null and delflag != ''" >
+	    and delflag =  #{delflag}
+	</if>
+	<if test="del_date != null and del_date != ''" >
+	    and del_date =  #{del_date}
+	</if>
+</trim>
+</sql>
+   
+
+<!-- 插入记录 -->
+<insert id="add" parameterType="Object" >
+<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+	SELECT LAST_INSERT_ID()
+  </selectKey>
+  insert into sx_my_letter(id,userid,to_userid,content,readed,create_by,create_date,update_by,update_date,delflag,del_date)
+ values(#{id},#{userid},#{to_userid},#{content},#{readed},#{create_by},#{create_date},#{update_by},#{update_date},#{delflag},#{del_date})
+</insert>
+
+<!-- 根据id，修改记录-->  
+ <update id="update" parameterType="Object" >
+  update sx_my_letter set userid=#{userid},to_userid=#{to_userid},content=#{content},readed=#{readed},create_by=#{create_by},create_date=#{create_date},update_by=#{update_by},update_date=#{update_date},delflag=#{delflag},del_date=#{del_date} where id=#{id}
+ </update>
+ 
+ <!-- 修改记录，只修改只不为空的字段 -->
+<update id="updateBySelective" parameterType="Object" >
+	update sx_my_letter set 
+	<trim  suffixOverrides="," >
+	<if test="userid != null  ">
+		userid=#{userid},
+	</if>
+	<if test="to_userid != null  ">
+		to_userid=#{to_userid},
+	</if>
+	<if test="content != null  ">
+		content=#{content},
+	</if>
+	<if test="readed != null  ">
+		readed=#{readed},
+	</if>
+	<if test="create_by != null  ">
+		create_by=#{create_by},
+	</if>
+	<if test="create_date != null  ">
+		create_date=#{create_date},
+	</if>
+	<if test="update_by != null  ">
+		update_by=#{update_by},
+	</if>
+	<if test="update_date != null  ">
+		update_date=#{update_date},
+	</if>
+	<if test="delflag != null  ">
+		delflag=#{delflag},
+	</if>
+	<if test="del_date != null  ">
+		del_date=#{del_date},
+	</if>
+	</trim> where id=#{id}
+</update>
+
+<!-- 删除记录 -->
+<delete id="delete" parameterType="Object">
+	delete 	 from sx_my_letter where id = #{id}
+</delete>
+ 
+<!-- 根据id查询 我的私信 -->
+<select id="queryById"  resultMap="BaseResultMap" parameterType="Object">
+	select <include refid="Base_Column_List" /> 
+	 from sx_my_letter where id = #{id}
+</select>
+
+<!-- 我的私信 列表总数-->
+<select id="queryByCount" resultType="java.lang.Integer"  parameterType="Object">
+	select count(1) from sx_my_letter 
+	<include refid="Example_Where_Clause"/>
+</select>
+  	
+<!-- 查询我的私信列表 -->
+<select id="queryByList" resultMap="BaseResultMap"  parameterType="Object">
+	select 
+	<include refid="Base_Column_List"/>
+	from sx_my_letter 
+	<include refid="Example_Where_Clause"/>
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+  	
+</mapper>   
