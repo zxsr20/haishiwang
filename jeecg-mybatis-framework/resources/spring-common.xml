@@ -19,19 +19,19 @@
 	<context:component-scan base-package="shanxue.service.*" />
 
 	<!-- ***************配置数据源************** -->
-	<!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">	
+	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">	
          <property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property> 
          <property name="url"><value>jdbc:mysql://127.0.0.1:3306/jeecgmybatis?useUnicode=true&amp;charaterEncoding=utf-8</value></property> 
          <property name="username"><value>root</value></property> 
          <property name="password"><value>SA</value></property>
-	</bean>-->
+	</bean>
 	
-	<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">	
+	<!--<bean id="dataSource" class="org.springframework.jdbc.datasource.DriverManagerDataSource">	
          <property name="driverClassName"><value>com.mysql.jdbc.Driver</value></property> 
          <property name="url"><value>jdbc:mysql://sqld.duapp.com:4050/iyrEcxYtrNJcPnkoEOci?useUnicode=true&amp;charaterEncoding=utf-8</value></property> 
          <property name="username"><value>dwwUAlsAtKVdt9a9xdpYTG6f</value></property> 
          <property name="password"><value>tEn2UBrplFLILyPD5fdnozHHNERVddwW</value></property>
-	</bean>
+	</bean>-->
 	
 	
 	
