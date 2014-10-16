@@ -224,8 +224,8 @@ class="icon icon_gray_user"></EM>9721					</SPAN><SPAN><EM class="icon icon_thum
 class="icon icon_gray_user"></EM>146					</SPAN><SPAN><EM class="icon icon_thumbs_up"></EM>
 						32					</SPAN></DIV></DIV></DIV><!-- repeat --></DIV></DIV></DIV></DIV><!-- 听课页下半部份 end -->
 </DIV><!--内容 end-->
-<SCRIPT src=""></SCRIPT>
-
+<!-- 引入交互功能切换js -->
+<SCRIPT src="<%=basePath%>/js/xue.page.course.js"></SCRIPT>
 <SCRIPT type="text/javascript">
 	xue.use('pages');
 	
