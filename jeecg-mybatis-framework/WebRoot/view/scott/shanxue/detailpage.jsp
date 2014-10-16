@@ -224,13 +224,13 @@ class="icon icon_gray_user"></EM>9721					</SPAN><SPAN><EM class="icon icon_thum
 class="icon icon_gray_user"></EM>146					</SPAN><SPAN><EM class="icon icon_thumbs_up"></EM>
 						32					</SPAN></DIV></DIV></DIV><!-- repeat --></DIV></DIV></DIV></DIV><!-- 听课页下半部份 end -->
 </DIV><!--内容 end-->
-<SCRIPT src=""></SCRIPT>
-
+<!-- 引入交互功能切换js -->
+<SCRIPT src="<%=basePath%>/js/xue.page.course.js"></SCRIPT>
 <SCRIPT type="text/javascript">
 	xue.use('pages');
 	
 	$(document).ready(function(){
-		var comUrl = '/courses/ajaxCommList/';
+		var comUrl = '/web/sxCourseComments/dataList.do';
 		var params = 6836;
 		createCommList(comUrl,params);
 		$('#comm_content').trigger('focus');
@@ -242,40 +242,40 @@ class="icon icon_gray_user"></EM>146					</SPAN><SPAN><EM class="icon icon_thumb
 			dataType:'json',
 			data : {courseId:params},
 			success: function(result){
+				//window.console.log(result);
+				//return;
+				
 				var box = $('#comm_page_list');
 				if(result.sign == 1){
 					var tpl = '<div class="cou_com_detail">';
 					$('#comm_pages').data({
-						'pages': result.msg.rows,
+						'pages': result.rows,
 						'url' : url
 					});
-					$.each(result.msg.data, function(k, v){
+					$.each(result.rows, function(k, v){
 						tpl += '<div class="comment_detail_list">';
 							tpl += '<div class="user_pic">';
-                                if(v[0]['stu_id'] >= 100000){
-                                    tpl += '<p class="pic ui_userinfo" data-id="'+v[0]['stu_id']+'" class="" data-params="userId='+v[0]['stu_id']+'" ><img width="60" height="70" src="'+v[0]['img']+'"></p>';
-                                    tpl += '<p class="name ui_userinfo" data-id="'+v[0]['stu_id']+'" class="" data-params="userId='+v[0]['stu_id']+'" title="'+v[0]['nickname']+'">'+v[0]['nickname']+'</p>';
+                                if(v.user_id >= 100000){
+                                    tpl += '<p class="pic ui_userinfo" data-id="'+v.user_id+'" class="" data-params="userId='+v.user_id+'" ><img width="60" height="70" src="'+v.user.picture+'"></p>';
+                                    tpl += '<p class="name ui_userinfo" data-id="'+v.user_id+'" class="" data-params="userId='+v.user_id+'" title="'+v.user.nick_name+'">'+v.user.nick_name+'</p>';
                                 }else{
-                                    tpl += '<p class="pic"><img width="60" height="70" src="'+v[0]['img']+'"></p>';
-                                    tpl += '<p class="name" title="'+v[0]['nickname']+'">'+v[0]['nickname']+'</p>';
+                                    tpl += '<p class="pic"><img width="60" height="70" src="'+v.user.picture+'"></p>';
+                                    tpl += '<p class="name" title="'+v.user.name+'">'+v.user.nick_name+'</p>';
                                 }
-								var province = SetString(v[0]['provincename'],6);
-								tpl += '<p class="site" title="'+v[0]['provincename']+'">'+province+'</p>';
+								//var province = SetString(v[0]['provincename'],6);
+								tpl += '<p class="site" title="'+v.user.phone+'">'+v.user.phone+'</p>';
 							tpl += '</div>';
 							tpl += "<div class='user_text_box'>";
-								tpl += '<p class="text"> '+ v[0]['content'] + '</p>';
-								tpl += '<p class="time">'+ v[0]['create_time'] + '</p>';
+								tpl += '<p class="text"> '+ v.content + '</p>';
+								tpl += '<p class="time">'+ v.create_date + '</p>';
 								tpl += '<span class="corner_bg"></span>';
-								if(v[0]['is_cream']==1){
-									tpl += '<span class="added_icon"></span>';
-								}
 							tpl += '</div>';
 						tpl += '</div>';
 					});
 					tpl += '</div>';
 					box.html(tpl);
 					xue.pages('comm_pages').config({
-						pages:result.msg.rows,
+						pages:result.rows,
 						current: 1,
 						pageNum:10,
 						gotop : false,
@@ -410,11 +410,12 @@ function commError(msg){
 		$('#course_comm_tips').text('请填写内容，长度在1~140之间');
 	}, 3000);
 }
-
+/*
 $(function(){
 	$('#outline1').jScrollPane();
 	$('#outline2').jScrollPane();
 });
+*/
 </SCRIPT>
 
 <SCRIPT type="text/javascript">			$('body').off('click', '.ui_follow').on('click', '.ui_follow', function(){
