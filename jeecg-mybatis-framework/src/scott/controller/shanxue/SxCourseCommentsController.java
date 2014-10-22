@@ -1,10 +1,9 @@
 package scott.controller.shanxue;
 
+import java.util.Date;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
-
-import org.apache.commons.lang.StringUtils;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
@@ -13,21 +12,16 @@ import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.context.request.RequestContextHolder;
-import org.springframework.web.context.support.WebApplicationContextUtils;
 import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.servlet.support.RequestContextUtils;
-
-import com.base.web.BaseAction;
-import com.base.util.HtmlUtil;
-import com.base.util.SpringContextUtil;
-import com.base.util.StringUtil;
-import com.base.entity.BaseEntity.DELETED;
 
 import scott.entity.shanxue.SxCourseComments;
 import scott.page.shanxue.SxCourseCommentsPage;
 import scott.service.shanxue.SxCourseCommentsService;
+
+import com.base.util.DateUtil;
+import com.base.util.HtmlUtil;
+import com.base.util.StringUtil;
+import com.base.web.BaseAction;
  
 /**
  * 
@@ -72,11 +66,12 @@ public class SxCourseCommentsController extends BaseAction{
 	public void  datalist(HttpServletRequest request, HttpServletResponse response) throws Exception{
 
 		String courseId = request.getParameter("courseId");
-		String pageNo = request.getParameter("pageNo");
+		String pageNo = request.getParameter("curpage");
 
 		SxCourseCommentsPage page = new SxCourseCommentsPage();
 		page.setCourse_id(66);
-		
+		page.setRows(2);
+
 		//查询指定课程的评论列表
 		if(StringUtil.isNumeric(courseId)){
 			//page.setCourse_id(Integer.parseInt(courseId));
@@ -91,13 +86,13 @@ public class SxCourseCommentsController extends BaseAction{
 
 		//设置页面数据
 		Map<String,Object> jsonMap = new HashMap<String,Object>();
-		
+
 		//总评论数
 		jsonMap.put("total",page.getPager().getRowCount());
-		
+
 		//评论列表
 		jsonMap.put("rows", dataList);
-		
+
 		//登录标志
 		jsonMap.put("sign", "1");
 
@@ -112,13 +107,27 @@ public class SxCourseCommentsController extends BaseAction{
 	 * @throws Exception 
 	 */
 	@RequestMapping("/save")
-	public void save(SxCourseComments entity,Integer[] typeIds,HttpServletResponse response) throws Exception{
-		Map<String,Object>  context = new HashMap<String,Object>();
-		if(entity.getId()==null||StringUtils.isBlank(entity.getId().toString())){
-			sxCourseCommentsService.add(entity);
-		}else{
-			sxCourseCommentsService.update(entity);
+	public void save(HttpServletRequest request, HttpServletResponse response) throws Exception{
+		Map<String,Object>  jsonMap = new HashMap<String,Object>();
+
+		SxCourseComments comment = new SxCourseComments();
+
+		String content = request.getParameter("content");
+		String courseId = request.getParameter("courseId");
+		String userId = "66";
+		comment.setContent(content);
+		if(StringUtil.isNumeric(courseId)){
+			comment.setCourse_id(Integer.parseInt(courseId));
 		}
+		if(StringUtil.isNumeric(userId)){
+			comment.setUser_id(Integer.parseInt(userId));
+		}
+		comment.setCreate_date(DateUtil.formatDate(new Date(), "yyyy-MM-dd"));
+
+		sxCourseCommentsService.add(comment);
+
+		HtmlUtil.writerJson(response, jsonMap);
+		
 		sendSuccessMessage(response, "保存成功~");
 	}
 	
