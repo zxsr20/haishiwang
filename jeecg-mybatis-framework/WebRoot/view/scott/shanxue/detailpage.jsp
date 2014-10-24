@@ -18,7 +18,9 @@
 <LINK rel="shortcut icon" href="http://img04.xesimg.com/favicon.ico">
 <script src="<%=basePath%>/js/html5media.min.js"></script>
 <SCRIPT src="<%=basePath%>/js/xue.js"></SCRIPT>
+<!-- 
 <SCRIPT src="<%=basePath%>/js/xes_stat.js"></SCRIPT>
+ -->
 <!--[if lt IE 9]> 
 	<link href="http://css04.xesimg.com/ie_project.css?1407139873" type="text/css" rel="stylesheet" />	
 	<link href="http://css04.xesimg.com/ie_header.css?1407139873" type="text/css" rel="stylesheet" />	
@@ -248,48 +250,124 @@
 							</DIV>
 						</DIV>
 					</DIV>
-					<DIV class="layout_side right w_240 mtop_20">
+					<div class="layout_side right w_240 mtop_20">
 						<!-- 相关课程-->
+						<div class="panel_listen">
+							<div class="side_header"><span>相关课程</span></div>
+							<div class="listen_conten">
+							<c:forEach items="${sameCourses}" var="course" varStatus="vst">
+								<div class="listen_cou">
+									<div class="ui_avatar">
+										<ul class="avatar_items">
+											<li data-id="639" class="ui_userinfo" data-params="userId=639">
+												<a href="http://www.xueersi.com/t/wuzheng/" class="userpic" target="_blank">
+													<img src="http://r01.xesimg.com/teacher/2014/04/18/13977897463687.jpg" alt="">
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="cou_detail">
+										<div class="cou_text">
+											<a href="http://www.xueersi.com/kc/13430.html" target="_blank">2014学年初二数学年卡目标满分班（人教版）</a>
+										</div>
+										<div class="cou_info">
+											<span>
+												<em class="icon icon_gray_user"></em>41
+											</span>
+											<span>
+												<em class="icon icon_thumbs_up"></em>29
+											</span>
+										</div>
+									</div>
+								</div>
+							</c:forEach>
+
+								<div class="listen_cou border_none">
+									<div class="ui_avatar">
+										<ul class="avatar_items">
+											<li data-id="639" class="ui_userinfo info_open" data-params="userId=639">
+												<a href="http://www.xueersi.com/t/wuzheng/" class="userpic" target="_blank">
+													<img src="http://r01.xesimg.com/teacher/2014/04/18/13977897463687.jpg" alt="">
+												</a>
+											</li>
+										</ul>
+									</div>
+									
+									<div class="cou_detail">
+										<div class="cou_text">
+											<a href="http://www.xueersi.com/kc/13419.html" target="_blank">2014年暑假初二上学期数学预习领先班（沪教版）</a>
+										</div>
+										
+										<div class="cou_info">
+											<span>
+												<em class="icon icon_gray_user"></em>13
+											</span>
+											<span>
+												<em class="icon icon_thumbs_up"></em>38
+											</span>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
 						<!-- 浏览过的记录-->
-						<DIV class="panel_listen">
-							<DIV class="side_header">
-								<SPAN>浏览过的课程</SPAN>
-							</DIV>
-							<DIV class="listen_conten">
-								<DIV class="listen_cou">
-									<DIV class="ui_avatar">
-										<UL class="avatar_items">
-											<LI class="ui_userinfo" data-params="userId=559" data-id="559">${course.sxCourse.teacher_name}</LI>
-										</UL>
-									</DIV>
-									<DIV class="cou_detail">
-										<DIV class="cou_text">
-											<A href="javascript:void(0)" target="_blank">${course.sxCourse.name}</A>
-										</DIV>
-										<DIV class="cou_info">
-											<SPAN><EM class="icon icon_gray_user"></EM>9721 </SPAN><SPAN><EM class="icon icon_thumbs_up"></EM> 9 </SPAN>
-										</DIV>
-									</DIV>
-								</DIV>
-								<DIV class="listen_cou border_none">
-									<DIV class="ui_avatar">
-										<UL class="avatar_items">
-											<LI class="ui_userinfo" data-params="userId=757" data-id="757"><A class="userpic" href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A></LI>
-										</UL>
-									</DIV>
-									<DIV class="cou_detail">
-										<DIV class="cou_text">
-											<A href="javascript:void(0)" target="_blank">四升五年级“畅享语文”成长计划年卡（17-20级）</A>
-										</DIV>
-										<DIV class="cou_info">
-											<SPAN><EM class="icon icon_gray_user"></EM>146 </SPAN><SPAN><EM class="icon icon_thumbs_up"></EM> 32 </SPAN>
-										</DIV>
-									</DIV>
-								</DIV>
-								<!-- repeat -->
-							</DIV>
-						</DIV>
-					</DIV>
+						<div class="panel_listen">
+							<div class="side_header"><span>浏览过的课程</span></div>
+							<div class="listen_conten">
+							<c:forEach items="${viewHistory}" var="course" varStatus="vst">
+								<div class="listen_cou">
+									<div class="ui_avatar">
+										<ul class="avatar_items">
+											<li data-id="639" class="ui_userinfo" data-params="userId=639">
+												<a href="http://www.xueersi.com/t/wuzheng/" class="userpic" target="_blank">
+													<img src="http://r01.xesimg.com/teacher/2014/04/18/13977897463687.jpg" alt="">
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="cou_detail">
+										<div class="cou_text">
+											<a href="http://www.xueersi.com/open/16302.html" target="_blank">如何欢乐地学好初中数学</a>
+										</div>
+										<div class="cou_info">
+											<span>
+												<em class="icon icon_gray_user"></em>0
+											</span>
+											<span>
+												<em class="icon icon_thumbs_up"></em>0
+											</span>
+										</div>
+									</div>
+								</div>
+							</c:forEach>
+								<div class="listen_cou border_none">
+									<div class="ui_avatar">
+										<ul class="avatar_items">
+											<li data-id="123" class="ui_userinfo" data-params="userId=123">
+												<a href="http://www.xueersi.com/t/hanchuncheng/" class="userpic" target="_blank">
+													<img src="http://r04.xesimg.com/teacher/2013/11/19/13848486551807.jpg" alt="">
+												</a>
+											</li>
+										</ul>
+									</div>
+									<div class="cou_detail">
+										<div class="cou_text">
+											<a href="http://www.xueersi.com/kc/15645.html" target="_blank">2014年秋季初一上学期数学目标满分班（苏科版）</a>
+										</div>
+										<div class="cou_info">
+											<span>
+												<em class="icon icon_gray_user"></em>9
+											</span>
+											<span>
+												<em class="icon icon_thumbs_up"></em>34
+											</span>
+										</div>
+									</div>
+								</div>
+							<!-- repeat -->
+							</div>
+						</div>
+					</div>
 				</DIV>
 				<!-- 听课页下半部份 end -->
 			</DIV>
@@ -498,11 +576,11 @@
 								data : _params,
 								success : function(data) {
 									if (data.stat == 3) {
-										window.location.href = 'http://login.xueersi.com/user/login/aHR0cDovL3d3dy54dWVlcnNpLmNvbS9vcGVuLzY4MzYuaHRtbA==';
+										alert('还未开发完成！');
 									} else if (data.stat == 1) {
 										$('#comm_content').val('');
 										commError(data.msg);
-										var comUrl = '/courses/ajaxCommList/';
+										var comUrl = '/web/sxCourseComments/dataList.do';
 										var params = 6836;
 										createCommList(comUrl, params);
 
