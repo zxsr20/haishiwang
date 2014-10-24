@@ -1,18 +1,23 @@
 package scott.controller.shanxue;
 
 import java.util.Date;
+import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.context.ContextLoader;
+import org.springframework.web.context.WebApplicationContext;
 import org.springframework.web.servlet.ModelAndView;
+import org.springframework.web.util.WebUtils;
 
 import scott.entity.shanxue.SxCourseComments;
 import scott.page.shanxue.SxCourseCommentsPage;
@@ -64,7 +69,6 @@ public class SxCourseCommentsController extends BaseAction{
 	 */
 	@RequestMapping("/dataList") 
 	public void  datalist(HttpServletRequest request, HttpServletResponse response) throws Exception{
-
 		String courseId = request.getParameter("courseId");
 		String pageNo = request.getParameter("curpage");
 
@@ -114,7 +118,8 @@ public class SxCourseCommentsController extends BaseAction{
 
 		String content = request.getParameter("content");
 		String courseId = request.getParameter("courseId");
-		String userId = "66";
+		String userId = "100";
+		courseId = "66";
 		comment.setContent(content);
 		if(StringUtil.isNumeric(courseId)){
 			comment.setCourse_id(Integer.parseInt(courseId));
@@ -126,9 +131,11 @@ public class SxCourseCommentsController extends BaseAction{
 
 		sxCourseCommentsService.add(comment);
 
+		jsonMap.put("stat", "1");
+
 		HtmlUtil.writerJson(response, jsonMap);
-		
-		sendSuccessMessage(response, "保存成功~");
+
+		//sendSuccessMessage(response, "保存成功~");
 	}
 	
 	

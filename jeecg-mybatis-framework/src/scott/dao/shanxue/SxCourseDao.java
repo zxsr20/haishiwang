@@ -19,5 +19,6 @@ public interface SxCourseDao<T> extends BaseDao<T> {
 
 	List<SxCourse> sx_recommendcourseList(SxCoursePage page);
 	
-	
+	//查询同类型课程
+	List<SxCourse> getSameTypeCourses(String value);
 }

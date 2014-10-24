@@ -205,5 +205,11 @@ where 1=1
        ${pager.mysqlQueryCondition}
     </if>
 </select>
-  	
+
+<select id="getSameTypeCourses" resultMap="BaseResultMap" parameterType="String">
+	select 
+		<include refid="Base_Column_List"/>
+	from sx_course 
+		where type_code = #{match_type_code}
+</select>
 </mapper>   
