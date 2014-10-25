@@ -1,23 +1,17 @@
 package scott.controller.shanxue;
 
 import java.util.Date;
-import java.util.Enumeration;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import javax.servlet.http.HttpSession;
 
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.context.ContextLoader;
-import org.springframework.web.context.WebApplicationContext;
-import org.springframework.web.servlet.ModelAndView;
-import org.springframework.web.util.WebUtils;
 
 import scott.entity.shanxue.SxCourseComments;
 import scott.page.shanxue.SxCourseCommentsPage;
@@ -40,30 +34,16 @@ import com.base.web.BaseAction;
 @RequestMapping("/sxCourseComments") 
 public class SxCourseCommentsController extends BaseAction{
 	
-	private final static Logger log= Logger.getLogger(SxCourseCommentsController.class);
+	private final static Logger logger = Logger.getLogger(SxCourseCommentsController.class);
 	
 	// Servrice start
 	@Autowired(required=false) //自动注入，不需要生成set方法了，required=false表示没有实现类，也不会报错。
 	private SxCourseCommentsService<SxCourseComments> sxCourseCommentsService; 
 	
 	/**
-	 * 
-	 * @param url
-	 * @param classifyId
-	 * @return
-	 * @throws Exception 
-	 */
-	@RequestMapping("/list") 
-	public ModelAndView  list(SxCourseCommentsPage page,HttpServletRequest request) throws Exception{
-		Map<String,Object>  context = getRootMap();
-		return forword("scott/shanxue/sxCourseComments",context); 
-	}
-	
-	
-	/**
-	 * ilook 首页
-	 * @param url
-	 * @param classifyId
+	 * ilook 查询课程评论列表
+	 * @param request
+	 * @param response
 	 * @return
 	 * @throws Exception 
 	 */
@@ -73,12 +53,11 @@ public class SxCourseCommentsController extends BaseAction{
 		String pageNo = request.getParameter("curpage");
 
 		SxCourseCommentsPage page = new SxCourseCommentsPage();
-		page.setCourse_id(66);
 		page.setRows(2);
 
 		//查询指定课程的评论列表
 		if(StringUtil.isNumeric(courseId)){
-			//page.setCourse_id(Integer.parseInt(courseId));
+			page.setCourse_id(Integer.parseInt(courseId));
 		}
 
 		//查询指定页的评论列表
@@ -86,8 +65,18 @@ public class SxCourseCommentsController extends BaseAction{
 			page.setPage(Integer.parseInt(pageNo));
 		}
 
-		List<SxCourseComments> dataList = sxCourseCommentsService.queryByList(page);
+		if(logger.isDebugEnabled()){
+			logger.debug(page);
+		}
+			
+		List<SxCourseComments> dataList = null;
 
+		try {
+			dataList = sxCourseCommentsService.queryByList(page);
+		} catch (Exception e) {
+			logger.error(e);
+		}
+		
 		//设置页面数据
 		Map<String,Object> jsonMap = new HashMap<String,Object>();
 
@@ -104,7 +93,7 @@ public class SxCourseCommentsController extends BaseAction{
 	}
 	
 	/**
-	 * 添加或修改数据
+	 *  保存课程评论
 	 * @param url
 	 * @param classifyId
 	 * @return
@@ -112,52 +101,43 @@ public class SxCourseCommentsController extends BaseAction{
 	 */
 	@RequestMapping("/save")
 	public void save(HttpServletRequest request, HttpServletResponse response) throws Exception{
-		Map<String,Object>  jsonMap = new HashMap<String,Object>();
-
+		
 		SxCourseComments comment = new SxCourseComments();
 
 		String content = request.getParameter("content");
 		String courseId = request.getParameter("courseId");
+		
+		//TODO 替换为登录用户ID
 		String userId = "100";
-		courseId = "66";
-		comment.setContent(content);
+		
 		if(StringUtil.isNumeric(courseId)){
 			comment.setCourse_id(Integer.parseInt(courseId));
 		}
+				
 		if(StringUtil.isNumeric(userId)){
 			comment.setUser_id(Integer.parseInt(userId));
 		}
+
+		comment.setContent(content);
 		comment.setCreate_date(DateUtil.formatDate(new Date(), "yyyy-MM-dd"));
 
-		sxCourseCommentsService.add(comment);
+		//添加调试日志
+		if(logger.isDebugEnabled()){
+			logger.debug(comment);
+		}
 
-		jsonMap.put("stat", "1");
+		Map<String,Object>  jsonMap = new HashMap<String,Object>();
+		try {
+			
+			sxCourseCommentsService.add(comment);
+			jsonMap.put("stat", "1");
+			
+		//保存失败
+		} catch (Exception e) {
+			jsonMap.put("stat", "3");
+			logger.error(e);
+		}
 
 		HtmlUtil.writerJson(response, jsonMap);
-
-		//sendSuccessMessage(response, "保存成功~");
 	}
-	
-	
-	@RequestMapping("/getId")
-	public void getId(String id,HttpServletResponse response) throws Exception{
-		Map<String,Object>  context = new HashMap();
-		SxCourseComments entity  = sxCourseCommentsService.queryById(id);
-		if(entity  == null){
-			sendFailureMessage(response, "没有找到对应的记录!");
-			return;
-		}
-		context.put(SUCCESS, true);
-		context.put("data", entity);
-		HtmlUtil.writerJson(response, context);
-	}
-	
-	
-	
-	@RequestMapping("/delete")
-	public void delete(String[] id,HttpServletResponse response) throws Exception{
-		sxCourseCommentsService.delete(id);
-		sendSuccessMessage(response, "删除成功");
-	}
-
 }

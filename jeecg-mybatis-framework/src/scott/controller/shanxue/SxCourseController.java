@@ -99,7 +99,7 @@ import com.base.web.BaseAction;
 @RequestMapping("/sxCourse")
 public class SxCourseController extends BaseAction {
 
-	static Logger log = Logger.getLogger("java");
+	static Logger logger = Logger.getLogger(SxCourseController.class);
 
 	// Servrice start
 	@Autowired(required = false)
@@ -117,14 +117,16 @@ public class SxCourseController extends BaseAction {
 	@Autowired(required = false)
 	// 自动注入，不需要生成set方法了，required=false表示没有实现类，也不会报错。
 	private SxMyStudyWayService<SxMyStudyWay> SxMyStudyWayService;
+	
 	@Autowired(required = false)
 	// 自动注入，不需要生成set方法了，required=false表示没有实现类，也不会报错。
 	private SxMyFavoriteService<SxMyFavorite> SxMyFavoriteService;
+
 	@Autowired(required = false)
 	// 自动注入，不需要生成set方法了，required=false表示没有实现类，也不会报错。
 	private SxCourseTypeService<SxCourseType> sxCourseTypeService;
 
-	//会话内容保存键
+	/**会话内容保存键-课程浏览历史*/
 	private final static String SESSION_KEY_COURSE_VIEW_HISTORY = "COURSE_VIEW_HISTORY";
 			
 	/**
@@ -317,7 +319,7 @@ public class SxCourseController extends BaseAction {
 			findSameCourses(entity, request);
 
 			//更新课程浏览历史
-			updateViewHistory(sxCourse, request);
+			updateViewHistory(entity, request);
 		}
 		// if (page.getId() != 0) {//没有传id，则默认播第一集
 		// SxCourse course_entity = sxCourseService.queryById(page.getId());
@@ -636,7 +638,7 @@ public class SxCourseController extends BaseAction {
 				ObjectMetadata result = baiduBCS.putObject(putrequest)
 						.getResult();
 				System.out.print(result);
-				log.error("ObjectMetadata" + result);
+				logger.error("ObjectMetadata" + result);
 				// try {
 				// jeecgBlobDataService.saveObj(documentTitle, file);
 				// j.setMsg("文件导入成功！");
@@ -648,7 +650,7 @@ public class SxCourseController extends BaseAction {
 			}
 		} catch (Exception e) {
 			System.out.print(e.getMessage());
-			log.error("uploaderror" + e.getMessage());
+			logger.error("uploaderror" + e.getMessage());
 		}
 
 		sendSuccessMessage(response, "成功");
@@ -881,7 +883,7 @@ public class SxCourseController extends BaseAction {
 			// generateUrl(BaiduBCS baiduBCS);
 			// generateUrl(baiduBCS);
 		} catch (BCSServiceException e) {
-			log.warn("Bcs return:" + e.getBcsErrorCode() + ", "
+			logger.warn("Bcs return:" + e.getBcsErrorCode() + ", "
 					+ e.getBcsErrorMessage() + ", RequestId="
 					+ e.getRequestId());
 		} catch (BCSClientException e) {
@@ -930,28 +932,28 @@ public class SxCourseController extends BaseAction {
 
 	public static void deleteObject(BaiduBCS baiduBCS) {
 		Empty result = baiduBCS.deleteObject(bucket, object).getResult();
-		log.info(result);
+		logger.info(result);
 	}
 
 	private static void getBucketPolicy(BaiduBCS baiduBCS) {
 		BaiduBCSResponse<Policy> response = baiduBCS.getBucketPolicy(bucket);
 		String logString = response.getResult().toJson();
 		logString = response.getResult().getOriginalJsonStr();
-		log.info("After analyze: " + response.getResult().toJson());
-		log.info("Origianal str: " + response.getResult().getOriginalJsonStr());
+		logger.info("After analyze: " + response.getResult().toJson());
+		logger.info("Origianal str: " + response.getResult().getOriginalJsonStr());
 	}
 
 	public static void getObjectMetadata(BaiduBCS baiduBCS) {
 		ObjectMetadata objectMetadata = baiduBCS.getObjectMetadata(bucket,
 				object).getResult();
-		log.info(objectMetadata);
+		logger.info(objectMetadata);
 	}
 
 	private static void getObjectPolicy(BaiduBCS baiduBCS) {
 		BaiduBCSResponse<Policy> response = baiduBCS.getObjectPolicy(bucket,
 				object);
-		log.info("After analyze: " + response.getResult().toJson());
-		log.info("Origianal str: " + response.getResult().getOriginalJsonStr());
+		logger.info("After analyze: " + response.getResult().toJson());
+		logger.info("Origianal str: " + response.getResult().getOriginalJsonStr());
 	}
 
 	private static void getObjectWithDestFile(BaiduBCS baiduBCS) {
@@ -964,7 +966,7 @@ public class SxCourseController extends BaseAction {
 		BaiduBCSResponse<List<BucketSummary>> response = baiduBCS
 				.listBucket(listBucketRequest);
 		for (BucketSummary bucket : response.getResult()) {
-			log.info(bucket);
+			logger.info(bucket);
 		}
 	}
 
@@ -985,10 +987,10 @@ public class SxCourseController extends BaseAction {
 		}
 		BaiduBCSResponse<ObjectListing> response = baiduBCS
 				.listObject(listObjectRequest);
-		log.info("we get [" + response.getResult().getObjectSummaries().size()
+		logger.info("we get [" + response.getResult().getObjectSummaries().size()
 				+ "] object record.");
 		for (ObjectSummary os : response.getResult().getObjectSummaries()) {
-			log.info(os.toString());
+			logger.info(os.toString());
 		}
 	}
 
@@ -1016,8 +1018,8 @@ public class SxCourseController extends BaseAction {
 		request.setMetadata(metadata);
 		BaiduBCSResponse<ObjectMetadata> response = baiduBCS.putObject(request);
 		ObjectMetadata objectMetadata = response.getResult();
-		log.info("x-bs-request-id: " + response.getRequestId());
-		log.info(objectMetadata);
+		logger.info("x-bs-request-id: " + response.getRequestId());
+		logger.info(objectMetadata);
 	}
 
 	public static void putObjectByFile(BaiduBCS baiduBCS, File file) {
@@ -1027,8 +1029,8 @@ public class SxCourseController extends BaseAction {
 		request.setMetadata(metadata);
 		BaiduBCSResponse<ObjectMetadata> response = baiduBCS.putObject(request);
 		ObjectMetadata objectMetadata = response.getResult();
-		log.info("x-bs-request-id: " + response.getRequestId());
-		log.info(objectMetadata);
+		logger.info("x-bs-request-id: " + response.getRequestId());
+		logger.info(objectMetadata);
 		System.out.print(objectMetadata);
 	}
 
@@ -1042,7 +1044,7 @@ public class SxCourseController extends BaseAction {
 		PutObjectRequest request = new PutObjectRequest(bucket, object,
 				fileContent, objectMetadata);
 		ObjectMetadata result = baiduBCS.putObject(request).getResult();
-		log.info(result);
+		logger.info(result);
 	}
 
 	private static void putObjectPolicyByPolicy(BaiduBCS baiduBCS) {
@@ -1079,8 +1081,8 @@ public class SxCourseController extends BaseAction {
 		BaiduBCSResponse<ObjectMetadata> response = baiduBCS
 				.putSuperfile(request);
 		ObjectMetadata objectMetadata = response.getResult();
-		log.info("x-bs-request-id: " + response.getRequestId());
-		log.info(objectMetadata);
+		logger.info("x-bs-request-id: " + response.getRequestId());
+		logger.info(objectMetadata);
 	}
 
 	public static void setObjectMetadata(BaiduBCS baiduBCS) {
@@ -1104,18 +1106,18 @@ public class SxCourseController extends BaseAction {
 
 			return file;
 		} catch (IOException e) {
-			log.error("tmp file create failed.");
+			logger.error("tmp file create failed.");
 			return null;
 		}
 	}
 
 	/**
 	 * 更新课程浏览历史
-	 * @param sxCourse
+	 * @param viewCourse
 	 * @param request
 	 */
-	private void updateViewHistory(SxCourseWithProgram sxCourse, HttpServletRequest request) {
-		if (null == sxCourse) {
+	private void updateViewHistory(SxCourse viewCourse, HttpServletRequest request) {
+		if (null == viewCourse) {
 			return;
 		}
 
@@ -1123,18 +1125,38 @@ public class SxCourseController extends BaseAction {
 		
 		Object sessionAttr = session.getAttribute(SESSION_KEY_COURSE_VIEW_HISTORY);
 		
-		List<SxCourseWithProgram> viewHistory = null;
+		LinkedList<SxCourse> viewHistory = null;
 
+		boolean isInViewHistory = false;
 		//获取会话存储
 		if (sessionAttr instanceof List) {
-			viewHistory = (List<SxCourseWithProgram>) sessionAttr;
+			viewHistory = (LinkedList<SxCourse>) sessionAttr;
+
+			//查询当前课程是否已在浏览历史内
+			for (SxCourse course : viewHistory) {
+				if(viewCourse.getId() == course.getId()){
+					isInViewHistory = true;
+				}
+			}
+
+		//用户第一次访问，生成会话存储空间
 		} else {
-			viewHistory = new LinkedList<SxCourseWithProgram>();
+			viewHistory = new LinkedList<SxCourse>();
 			session.setAttribute(SESSION_KEY_COURSE_VIEW_HISTORY, viewHistory);
 		}
 
-		viewHistory.add(sxCourse);
-		
+		//不在浏览历史内，则添加浏览记录
+		if(!isInViewHistory){
+
+			//保留最近5条浏览历史
+			if(viewHistory.size() == 5){
+				viewHistory.removeFirst();
+			}
+
+			//添加为最后一条浏览记录
+			viewHistory.addLast(viewCourse);
+		}
+
 		//保存浏览内容至页面
 		request.setAttribute("viewHistory", viewHistory);
 	}
@@ -1142,16 +1164,23 @@ public class SxCourseController extends BaseAction {
 	
 	/**
 	 * 查询同类课程
-	 * @param sxCourse
+	 * @param viewCourse
 	 * @param request
 	 */
-	private void findSameCourses(SxCourse sxCourse, HttpServletRequest request){
-		if(null == sxCourse){
+	private void findSameCourses(SxCourse viewCourse, HttpServletRequest request){
+		if(null == viewCourse){
 			return;
 		}
 		
-		List<SxCourse> sameCourses = sxCourseService.getSameTypeCourses(sxCourse.getType_code());
-		
+		//设置查询参数，只查询５条同类课程
+		SxCoursePage page = new SxCoursePage();
+		page.setType_code(viewCourse.getType_code());
+		page.setPage(1);
+		page.setRows(5);
+
+		//查询同类课程
+		List<SxCourse> sameCourses = sxCourseService.getSameTypeCourses(page);
+
 		if(null != sameCourses){
 			request.setAttribute("sameCourses", sameCourses);
 		}

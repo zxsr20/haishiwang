@@ -30,7 +30,9 @@
 <BODY>
 	<!--头部  start-->
 	<DIV id="header" class="index_header">
-		<input id="userid" type="hidden" value="${userid}"> <input id="username" type="hidden" value="${username}"> <input id="courseid" type="hidden" value="${course.sxCourse.id}">
+		<input id="userid" type="hidden" value="${userid}"> 
+		<input id="username" type="hidden" value="${username}"> 
+		<input id="courseid" type="hidden" value="${course.sxCourse.id}">
 		<input id="programid" type="hidden" value="${course.programid}">
 		<!--头部  start id#header 登录后有广告高度为144-->
 		<jsp:include page="head_share.jsp" />
@@ -235,7 +237,7 @@
 											</div>
 											<div class="comment_func">
 												<div class="comment_tips" id="course_comm_tips">请填写内容，长度在1~140之间</div>
-												<input id="course_comm_courseID" name="comm_courseid" type="hidden" value="16094" />
+												<input id="course_comm_courseID" name="comm_courseid" type="hidden" value="${course.sxCourse.id}" />
 												<div class="comment_button">
 													<button style="width: 50px" class="btn btn_submit btn_sky" type="submit" name="comm-submit">评价</button>
 												</div>
@@ -255,59 +257,38 @@
 						<div class="panel_listen">
 							<div class="side_header"><span>相关课程</span></div>
 							<div class="listen_conten">
-							<c:forEach items="${sameCourses}" var="course" varStatus="vst">
-								<div class="listen_cou">
+							<c:forEach items="${sameCourses}" var="sameCourse" varStatus="vst">
+								<c:set var="lastClsVal_div" value='class="listen_cou"'/>
+								<c:set var="lastClsVal_li" value='class="ui_userinfo"'/>
+								<c:if test="${vst.last}">
+									<c:set var="lastClsVal_div" value='class="listen_cou border_none"'/>
+									<c:set var="lastClsVal_li" value='class="ui_userinfo info_open"'/>
+								</c:if>
+								<div ${lastClsVal_div}>
 									<div class="ui_avatar">
 										<ul class="avatar_items">
-											<li data-id="639" class="ui_userinfo" data-params="userId=639">
-												<a href="http://www.xueersi.com/t/wuzheng/" class="userpic" target="_blank">
-													<img src="http://r01.xesimg.com/teacher/2014/04/18/13977897463687.jpg" alt="">
+											<li data-id="${sameCourse.userid}" ${lastClsVal_li} data-params="userId=${sameCourse.userid}">
+												<a href="/web/sxCourse/newdetail.do?course_id=${sameCourse.id}" class="userpic" target="_blank">
+													<img src="${sameCourse.picture}" alt="">
 												</a>
 											</li>
 										</ul>
 									</div>
 									<div class="cou_detail">
 										<div class="cou_text">
-											<a href="http://www.xueersi.com/kc/13430.html" target="_blank">2014学年初二数学年卡目标满分班（人教版）</a>
+											<a href="/web/sxCourse/newdetail.do?course_id=${sameCourse.id}" target="_blank">${sameCourse.name}</a>
 										</div>
 										<div class="cou_info">
 											<span>
-												<em class="icon icon_gray_user"></em>41
+												<em class="icon icon_gray_user"></em>${sameCourse.peak}
 											</span>
 											<span>
-												<em class="icon icon_thumbs_up"></em>29
+												<em class="icon icon_thumbs_up"></em>${sameCourse.tread}
 											</span>
 										</div>
 									</div>
 								</div>
 							</c:forEach>
-
-								<div class="listen_cou border_none">
-									<div class="ui_avatar">
-										<ul class="avatar_items">
-											<li data-id="639" class="ui_userinfo info_open" data-params="userId=639">
-												<a href="http://www.xueersi.com/t/wuzheng/" class="userpic" target="_blank">
-													<img src="http://r01.xesimg.com/teacher/2014/04/18/13977897463687.jpg" alt="">
-												</a>
-											</li>
-										</ul>
-									</div>
-									
-									<div class="cou_detail">
-										<div class="cou_text">
-											<a href="http://www.xueersi.com/kc/13419.html" target="_blank">2014年暑假初二上学期数学预习领先班（沪教版）</a>
-										</div>
-										
-										<div class="cou_info">
-											<span>
-												<em class="icon icon_gray_user"></em>13
-											</span>
-											<span>
-												<em class="icon icon_thumbs_up"></em>38
-											</span>
-										</div>
-									</div>
-								</div>
 							</div>
 						</div>
 						<!-- 浏览过的记录-->
@@ -315,55 +296,37 @@
 							<div class="side_header"><span>浏览过的课程</span></div>
 							<div class="listen_conten">
 							<c:forEach items="${viewHistory}" var="course" varStatus="vst">
-								<div class="listen_cou">
+								<c:set var="lastClsVal_div" value='class="listen_cou"'/>
+								<c:set var="lastClsVal_li" value='class="ui_userinfo"'/>
+								<c:if test="${vst.last}">
+									<c:set var="lastClsVal_div" value='class="listen_cou border_none"'/>
+									<c:set var="lastClsVal_li" value='class="ui_userinfo info_open"'/>
+								</c:if>
+								<div ${lastClsVal_div}>
 									<div class="ui_avatar">
 										<ul class="avatar_items">
-											<li data-id="639" class="ui_userinfo" data-params="userId=639">
-												<a href="http://www.xueersi.com/t/wuzheng/" class="userpic" target="_blank">
-													<img src="http://r01.xesimg.com/teacher/2014/04/18/13977897463687.jpg" alt="">
+											<li data-id="${course.userid}" ${lastClsVal_li} data-params="userId=${course.userid}">
+												<a href="/web/sxCourse/newdetail.do?course_id${course.id}" class="userpic" target="_blank">
+													<img src="${course.picture}" alt="">
 												</a>
 											</li>
 										</ul>
 									</div>
 									<div class="cou_detail">
 										<div class="cou_text">
-											<a href="http://www.xueersi.com/open/16302.html" target="_blank">如何欢乐地学好初中数学</a>
+											<a href="/web/sxCourse/newdetail.do?course_id=${course.id}" target="_blank">${course.name}</a>
 										</div>
 										<div class="cou_info">
 											<span>
-												<em class="icon icon_gray_user"></em>0
+												<em class="icon icon_gray_user"></em>${course.peak}
 											</span>
 											<span>
-												<em class="icon icon_thumbs_up"></em>0
+												<em class="icon icon_thumbs_up"></em>${course.tread}
 											</span>
 										</div>
 									</div>
 								</div>
 							</c:forEach>
-								<div class="listen_cou border_none">
-									<div class="ui_avatar">
-										<ul class="avatar_items">
-											<li data-id="123" class="ui_userinfo" data-params="userId=123">
-												<a href="http://www.xueersi.com/t/hanchuncheng/" class="userpic" target="_blank">
-													<img src="http://r04.xesimg.com/teacher/2013/11/19/13848486551807.jpg" alt="">
-												</a>
-											</li>
-										</ul>
-									</div>
-									<div class="cou_detail">
-										<div class="cou_text">
-											<a href="http://www.xueersi.com/kc/15645.html" target="_blank">2014年秋季初一上学期数学目标满分班（苏科版）</a>
-										</div>
-										<div class="cou_info">
-											<span>
-												<em class="icon icon_gray_user"></em>9
-											</span>
-											<span>
-												<em class="icon icon_thumbs_up"></em>34
-											</span>
-										</div>
-									</div>
-								</div>
 							<!-- repeat -->
 							</div>
 						</div>
@@ -379,7 +342,7 @@
 
 				$(document).ready(function() {
 					var comUrl = '/web/sxCourseComments/dataList.do';
-					var params = 6836;
+					var params = $('#courseid').val();
 					createCommList(comUrl, params);
 					$('#comm_content').trigger('focus');
 				});
@@ -581,7 +544,7 @@
 										$('#comm_content').val('');
 										commError(data.msg);
 										var comUrl = '/web/sxCourseComments/dataList.do';
-										var params = 6836;
+										var params = courseId;
 										createCommList(comUrl, params);
 
 									} else {

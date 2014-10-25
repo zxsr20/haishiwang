@@ -44,7 +44,7 @@ public class SxCourseService<T> extends BaseService<T> {
 	}
 
 	//查询同类型课程
-	public List<SxCourse> getSameTypeCourses(String courseType){
-		return getDao().getSameTypeCourses(courseType);
+	public List<SxCourse> getSameTypeCourses(SxCoursePage page){
+		return getDao().getSameTypeCourses(page);
 	}
 }
