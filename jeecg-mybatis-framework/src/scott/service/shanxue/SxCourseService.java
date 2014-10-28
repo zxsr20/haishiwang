@@ -43,4 +43,8 @@ public class SxCourseService<T> extends BaseService<T> {
 		return (List<SxCourse>) getDao().sx_recommendcourseList(page);
 	}
 
+	//查询同类型课程
+	public List<SxCourse> getSameTypeCourses(SxCoursePage page){
+		return getDao().getSameTypeCourses(page);
+	}
 }

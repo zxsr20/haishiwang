@@ -205,5 +205,18 @@ where 1=1
        ${pager.mysqlQueryCondition}
     </if>
 </select>
-  	
+
+<!-- 查询同类课程 -->
+<select id="getSameTypeCourses" resultMap="BaseResultMap" parameterType="Object">
+	select 
+		<include refid="Base_Column_List"/>
+	from sx_course 
+		where type_code = #{type_code}
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
 </mapper>   

@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="scott.dao.shanxue.SxCourseCommentsDao" > 
+<!-- Result Map-->
+<resultMap id="BaseResultMap" type="scott.entity.shanxue.SxCourseComments" >
+	<result column="id" property="id"/>
+	<result column="course_id" property="course_id"/>
+	<result column="user_id" property="user_id" />
+	<result column="content" property="content"/>
+	<result column="create_date" property="create_date"/>
+	<association property="user" javaType="scott.entity.shanxue.SxUserInfo" column="user_id" select="scott.dao.shanxue.SxUserInfoDao.queryById"/>	
+</resultMap>
+       
+<!-- sx_course_comments table all fields -->
+<sql id="Base_Column_List" >
+	 id,course_id,user_id,content,create_date
+</sql>
+   
+   
+<!-- 查询条件 -->
+<sql id="Example_Where_Clause">
+where 1=1
+<trim  suffixOverrides="," >
+	<if test="id != null and id != ''" >
+	    and id =  #{id}
+	</if>
+	<if test="course_id != null and course_id != ''" >
+	    and course_id =  #{course_id}
+	</if>
+	<if test="user_id != null and user_id != ''" >
+	    and user_id =  #{user_id}
+	</if>
+	<if test="content != null and content != ''" >
+	    and content =  #{content}
+	</if>
+	<if test="create_date != null and create_date != ''" >
+	    and create_date =  #{create_date}
+	</if>
+</trim>
+</sql>
+   
+
+<!-- 插入记录 -->
+<insert id="add" parameterType="Object" >
+<selectKey resultType="java.lang.Integer" order="AFTER" keyProperty="id">
+	SELECT LAST_INSERT_ID()
+  </selectKey>
+  insert into sx_course_comments(id,course_id,user_id,content,create_date)
+ values(#{id},#{course_id},#{user_id},#{content},#{create_date})
+</insert>
+
+<!-- 根据id，修改记录-->  
+ <update id="update" parameterType="Object" >
+  update sx_course_comments set course_id=#{course_id},user_id=#{user_id},content=#{content},create_date=#{create_date} where id=#{id}
+ </update>
+ 
+ <!-- 修改记录，只修改只不为空的字段 -->
+<update id="updateBySelective" parameterType="Object" >
+	update sx_course_comments set 
+	<trim  suffixOverrides="," >
+	<if test="course_id != null  ">
+		course_id=#{course_id},
+	</if>
+	<if test="user_id != null  ">
+		user_id=#{user_id},
+	</if>
+	<if test="content != null  ">
+		content=#{content},
+	</if>
+	<if test="create_date != null  ">
+		create_date=#{create_date},
+	</if>
+	</trim> where id=#{id}
+</update>
+
+<!-- 删除记录 -->
+<delete id="delete" parameterType="Object">
+	delete 	 from sx_course_comments where id = #{id}
+</delete>
+ 
+<!-- 根据id查询 课程评论表 -->
+<select id="queryById"  resultMap="BaseResultMap" parameterType="Object">
+	select <include refid="Base_Column_List" /> 
+	 from sx_course_comments where id = #{id}
+</select>
+
+<!-- 课程评论表 列表总数-->
+<select id="queryByCount" resultType="java.lang.Integer"  parameterType="Object">
+	select count(1) from sx_course_comments 
+	<include refid="Example_Where_Clause"/>
+</select>
+  	
+<!-- 查询课程评论表列表 -->
+<select id="queryByList" resultMap="BaseResultMap"  parameterType="Object">
+	select 
+	<include refid="Base_Column_List"/>
+	from sx_course_comments 
+	<include refid="Example_Where_Clause"/>
+	<if test="pager.orderCondition != null and pager.orderCondition != ''" >
+      ${pager.orderCondition}
+    </if>
+    <if test="pager.mysqlQueryCondition != null and pager.mysqlQueryCondition != ''" >
+       ${pager.mysqlQueryCondition}
+    </if>
+</select>
+  	
+</mapper>   

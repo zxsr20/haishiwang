@@ -13,6 +13,7 @@ public class CodeUtil {
 		 String entityPackage ="";//实体包
 		 String keyType = FtlDef.KEY_TYPE_02;//主键生成方式 01:UUID  02:自增
 		
+
 		 /** 此处修改成你的 表名 和 中文注释***/
 			tableName="sx_news"; //
 			codeName ="新闻";//中文注释  当然你用英文也是可以的 
@@ -23,6 +24,18 @@ public class CodeUtil {
 			codeName ="活动";//中文注释  当然你用英文也是可以的 
 			entityPackage ="shanxue";//实体包
 			CodeGenerateFactory.codeGenerate(tableName, codeName,entityPackage,keyType);
+
+//		 /** 此处修改成你的 表名 和 中文注释***/
+//			tableName="sx_course_discuss"; //
+//			codeName ="课程讨论表";//中文注释  当然你用英文也是可以的 
+//			entityPackage ="shanxue";//实体包
+//			CodeGenerateFactory.codeGenerate(tableName, codeName,entityPackage,keyType);
+//			/** 此处修改成你的 表名 和 中文注释***/
+//			tableName="sx_course_note"; //
+//			codeName ="课程笔记表";//中文注释  当然你用英文也是可以的 
+//			entityPackage ="shanxue";//实体包
+//			CodeGenerateFactory.codeGenerate(tableName, codeName,entityPackage,keyType);
+
 		 
 //		 /** 此处修改成你的 表名 和 中文注释***/
 //			tableName="sx_course_discuss"; //
@@ -95,5 +108,11 @@ public class CodeUtil {
 //		codeName ="用户表";//中文注释  当然你用英文也是可以的 
 //		entityPackage ="shanxue";//实体包
 //		CodeGenerateFactory.codeGenerate(tableName, codeName,entityPackage,keyType);
+			
+			tableName="sx_course_comments"; //
+			codeName ="课程评论表";//中文注释  当然你用英文也是可以的 
+			entityPackage ="shanxue";//实体包
+			CodeGenerateFactory.codeGenerate(tableName, codeName,entityPackage,keyType);			
+			
 	}
 }
