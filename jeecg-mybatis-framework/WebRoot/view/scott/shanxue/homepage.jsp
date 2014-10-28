@@ -255,386 +255,60 @@ target="_blank">头条</A></LI></UL>
 											
 																
 													</div>
-												</div>
-
-
-<DIV class="open_course_content" xes_id="_newOpenCourse">
-  <DIV class="course_item_repeat">
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=598" data-id="598"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">陈潭飞														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>化学</EM><A title="【飞遍化学】化学魔术师的奇幻世界(第四季)——蓝瓶子" href="#" 
-target="_blank">												【飞遍化学】化学魔术师的奇幻世界(第四季)——蓝瓶子<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">陈潭飞</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>1646</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=598" data-id="598"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">陈潭飞														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>化学</EM><A title="【飞遍化学】化学魔术师的奇幻世界(第四季)——魔棒点灯" href="#" 
-target="_blank">
-												【飞遍化学】化学魔术师的奇幻世界(第四季)——魔棒点...<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>授课老师：																																					<A href="javascript:void(0)" 
-target="_blank">陈潭飞</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>9484</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=778" data-id="778"><A class="userpic" 
-  href="#" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">焦傲														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>英语</EM><A title="北大生教你如何高效学英语" href="#" 
-target="_blank">												北大生教你如何高效学英语<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">焦傲</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>6191</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=745" data-id="745"><A class="userpic" 
-  href="#" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">林安														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>物理</EM><A title="【林安物理】兴趣课程——联想学习法" href="#" 
-target="_blank">												【林安物理】兴趣课程——联想学习法<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">林安</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>4507</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=789" data-id="789"><A class="userpic" 
-  href="#" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">李嘉津														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>化学</EM><A title="走进化学世界，让你爱上化学" href="#" 
-target="_blank">												走进化学世界，让你爱上化学<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">李嘉津</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>6843</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=686" data-id="686"><A class="userpic" 
-  href="#" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">徐铭晨														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>数学</EM><A title="2014年中考数学真题解析（深圳卷）" href="#" 
-target="_blank">2014年中考数学真题解析（深圳卷）<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">徐铭晨</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>128</STRONG></SPAN></P></DIV></DIV>
-<DIV class="indexMore"><A 
-href="javascript:void(0)">更多&gt;&gt;</A></DIV></DIV>
-<DIV class="course_item_repeat">
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=782" data-id="782"><A class="userpic" 
-  href="#" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="#" 
-  target="_blank">王子欣														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>物理</EM><A title="【欣哥心灵驿站】如何领跑新高一" href="javascript:void(0)" 
-target="_blank">												【欣哥心灵驿站】如何领跑新高一<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">王子欣</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>3116</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=404" data-id="404"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="javascript:void(0)" 
-  target="_blank">高阳														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>生物</EM><A title="2014高考生物试卷详细解读及评析（新课标卷Ⅱ）" href="javascript:void(0)" 
-target="_blank">2014高考生物试卷详细解读及评析（新课标卷Ⅱ）<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">高阳</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>2816</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=404" data-id="404"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="javascript:void(0)" 
-  target="_blank">高阳														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>生物</EM><A title="2014高考生物试卷详细解读及评析（新课标卷Ⅰ）" href="javascript:void(0)" 
-target="_blank">2014高考生物试卷详细解读及评析（新课标卷Ⅰ）<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">高阳</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>2384</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=753" data-id="753"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="javascript:void(0)" 
-  target="_blank">王洪滨														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>英语</EM><A title="2014高考英语试卷详细解读及评析（江西卷）" href="javascript:void(0)" 
-target="_blank">2014高考英语试卷详细解读及评析（江西卷）<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">王洪滨</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>2433</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=753" data-id="753"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="javascript:void(0)" 
-  target="_blank">王洪滨														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>英语</EM><A title="2014高考英语试卷详细解读及评析（湖北卷）" href="javascript:void(0)" 
-target="_blank">2014高考英语试卷详细解读及评析（湖北卷）<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">王洪滨</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>2552</STRONG></SPAN></P></DIV></DIV>
-<DIV class="course_item">
-<DIV class="ui_avatar">
-<UL class="avatar_items">
-  <LI class="ui_userinfo" data-params="userId=287" data-id="287"><A class="userpic" 
-  href="javascript:void(0)" target="_blank"><IMG alt="" src=""></A><A 
-  class="username" href="javascript:void(0)" 
-  target="_blank">郑瑞														</A></LI></UL></DIV>
-<DIV class="course_detail">
-<P class="course_title"> <EM>化学</EM><A title="2014高考化学试卷详细解读及评析（新课标卷Ⅰ）" href="javascript:void(0)" 
-target="_blank">2014高考化学试卷详细解读及评析（新课标卷Ⅰ）<STRONG></STRONG></A></P>
-<P class="course_info"><SPAN>												授课老师：
-																																					<A href="javascript:void(0)" 
-target="_blank">郑瑞</A></SPAN><SPAN 
-class="num_videos">试听：<STRONG>4043</STRONG></SPAN></P></DIV></DIV>
-<DIV class="indexMore"><A 
-href="javascript:void(0)">更多&gt;&gt;</A></DIV></DIV></DIV><!--最新免费课  -->
+												</div><!--最新免费课  -->
 <DIV class="index_new_title"><SPAN>推荐老师</SPAN></DIV>
-
-<DIV class="teacher_new_content" xes_id="_recommendTeacher">
-
-<DIV class="follow_item_repeat">
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=171"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=171">朱韬</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三数学">									初一,初二,初三数学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" 
-target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="">
-								学而思网校初中数学领军人物...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=301"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=301">杜春雨</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三物理,科学">									初一,初二,初三物理,科学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="中考物理专家&#13;&#10;满班率常年超百分之百&#13;&#10;海量学员取得中考物理满分">
-								中考物理专家 满班率常年超百...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=598"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=598">陈潭飞</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三化学">									初一,初二,初三化学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="">
-								学而思培优高级化学顾问、初中核...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=716"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=716">陈文靓</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三英语">									初一,初二,初三英语</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="中考英语丛书核心编者；&#13;&#10;新概念口语大赛考官；&#13;&#10;学而思高端班次老师">
-								中考英语丛书核心编者； 新概...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=19"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=19">王帆</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三语文">									初一,初二,初三语文</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="北京大学才女、十佳主持人&#10;活力课堂点燃学生学习热情&#10;双语教学，英语功底强大">
-								北京大学才女、十佳主持人 活力...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=647"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=647">王闯</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三物理">									初一,初二,初三物理</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="">
-								学而思年度十大优秀教师 五星...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=639"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=639">吴铮</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三数学">									初一,初二,初三数学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" 
-title="">								学而思网校极幽默的老师
- 学而思...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=745"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=745">林安</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三物理">									初一,初二,初三物理</P>
-<DIV class="fun_look"><A href="javascript:void(0)" 
-target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="毕业于北京大学，教龄4年">
-								毕业于北京大学，教龄4年								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=814"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=814">张蕾蕾</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="初一,初二,初三数学">									初一,初二,初三数学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="北京大学经济学院本科生、硕士研究生，对数学有自己独特的见解。">
-								北京大学经济学院本科生、硕士研...								</DIV></DIV>
-<DIV class="indexMore"><A 
-href="javascript:void(0)">更多&gt;&gt;</A></DIV></DIV>
-<DIV class="follow_item_repeat">
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=678"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=678">顾斐</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三英语">									高一,高二,高三英语</P>
-<DIV class="fun_look"><A href="javascript:void(0)" 
-target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="清华大学硕士；&#13;&#10;中学生英语奥赛特等奖；&#13;&#10;7年英语一对一教学经验；&#13;&#10;擅长总结各种学习方法和解题技巧&#13;&#10;&#13;&#10;">
-								清华大学硕士； 中学生英语奥...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=287"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=287">郑瑞</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三化学">									高一,高二,高三化学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="毕业于北京大学&#13;&#10;高中化学组教研团负责人&#13;&#10;内部联赛班主讲教师">
-								毕业于北京大学 高中化学组教...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=519"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=519">章进</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三物理">									高一,高二,高三物理</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="北京大学保送生；&#13;&#10;物理竞赛冬令营(CPHO)银牌；&#13;&#10;学生的朋友">
-								北京大学保送生； 物理竞赛冬...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=520"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=520">邓诚</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三数学">									高一,高二,高三数学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="毕业于清华大学；&#13;&#10;江西联考满分霸主；&#13;&#10;教学思路清晰敏锐">
-								毕业于清华大学； 江西联考满...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=431"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=431">郭化楠</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三数学">									高一,高二,高三数学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="毕业于北京大学数学专业&#10;学而思高中教师培训主管&#10;主带目标清华北大、竞赛班">
-								毕业于北京大学数学专业 学而思...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=404"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=404">高阳</A> <I class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三生物,科学">									高一,高二,高三生物,科学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="毕业于师范大学生物学专业&#13;&#10;生物高考研究中心负责人&#13;&#10;80%学生高考分数高于70分">
-								毕业于师范大学生物学专业 生...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=676"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=676">郑慎捷</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三化学">									高一,高二,高三化学</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="">
-								学而思高中优秀教师，曾连续3年...								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=756"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=756">陈超然</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三语文">									高一,高二,高三语文</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="北京大学中文系硕士">
-								北京大学中文系硕士								</DIV></DIV>
-<DIV class="follow_list">
-<DIV class="ui_avatar ui_userinfo" data-params="userId=805"><A class="userpic" 
-href="javascript:void(0)" target="_blank"><IMG src=""></A></DIV>
-<DIV class="follow_con_fun">
-<P class="fun_username"><A class="ui_username ui_userinfo" href="javascript:void(0)" 
-target="_blank" data-params="userId=805">王昕蕾</A> <I 
-class="icon_bverify"></I></P>
-<P class="fun_usres" title="高一,高二,高三生物">									高一,高二,高三生物</P>
-<DIV class="fun_look"><A href="javascript:void(0)" target="_blank">去看看</A></DIV></DIV>
-<DIV class="follow_con_info" title="毕业于北京大学生命科学学院，学科功底深厚。热爱教学，乐于分享，善于总结知识及方法，坚信授人以鱼不如授人以渔。">毕业于北京大学生命科学学院，学...								</DIV></DIV>
-<DIV class="indexMore"><A 
-href="javascript:void(0)">更多&gt;&gt;</A></DIV></DIV></DIV><!-- 推荐老师 --></DIV><!--		<div id="index_dyn" class="content_box w_645">
+<!-- 最新学习小组 --><!-- 最新课程 -->
+<div class="index_new_content" xes_id="_hotCourse">
+															<div class="course_item_repeat" style="display: block;">
+															
+															<c:forEach items="${recommandcourse}" var="recommand"
+																varStatus="status">
+								
+																
+								
+								<div class="course_item">
+																					<div class="ui_avatar">
+												<ul class="avatar_items">
+																																										<li data-id="349" class="ui_userinfo" data-params="userId=349">
+																<a href="newdetail.do?course_id=${recommand.id}" class="userpic" target="_blank">
+																	<img src="${recommand.picture}" alt="">
+																</a>
+																<a href="#" class="username" target="_blank">
+																	${recommand.teacher_name}														</a>
+															</li>
+																																							</ul>
+																							</div>
+																				<div class="course_detail">
+											<p class="course_title">
+												<em>海事</em>
+												<a href="newdetail.do?course_id=${recommand.id}" target="_blank" title="2014新一年级奥数年卡（竞赛班）">
+													<c:out value="${recommand.name}" /><strong></strong>
+												</a>
+											</p>
+											<p class="course_info">
+												<span>
+																																																授课老师：
+																																										<a href="javascript:void(0)" target="_blank">史乐</a>
+																																							</span>
+												<span class="num_videos"> 试听：<strong>56901</strong>
+												</span>	
+											</p>
+										</div> 
+									</div>
+								
+															</c:forEach>
+															
+															
+																								
+																<div class="indexMore"><a href="newlist.do">更多&gt;&gt;</a></div>
+													</div>
+											
+																
+													</div>
+												</div><!--最新免费课  -->
+<!-- 推荐老师 --></DIV><!--		<div id="index_dyn" class="content_box w_645">
 		</div>--></DIV>
+		
 <DIV class="layout_side right w_310">
 <DIV class="side_tabs_handle" xes_id="_youzhong">
 <UL class="tabs_trends">

@@ -141,7 +141,7 @@ public class SxUserInfoController extends BaseAction{
 		}else{
 			sxUserInfoService.update(entity);
 		}
-		return "redirect:/sxCourse/newhome.do";
+		return "redirect:/sxCourse/home.do";
 	}
 	
 	@RequestMapping("/sx_login_webpage")
@@ -167,7 +167,7 @@ public class SxUserInfoController extends BaseAction{
 		response.addCookie(foo);
 		response.addCookie(foo1);
 		
-		return "redirect:/sxCourse/newhome.do";
+		return "redirect:/sxCourse/home.do";
 	}
 	
 	

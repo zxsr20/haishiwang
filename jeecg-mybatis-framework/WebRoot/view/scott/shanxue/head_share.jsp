@@ -69,7 +69,7 @@ class="close" href="javascript:void(0);">关闭</A>
 			</SCRIPT>
 </DIV><!-- ad end -->
 <DIV class="header_box">
-<H1 class="logo"><A href="newhome.do">学而思网校</A></H1>
+<H1 class="logo"><A href="home.do">学而思网校</A></H1>
 <UL class="navs">
   <LI class="homes" xes_id="nav_index"><A id="index" class="current" href="newhome.do">首页</A></LI><!--				<li class="course" xes_id="nav_findCourse">
 					<a href="javascript:void(0);" >选课程</a>

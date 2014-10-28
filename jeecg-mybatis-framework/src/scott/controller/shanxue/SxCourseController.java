@@ -231,7 +231,7 @@ public class SxCourseController extends BaseAction{
 	}
 	
 
-	@RequestMapping(value = "/newhome", produces = {"text/html;charset=UTF-8"})   
+	@RequestMapping(value = "/home", produces = {"text/html;charset=UTF-8"})   
 	public ModelAndView  homepage(SxCoursePage page,HttpServletRequest request) throws Exception{
 		//SxCourseTypePage sPage = new SxCourseTypePage();
 		List<SxCourseType> dataList = sxCourseTypeService.queryByList(page);
@@ -269,7 +269,7 @@ public class SxCourseController extends BaseAction{
 	}
 	
 	
-	@RequestMapping("/newdetail") 
+	@RequestMapping("/detail") 
 	public ModelAndView  detailpage(SxProgramPage page,HttpServletRequest request) throws Exception{
 		Map<String,Object>  context = getRootMap();
 		
@@ -334,7 +334,7 @@ public class SxCourseController extends BaseAction{
 		return forword("scott/shanxue/detailpage",context); 
 	}
 	
-	@RequestMapping("/newlist") 
+	@RequestMapping("/list") 
 	public ModelAndView  listpage(SxCoursePage page,HttpServletRequest request) throws Exception{
 		Map<String,Object>  context = getRootMap();
 		SxCourseTypePage sPage = new SxCourseTypePage();
